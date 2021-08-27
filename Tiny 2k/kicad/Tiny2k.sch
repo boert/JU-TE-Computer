@@ -14,37 +14,37 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 3400 2750 2500 2950
+S 3400 2250 2500 2950
 U 61281715
 F0 "Hauptplatine" 50
 F1 "Tiny2k-Hauptplatine.sch" 50
 $EndSheet
 $Sheet
-S 6250 5100 1550 600 
+S 6250 4600 1550 600 
 U 61282124
 F0 "Magnetbandanschluss" 50
 F1 "Tiny2k-Magnetbandanschluss.sch" 50
 $EndSheet
 $Sheet
-S 6250 2750 1550 1000
+S 6250 2250 1550 1000
 U 6128265B
 F0 "Speichermodul" 50
 F1 "Tiny2k-Speichermodul.sch" 50
 $EndSheet
 $Sheet
-S 1750 2750 1300 550 
+S 1750 2250 1300 550 
 U 61282C56
 F0 "Stromversorgung" 50
 F1 "Tiny2k-Stromversorgung.sch" 50
 $EndSheet
 $Sheet
-S 6250 4100 1550 650 
+S 6250 3600 1550 650 
 U 60FD40F8
 F0 "Tastatur" 50
 F1 "Tiny2k-Tastatur.sch" 50
 $EndSheet
 $Bitmap
-Pos 4650 4200
+Pos 4650 3700
 Scale 2.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 01 65 00 00 01 A4 08 02 00 00 00 66 53 A3 
@@ -5184,7 +5184,7 @@ FC 3C 37 37 A7 53 8F 31 34 83 C1 E0 FF 00 CC 29 E6 AD 88 97 12 F0 00 00 00 00 49
 EndData
 $EndBitmap
 $Bitmap
-Pos 7000 3250
+Pos 7000 2750
 Scale 1.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 01 34 00 00 01 11 08 02 00 00 00 7A 82 CC 
@@ -8210,7 +8210,7 @@ AE FE 1F A3 0C 96 D1 CA 47 6F FC 00 00 00 00 49 45 4E 44 AE 42 60 82
 EndData
 $EndBitmap
 $Bitmap
-Pos 7050 5400
+Pos 7050 4900
 Scale 1.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 00 9A 00 00 00 9C 08 02 00 00 00 08 C4 25 
@@ -9257,7 +9257,7 @@ A3 34 A6 F3 9F 10 99 38 CE BC D0 96 06 31 4B AA 92 A0 1B 2A AD 87 98 95 56 EC 58
 EndData
 $EndBitmap
 $Bitmap
-Pos 2350 3050
+Pos 2350 2550
 Scale 1.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 01 5E 00 00 00 96 08 02 00 00 00 19 85 77 
@@ -10318,7 +10318,7 @@ D2 DB 3A 46 43 52 80 70 02 61 0D 42 D6 17 38 B4 FB 81 D8 5A 70 60 2A F6 A8 5E E5
 EndData
 $EndBitmap
 $Bitmap
-Pos 7050 4450
+Pos 7050 3950
 Scale 1.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 01 C5 00 00 00 AE 08 02 00 00 00 C8 E7 81 
@@ -11893,13 +11893,13 @@ C0 A4 03 F5 42 10 04 A8 0E 8A A2 14 0A C5 0F 7E F0 83 FF 03 0A 22 5B DB 1C 1E 30
 EndData
 $EndBitmap
 $Sheet
-S 8950 3400 1400 600 
+S 8950 2900 1400 600 
 U 60FADB89
 F0 "Videoinverter" 50
 F1 "Tiny2k-Videoinverter.sch" 50
 $EndSheet
 $Bitmap
-Pos 9650 3700
+Pos 9650 3200
 Scale 1.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 00 A8 00 00 00 A7 08 02 00 00 00 0A 7F 80 
@@ -12296,16 +12296,16 @@ C1 87 0B 82 E2 85 F4 54 AE 87 F6 F7 FD 98 F7 F8 D0 AA 7B 61 8E 1F F3 8C 1F 7B A9
 96 B8 D7 A4 FF 07 FA BA 3E 9D 7C A0 BC A5 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
-Text Notes 8950 3050 0    118  ~ 0
+Text Notes 8950 2550 0    118  ~ 0
 optional:
 $Sheet
-S 8950 4400 1400 700 
+S 8950 3900 1400 700 
 U 60F549EA
 F0 "Zusatzspeicher" 50
 F1 "Tiny2k-Zusatzspeicher.sch" 50
 $EndSheet
 $Bitmap
-Pos 9650 4750
+Pos 9650 4250
 Scale 1.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 01 3A 00 00 00 C5 08 02 00 00 00 4B 93 A9 
@@ -14704,4 +14704,126 @@ FD 3E 11 0A 87 2A 16 15 08 CB B2 40 F8 39 B7 94 9D 5C 69 65 E3 03 78 2F DC 2C C8
 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
+Text Notes 550  4450 0    50   ~ 0
+%0000 - %07FF
+Text Notes 1300 4450 0    50   ~ 0
+2kB interner ROM des UB8830
+Text Notes 550  4550 0    50   ~ 0
+%0800 - %0FFF
+Text Notes 1300 4550 0    50   ~ 0
+2kB EPROM
+Text Notes 550  4650 0    50   ~ 0
+%E000 - %E3FF
+Text Notes 1300 4650 0    50   ~ 0
+1kB RAM
+Text Notes 550  4750 0    50   ~ 0
+(%FC00 - %FFFF)
+Text Notes 1300 4750 0    50   ~ 0
+1kB RAM (mehrfach eingeblendet)
+Text Notes 550  4300 0    50   ~ 0
+Minimalvariante, Speichermodul (2k ROM, 1k RAM) auf Steckplatz 1
+Wire Bus Line
+	550  4350 3150 4350
+Text Notes 550  5200 0    50   ~ 0
+%0000 - %07FF
+Text Notes 1300 5200 0    50   ~ 0
+2kB interner ROM des UB8830
+Text Notes 550  5300 0    50   ~ 0
+%0800 - %0FFF
+Text Notes 1300 5300 0    50   ~ 0
+2kB EPROM
+Text Notes 550  5400 0    50   ~ 0
+%E000 - %E3FF
+Text Notes 1300 5400 0    50   ~ 0
+1kB RAM (/CS0)
+Text Notes 550  5500 0    50   ~ 0
+%FC00 - %FFFF
+Text Notes 1300 5500 0    50   ~ 0
+1kB RAM (/CS7)
+Text Notes 550  5050 0    50   ~ 0
+Speichermodul aufgerüstet mit 1x DS8205, 2k RAM (huckepack)
+Wire Bus Line
+	550  5100 3000 5100
+Text Notes 550  5900 0    50   ~ 0
+%0000 - %07FF
+Text Notes 1300 5900 0    50   ~ 0
+2kB interner ROM des UB8830
+Text Notes 550  6000 0    50   ~ 0
+%0800 - %0FFF
+Text Notes 1300 6000 0    50   ~ 0
+2kB EPROM
+Text Notes 550  6100 0    50   ~ 0
+%E000 - %FFFF
+Text Notes 1300 6100 0    50   ~ 0
+8kB RAM (/CS0.../CS7)
+Text Notes 550  5750 0    50   ~ 0
+Speichermodul aufgerüstet mit 1x DS8205, 8k RAM (huckepack)
+Wire Bus Line
+	550  5800 3000 5800
+Text Notes 550  6500 0    50   ~ 0
+%0000 - %07FF
+Text Notes 1300 6500 0    50   ~ 0
+2kB interner ROM des UB8830
+Text Notes 550  6600 0    50   ~ 0
+%0800 - %1FFF
+Text Notes 1300 6600 0    50   ~ 0
+6kB EPROM (Steckplatz 1)
+Text Notes 550  6700 0    50   ~ 0
+%E000 - %FFFF
+Text Notes 1300 6700 0    50   ~ 0
+8kB RAM (Steckplatz 1)
+Text Notes 550  6350 0    50   ~ 0
+1x Zusatzspeicher mit 8k RAM und 8k EPROM
+Wire Bus Line
+	550  6400 2300 6400
+Text Notes 550  7100 0    50   ~ 0
+%0000 - %07FF
+Text Notes 1300 7100 0    50   ~ 0
+2kB interner ROM des UB8830
+Text Notes 550  7200 0    50   ~ 0
+%0800 - %1FFF
+Text Notes 1300 7200 0    50   ~ 0
+6kB EPROM (auf Steckplatz 1)
+Text Notes 550  7800 0    50   ~ 0
+%C000 - %DFFF
+Text Notes 1300 7800 0    50   ~ 0
+8kB RAM (Steckplatz 2)
+Text Notes 550  6950 0    50   ~ 0
+4x Zusatzspeicher mit 32k RAM und 30k EPROM
+Wire Bus Line
+	550  7000 2400 7000
+Text Notes 550  7900 0    50   ~ 0
+%E000 - %FFFF
+Text Notes 1300 7900 0    50   ~ 0
+8kB RAM (Steckplatz 1)
+Text Notes 550  7600 0    50   ~ 0
+%8000 - %9FFF
+Text Notes 1300 7600 0    50   ~ 0
+8kB RAM (Steckplatz 4)
+Text Notes 550  7700 0    50   ~ 0
+%A000 - %BFFF
+Text Notes 1300 7700 0    50   ~ 0
+8kB RAM (Steckplatz 3)
+Text Notes 550  7300 0    50   ~ 0
+%2000 - %3FFF
+Text Notes 1300 7300 0    50   ~ 0
+8kB EPROM (auf Steckplatz 2)
+Text Notes 550  7400 0    50   ~ 0
+%4000 - %5FFF
+Text Notes 1300 7400 0    50   ~ 0
+8kB EPROM (auf Steckplatz 3)
+Text Notes 550  7500 0    50   ~ 0
+%6000 - %7FFF
+Text Notes 1300 7500 0    50   ~ 0
+8kB EPROM (auf Steckplatz 4), Zusatzdekoder wg. Tastatur nötig
+Text Notes 550  4100 0    118  ~ 0
+Speicherausbau\n(Varianten)
+Text Notes 3400 5550 0    118  ~ 0
+Portbelegung
+Text Notes 3400 6600 0    50   ~ 0
+Maximale Last pro Portpin:\n0 = low  = 2 mA\n1 = high = 250 µA
+Text Notes 3400 6300 0    50   ~ 0
+P20  frei\nP21  frei\nP22  frei\nP23  frei\nP24  frei\nP25  frei\nP26  frei\nP27  frei
+Text Notes 4050 6300 0    50   ~ 0
+P30  Magnetband, Eingabe\nP31  frei (nur Eingang)\nP32  frei (nur Eingang)\nP33  frei (nur Eingang)\nP34  frei (nur Ausgang), ggf. Bankumschaltung\nP35  frei (nur Ausgang)\nP36  akustische Ausgabe\nP37  Video-Syncronsignal und Umschaltsignal für akustische Ausgabe
 $EndSCHEMATC
