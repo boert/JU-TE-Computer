@@ -1,0 +1,285 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title "JU+TE  Video: Scart-Ausgang"
+Date "26.10.21"
+Rev "1"
+Comp "Jugend+Technik"
+Comment1 "Bert"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:SCART-F J?
+U 1 1 617DC00A
+P 7200 3800
+F 0 "J?" H 7200 5220 50  0000 C CNN
+F 1 "SCART-F" H 7200 5129 50  0000 C CNN
+F 2 "" H 7200 3850 50  0001 C CNN
+F 3 " ~" H 7200 3850 50  0001 C CNN
+	1    7200 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 617DE445
+P 3950 2700
+F 0 "R?" V 3743 2700 50  0000 C CNN
+F 1 "220" V 3834 2700 50  0000 C CNN
+F 2 "" V 3880 2700 50  0001 C CNN
+F 3 "~" H 3950 2700 50  0001 C CNN
+	1    3950 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 617DED21
+P 3950 3100
+F 0 "R?" V 3743 3100 50  0000 C CNN
+F 1 "220" V 3834 3100 50  0000 C CNN
+F 2 "" V 3880 3100 50  0001 C CNN
+F 3 "~" H 3950 3100 50  0001 C CNN
+	1    3950 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 617DEE3B
+P 3950 3450
+F 0 "R?" V 3743 3450 50  0000 C CNN
+F 1 "220" V 3834 3450 50  0000 C CNN
+F 2 "" V 3880 3450 50  0001 C CNN
+F 3 "~" H 3950 3450 50  0001 C CNN
+	1    3950 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 617DEF2B
+P 3950 3800
+F 0 "R?" V 3743 3800 50  0000 C CNN
+F 1 "51" V 3834 3800 50  0000 C CNN
+F 2 "" V 3880 3800 50  0001 C CNN
+F 3 "~" H 3950 3800 50  0001 C CNN
+	1    3950 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 617DF041
+P 3950 4200
+F 0 "R?" V 3743 4200 50  0000 C CNN
+F 1 "160" V 3834 4200 50  0000 C CNN
+F 2 "" V 3880 4200 50  0001 C CNN
+F 3 "~" H 3950 4200 50  0001 C CNN
+	1    3950 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 617DF1A2
+P 3950 4800
+F 0 "R?" V 3743 4800 50  0000 C CNN
+F 1 "75" V 3834 4800 50  0000 C CNN
+F 2 "" V 3880 4800 50  0001 C CNN
+F 3 "~" H 3950 4800 50  0001 C CNN
+	1    3950 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 617DF32E
+P 3950 5150
+F 0 "R?" V 3743 5150 50  0000 C CNN
+F 1 "160" V 3834 5150 50  0000 C CNN
+F 2 "" V 3880 5150 50  0001 C CNN
+F 3 "~" H 3950 5150 50  0001 C CNN
+	1    3950 5150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 617DF42E
+P 3950 5500
+F 0 "R?" V 3743 5500 50  0000 C CNN
+F 1 "160" V 3834 5500 50  0000 C CNN
+F 2 "" V 3880 5500 50  0001 C CNN
+F 3 "~" H 3950 5500 50  0001 C CNN
+	1    3950 5500
+	0    1    1    0   
+$EndComp
+Text HLabel 2650 5500 0    50   Input ~ 0
+R
+Text HLabel 2650 5150 0    50   Input ~ 0
+G
+Text HLabel 2650 4200 0    50   Input ~ 0
+B
+Wire Wire Line
+	2650 5500 3800 5500
+Wire Wire Line
+	2650 5150 3800 5150
+Wire Wire Line
+	3800 4200 2650 4200
+Text HLabel 2650 4800 0    50   Input ~ 0
+S
+Wire Wire Line
+	2650 4800 3800 4800
+Text HLabel 2650 4500 0    50   Input ~ 0
+GND
+Text HLabel 2650 2700 0    50   Input ~ 0
+V
+Wire Wire Line
+	2650 2700 3250 2700
+Wire Wire Line
+	3800 3800 3250 3800
+Wire Wire Line
+	3250 3800 3250 3450
+Connection ~ 3250 2700
+Wire Wire Line
+	3250 2700 3800 2700
+Wire Wire Line
+	3800 3450 3250 3450
+Connection ~ 3250 3450
+Wire Wire Line
+	3800 3100 3250 3100
+Wire Wire Line
+	3250 2700 3250 3100
+Connection ~ 3250 3100
+Wire Wire Line
+	3250 3100 3250 3450
+Wire Wire Line
+	4100 4200 5700 4200
+Wire Wire Line
+	4100 2700 5700 2700
+Wire Wire Line
+	5700 2700 5700 4200
+Connection ~ 5700 4200
+Wire Wire Line
+	5700 4200 6600 4200
+Wire Wire Line
+	2650 4500 6300 4500
+Wire Wire Line
+	6300 4500 6300 4400
+Wire Wire Line
+	6300 4000 6600 4000
+Wire Wire Line
+	6600 4400 6300 4400
+Connection ~ 6300 4400
+Wire Wire Line
+	6300 4400 6300 4000
+Wire Wire Line
+	6600 3600 6300 3600
+Wire Wire Line
+	6300 3600 6300 4000
+Connection ~ 6300 4000
+Wire Wire Line
+	6300 3200 6300 3600
+Wire Wire Line
+	6300 3200 6600 3200
+Connection ~ 6300 3600
+Wire Wire Line
+	7800 3100 8050 3100
+Wire Wire Line
+	8050 3100 8050 5050
+Wire Wire Line
+	8050 5050 6300 5050
+Wire Wire Line
+	6300 5050 6300 5200
+Wire Wire Line
+	4100 4800 4700 4800
+Wire Wire Line
+	6000 4800 6000 2200
+Wire Wire Line
+	6000 2200 8300 2200
+Wire Wire Line
+	8300 2200 8300 2900
+Wire Wire Line
+	8300 2900 7800 2900
+Wire Wire Line
+	4100 3800 4700 3800
+Wire Wire Line
+	4700 3800 4700 4800
+Connection ~ 4700 4800
+Wire Wire Line
+	6600 3800 5500 3800
+Wire Wire Line
+	5500 3800 5500 5150
+Wire Wire Line
+	5500 5150 4100 5150
+Wire Wire Line
+	4100 3100 5500 3100
+Wire Wire Line
+	5500 3100 5500 3800
+Connection ~ 5500 3800
+Wire Wire Line
+	6600 3400 5300 3400
+Wire Wire Line
+	5300 3400 5300 3450
+Wire Wire Line
+	4700 4800 6000 4800
+Wire Wire Line
+	4100 5500 5300 5500
+Wire Wire Line
+	4100 3450 5300 3450
+Wire Wire Line
+	5300 3450 5300 5500
+Connection ~ 5300 3450
+NoConn ~ 6600 4800
+NoConn ~ 6600 4600
+NoConn ~ 7800 4500
+NoConn ~ 7800 4700
+NoConn ~ 7800 4300
+NoConn ~ 7800 4100
+NoConn ~ 7800 3900
+NoConn ~ 7800 3700
+NoConn ~ 7800 3500
+$Comp
+L Device:R R?
+U 1 1 617F9983
+P 8600 3000
+F 0 "R?" H 8530 2954 50  0000 R CNN
+F 1 "1,5k" H 8530 3045 50  0000 R CNN
+F 2 "" V 8530 3000 50  0001 C CNN
+F 3 "~" H 8600 3000 50  0001 C CNN
+	1    8600 3000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7800 3300 8600 3300
+Wire Wire Line
+	8600 3300 8600 3150
+$Comp
+L power:+5P #PWR?
+U 1 1 617FB075
+P 8600 2750
+F 0 "#PWR?" H 8600 2600 50  0001 C CNN
+F 1 "+5P" H 8615 2923 50  0000 C CNN
+F 2 "" H 8600 2750 50  0001 C CNN
+F 3 "" H 8600 2750 50  0001 C CNN
+	1    8600 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8600 2750 8600 2850
+$Comp
+L power:GND #PWR?
+U 1 1 617FC55B
+P 6300 5200
+F 0 "#PWR?" H 6300 4950 50  0001 C CNN
+F 1 "GND" H 6305 5027 50  0000 C CNN
+F 2 "" H 6300 5200 50  0001 C CNN
+F 3 "" H 6300 5200 50  0001 C CNN
+	1    6300 5200
+	1    0    0    -1  
+$EndComp
+Connection ~ 6300 4500
+NoConn ~ 6600 3000
+NoConn ~ 6600 2800
+Connection ~ 6300 5050
+Wire Wire Line
+	6300 5050 6300 4500
+$EndSCHEMATC
