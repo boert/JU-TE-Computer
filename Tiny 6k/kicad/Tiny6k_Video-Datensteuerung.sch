@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector_Generic:Conn_01x29 J?
+L Connector_Generic:Conn_01x29 J4
 U 1 1 61788134
 P 1700 3800
-F 0 "J?" H 1618 5417 50  0000 C CNN
+F 0 "J4" H 1618 5417 50  0000 C CNN
 F 1 "Conn_01x29" H 1618 5326 50  0000 C CNN
 F 2 "" H 1700 3800 50  0001 C CNN
 F 3 "~" H 1700 3800 50  0001 C CNN
@@ -29,10 +29,10 @@ Wire Wire Line
 Wire Wire Line
 	2350 5100 2350 5000
 $Comp
-L power:+5P #PWR?
+L power:+5P #PWR061
 U 1 1 6404A0EA
 P 2350 5000
-F 0 "#PWR?" H 2350 4850 50  0001 C CNN
+F 0 "#PWR061" H 2350 4850 50  0001 C CNN
 F 1 "+5P" H 2300 5150 50  0000 C CNN
 F 2 "" H 2350 5000 50  0001 C CNN
 F 3 "" H 2350 5000 50  0001 C CNN
@@ -48,10 +48,10 @@ Wire Wire Line
 Wire Wire Line
 	1900 5000 1950 5000
 $Comp
-L power:GND #PWR?
+L power:GND #PWR059
 U 1 1 640C3D98
 P 2200 4850
-F 0 "#PWR?" H 2200 4600 50  0001 C CNN
+F 0 "#PWR059" H 2200 4600 50  0001 C CNN
 F 1 "GND" H 2205 4677 50  0000 C CNN
 F 2 "" H 2200 4850 50  0001 C CNN
 F 3 "" H 2200 4850 50  0001 C CNN
@@ -109,10 +109,10 @@ DIR
 Text Label 2000 2400 0    50   ~ 0
 Si
 $Comp
-L Connector_Generic:Conn_01x01 J?
+L Connector_Generic:Conn_01x01 J8
 U 1 1 61788137
 P 1700 6150
-F 0 "J?" H 1618 5925 50  0000 C CNN
+F 0 "J8" H 1618 5925 50  0000 C CNN
 F 1 "Conn_01x01" H 1618 6016 50  0000 C CNN
 F 2 "" H 1700 6150 50  0001 C CNN
 F 3 "~" H 1700 6150 50  0001 C CNN
@@ -120,10 +120,10 @@ F 3 "~" H 1700 6150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J?
+L Connector_Generic:Conn_01x01 J9
 U 1 1 651445DB
 P 1700 6450
-F 0 "J?" H 1618 6225 50  0000 C CNN
+F 0 "J9" H 1618 6225 50  0000 C CNN
 F 1 "Conn_01x01" H 1618 6316 50  0000 C CNN
 F 2 "" H 1700 6450 50  0001 C CNN
 F 3 "~" H 1700 6450 50  0001 C CNN
@@ -135,10 +135,10 @@ S1
 Text Notes 1700 2100 0    50   ~ 0
 Bus
 $Comp
-L power:GND #PWR?
+L power:GND #PWR065
 U 1 1 6B495262
 P 2000 7700
-F 0 "#PWR?" H 2000 7450 50  0001 C CNN
+F 0 "#PWR065" H 2000 7450 50  0001 C CNN
 F 1 "GND" H 2005 7527 50  0000 C CNN
 F 2 "" H 2000 7700 50  0001 C CNN
 F 3 "" H 2000 7700 50  0001 C CNN
@@ -146,10 +146,10 @@ F 3 "" H 2000 7700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5P #PWR?
+L power:+5P #PWR063
 U 1 1 6B495623
 P 2000 7100
-F 0 "#PWR?" H 2000 6950 50  0001 C CNN
+F 0 "#PWR063" H 2000 6950 50  0001 C CNN
 F 1 "+5P" H 2000 7250 50  0000 C CNN
 F 2 "" H 2000 7100 50  0001 C CNN
 F 3 "" H 2000 7100 50  0001 C CNN
@@ -157,10 +157,10 @@ F 3 "" H 2000 7100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5P #PWR?
+L power:+5P #PWR064
 U 1 1 6B4CE062
 P 2550 7100
-F 0 "#PWR?" H 2550 6950 50  0001 C CNN
+F 0 "#PWR064" H 2550 6950 50  0001 C CNN
 F 1 "+5P" H 2550 7250 50  0000 C CNN
 F 2 "" H 2550 7100 50  0001 C CNN
 F 3 "" H 2550 7100 50  0001 C CNN
@@ -168,10 +168,10 @@ F 3 "" H 2550 7100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR066
 U 1 1 6178813C
 P 2550 7700
-F 0 "#PWR?" H 2550 7450 50  0001 C CNN
+F 0 "#PWR066" H 2550 7450 50  0001 C CNN
 F 1 "GND" H 2555 7527 50  0000 C CNN
 F 2 "" H 2550 7700 50  0001 C CNN
 F 3 "" H 2550 7700 50  0001 C CNN
@@ -181,10 +181,10 @@ $EndComp
 Text Notes 1750 8050 0    50   ~ 0
 Stützkondensatoren ergänzen
 $Comp
-L RFT_Digitalschaltkreise:DS8286D U?
+L RFT_Digitalschaltkreise:DS8286D U14
 U 1 1 618519DF
 P 4700 3550
-F 0 "U?" H 4700 4117 50  0000 C CNN
+F 0 "U14" H 4700 4117 50  0000 C CNN
 F 1 "DS8286D" H 4700 4026 50  0000 C CNN
 F 2 "" H 4800 3350 50  0001 C CNN
 F 3 "https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/DDR-Halbleiter/ds8286.gif" H 4800 3350 50  0001 C CNN
@@ -192,10 +192,10 @@ F 3 "https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/DDR-Halbleit
 	-1   0    0    -1  
 $EndComp
 $Comp
-L RFT_Digitalschaltkreise:DS8286D U?
+L RFT_Digitalschaltkreise:DS8286D U14
 U 2 1 618528F7
 P 2000 7400
-F 0 "U?" H 2088 7446 50  0000 L CNN
+F 0 "U14" H 2088 7446 50  0000 L CNN
 F 1 "DS8286D" H 2088 7355 50  0000 L CNN
 F 2 "" H 2100 7200 50  0001 C CNN
 F 3 "https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/DDR-Halbleiter/ds8286.gif" H 2100 7200 50  0001 C CNN
@@ -205,10 +205,10 @@ $EndComp
 Text Notes 9600 2000 0    50   ~ 0
 zum 8k-RAM-Modul
 $Comp
-L RFT_Digitalschaltkreise:DL299D U?
+L RFT_Digitalschaltkreise:DL299D U15
 U 1 1 61855355
 P 7550 3950
-F 0 "U?" H 7550 4917 50  0000 C CNN
+F 0 "U15" H 7550 4917 50  0000 C CNN
 F 1 "DL299D" H 7550 4826 50  0000 C CNN
 F 2 "" H 7650 3750 50  0001 C CNN
 F 3 "https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/DDR-Halbleiter/g.cgi?173" H 7650 3750 50  0001 C CNN
@@ -216,10 +216,10 @@ F 3 "https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/DDR-Halbleit
 	1    0    0    -1  
 $EndComp
 $Comp
-L RFT_Digitalschaltkreise:DL299D U?
+L RFT_Digitalschaltkreise:DL299D U15
 U 2 1 6185617D
 P 2550 7400
-F 0 "U?" H 2638 7446 50  0000 L CNN
+F 0 "U15" H 2638 7446 50  0000 L CNN
 F 1 "DL299D" H 2638 7355 50  0000 L CNN
 F 2 "" H 2650 7200 50  0001 C CNN
 F 3 "https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/DDR-Halbleiter/g.cgi?173" H 2650 7200 50  0001 C CNN
@@ -331,10 +331,10 @@ D1
 Text Label 6050 3200 0    50   ~ 0
 D0
 $Comp
-L power:+5P #PWR?
+L power:+5P #PWR057
 U 1 1 61F32DE4
 P 6800 4250
-F 0 "#PWR?" H 6800 4100 50  0001 C CNN
+F 0 "#PWR057" H 6800 4100 50  0001 C CNN
 F 1 "+5P" H 6815 4423 50  0000 C CNN
 F 2 "" H 6800 4250 50  0001 C CNN
 F 3 "" H 6800 4250 50  0001 C CNN
@@ -363,10 +363,10 @@ Wire Wire Line
 	7000 4700 7100 4700
 Connection ~ 7000 4600
 $Comp
-L power:GND #PWR?
+L power:GND #PWR058
 U 1 1 6204B366
 P 6800 4750
-F 0 "#PWR?" H 6800 4500 50  0001 C CNN
+F 0 "#PWR058" H 6800 4500 50  0001 C CNN
 F 1 "GND" H 6805 4577 50  0000 C CNN
 F 2 "" H 6800 4750 50  0001 C CNN
 F 3 "" H 6800 4750 50  0001 C CNN
@@ -382,10 +382,10 @@ Wire Wire Line
 Wire Wire Line
 	6800 4500 6800 4750
 $Comp
-L Connector_Generic:Conn_01x29 J?
+L Connector_Generic:Conn_01x29 J5
 U 1 1 621FB654
 P 10000 3800
-F 0 "J?" H 9918 5417 50  0000 C CNN
+F 0 "J5" H 9918 5417 50  0000 C CNN
 F 1 "Conn_01x29" H 9918 5326 50  0000 C CNN
 F 2 "" H 10000 3800 50  0001 C CNN
 F 3 "~" H 10000 3800 50  0001 C CNN
@@ -397,10 +397,10 @@ Wire Wire Line
 Wire Wire Line
 	9350 5100 9350 5000
 $Comp
-L power:+5P #PWR?
+L power:+5P #PWR062
 U 1 1 621FC5BC
 P 9350 5000
-F 0 "#PWR?" H 9350 4850 50  0001 C CNN
+F 0 "#PWR062" H 9350 4850 50  0001 C CNN
 F 1 "+5P" H 9300 5150 50  0000 C CNN
 F 2 "" H 9350 5000 50  0001 C CNN
 F 3 "" H 9350 5000 50  0001 C CNN
@@ -408,10 +408,10 @@ F 3 "" H 9350 5000 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR060
 U 1 1 621FC5CA
 P 9500 4850
-F 0 "#PWR?" H 9500 4600 50  0001 C CNN
+F 0 "#PWR060" H 9500 4600 50  0001 C CNN
 F 1 "GND" H 9505 4677 50  0000 C CNN
 F 2 "" H 9500 4850 50  0001 C CNN
 F 3 "" H 9500 4850 50  0001 C CNN
@@ -688,10 +688,10 @@ Wire Wire Line
 Wire Wire Line
 	1900 6450 6550 6450
 $Comp
-L Connector_Generic:Conn_01x01 J?
+L Connector_Generic:Conn_01x01 J6
 U 1 1 649F132A
 P 1700 5800
-F 0 "J?" H 1618 5575 50  0000 C CNN
+F 0 "J6" H 1618 5575 50  0000 C CNN
 F 1 "Conn_01x01" H 1618 5666 50  0000 C CNN
 F 2 "" H 1700 5800 50  0001 C CNN
 F 3 "~" H 1700 5800 50  0001 C CNN
@@ -787,10 +787,10 @@ Wire Wire Line
 Wire Wire Line
 	9000 2400 9800 2400
 $Comp
-L power:+5P #PWR?
+L power:+5P #PWR056
 U 1 1 64FBB885
 P 9400 2300
-F 0 "#PWR?" H 9400 2150 50  0001 C CNN
+F 0 "#PWR056" H 9400 2150 50  0001 C CNN
 F 1 "+5P" H 9350 2450 50  0000 C CNN
 F 2 "" H 9400 2300 50  0001 C CNN
 F 3 "" H 9400 2300 50  0001 C CNN
@@ -805,10 +805,10 @@ Text Notes 2100 2300 0    50   ~ 0
 i=V, R, G, B
 NoConn ~ 8000 3800
 $Comp
-L Connector_Generic:Conn_01x01 J?
+L Connector_Generic:Conn_01x01 J7
 U 1 1 6511B94E
 P 10000 5800
-F 0 "J?" H 9918 5575 50  0000 C CNN
+F 0 "J7" H 9918 5575 50  0000 C CNN
 F 1 "Conn_01x01" H 9918 5666 50  0000 C CNN
 F 2 "" H 10000 5800 50  0001 C CNN
 F 3 "~" H 10000 5800 50  0001 C CNN
