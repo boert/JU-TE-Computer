@@ -17,25 +17,25 @@ $Sheet
 S 6200 1750 2100 1200
 U 61994D62
 F0 "Hauptprozessor" 50
-F1 "Tiny6k_Prozessor_Kompaktvariante.sch" 50
+F1 "Tiny6k_Hauptprozessor.sch" 50
 $EndSheet
 $Sheet
 S 1850 1750 2100 1200
 U 61787C99
 F0 "Videoprozessor" 50
-F1 "Tiny6k_Video-Adresssteuerung.sch" 50
+F1 "Tiny6k_Videoprozessor.sch" 50
 $EndSheet
 $Sheet
 S 1850 3500 2100 1200
 U 61787FC5
 F0 "Steuerung Video-RAM" 50
-F1 "Tiny6k_Video-Datensteuerung.sch" 50
+F1 "Tiny6k_Steuerung_Video-RAM.sch" 50
 $EndSheet
 $Sheet
 S 1850 5250 2100 1200
 U 61788085
 F0 "Videoausgabe" 50
-F1 "Tiny6k_Video-Ausgang.sch" 50
+F1 "Tiny6k_Videoausgabe.sch" 50
 $EndSheet
 Text Notes 7350 6700 0    50   ~ 0
 wird bis zu 4x benötigt
@@ -43,7 +43,7 @@ $Sheet
 S 6150 5250 2100 1200
 U 6186A9AB
 F0 "Speichermodul C" 50
-F1 "Tiny6k_Video-RAM-Modul.sch" 50
+F1 "Speichermodul_Typ_C.sch" 50
 $EndSheet
 $Bitmap
 Pos 7250 2350
