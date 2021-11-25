@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 6
 Title "JU+TE  Tiny\\nVideoausgabe"
-Date "23.11.21"
+Date "25.11.21"
 Rev "1"
 Comp "Jugend+Technik"
 Comment1 "Bert"
@@ -189,10 +189,10 @@ Text GLabel 2900 1450 0    50   Input ~ 0
 T
 Wire Wire Line
 	2900 1450 3350 1450
-Text GLabel 2900 1550 0    39   Input ~ 0
-~HR
+Text GLabel 750  1550 0    50   Input ~ 0
+P3.4
 Wire Wire Line
-	2900 1550 3350 1550
+	750  1550 1400 1550
 Text GLabel 2900 1650 0    50   Input ~ 0
 YV
 Text GLabel 2900 1750 0    50   Input ~ 0
@@ -357,8 +357,6 @@ Wire Wire Line
 	5450 1750 6250 1750
 Text GLabel 6450 2150 2    50   Output ~ 0
 V
-Wire Wire Line
-	4050 1650 4400 1650
 Wire Wire Line
 	4600 1650 4850 1650
 Wire Wire Line
@@ -807,9 +805,7 @@ F 3 "~" H 5650 6350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Notes Line
-	3250 1600 3250 1150
-Wire Notes Line
-	3250 1150 4150 1150
+	3200 1150 4150 1150
 Wire Notes Line
 	4150 1150 4150 1650
 $Comp
@@ -941,9 +937,9 @@ Wire Notes Line
 	4150 3050 3100 3050
 Wire Notes Line
 	3100 3050 3100 2150
-Text Label 4050 1650 0    50   ~ 0
+Text Label 4200 1650 0    50   ~ 0
 v
-Text Label 4050 2050 0    50   ~ 0
+Text Label 4200 3050 0    50   ~ 0
 b
 Wire Wire Line
 	8350 3050 8350 3250
@@ -1072,14 +1068,12 @@ Wire Wire Line
 Connection ~ 7600 2150
 Wire Wire Line
 	7600 2150 7850 2150
-Text Notes 2400 3800 0    50   ~ 0
-DL256\nnein\nja\nnein\nja
-Text Notes 1000 3800 0    50   ~ 0
-RAM-Module\nV\nV B\nV B G R\nV B G R
-Text Notes 450  3800 0    50   ~ 0
-Ausbaustufe\n1 (minimal)\n2\n3\n4 (maximal)
-Text Notes 2700 3800 0    50   ~ 0
-Brücke B\nja\nnein\nja\nnein
+Text Notes 1100 3050 0    50   ~ 0
+DL253\n\nnein\nja\nnein\nja
+Text Notes 450  3050 0    50   ~ 0
+Ausbaustufe\n\n1 (minimal)\n2\n3\n4 (maximal)
+Text Notes 1450 3050 0    50   ~ 0
+Brücke V\n\nja\nnein\nja\nnein
 Connection ~ 4300 4150
 Wire Wire Line
 	2900 6350 4400 6350
@@ -1096,16 +1090,10 @@ Text GLabel 2900 4150 0    39   Input ~ 0
 Connection ~ 8350 3250
 Wire Wire Line
 	8350 3250 8350 4200
-Text Notes 1550 3800 0    50   ~ 0
-Auflösung\n320x192\n640x192\n320x192\n640x192
-Text Notes 2000 3800 0    50   ~ 0
-Farben\n2\n2\n16\n8 (2:1)
-Text Notes 3500 3800 0    50   ~ 0
-R24\nja\nja\nnein\nnein
-Text Notes 3100 3800 0    50   ~ 0
-Brücke V\nnein\nnein\nja\nnein
-Text Notes 3750 3800 0    50   ~ 0
-R26\nja\nja\nnein\nnein
+Text Notes 1850 3050 0    50   ~ 0
+Brücke B\n\nnein\nnein\nja\nnein
+Text Notes 2800 3050 0    50   ~ 0
+R26\n\n6,8k\n6,8k\n2,2k\n2,2k
 $Comp
 L power:GND #PWR0285
 U 1 1 64092EA4
@@ -1150,4 +1138,106 @@ F 3 "" H 5650 6800 50  0001 C CNN
 	1    5650 6800
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:Jumper_NC_Small JP400
+U 1 1 61A0665D
+P 1500 1550
+F 0 "JP400" H 1500 1671 50  0000 C CNN
+F 1 "HR direkt" H 1500 1671 50  0001 C CNN
+F 2 "" H 1500 1550 50  0001 C CNN
+F 3 "~" H 1500 1550 50  0001 C CNN
+	1    1500 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP401
+U 1 1 61A07485
+P 1700 1400
+F 0 "JP401" V 1700 1450 50  0000 L CNN
+F 1 "HR_VCC" H 1700 1494 50  0001 L CNN
+F 2 "" H 1700 1400 50  0001 C CNN
+F 3 "~" H 1700 1400 50  0001 C CNN
+	1    1700 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP402
+U 1 1 61A07815
+P 1700 1700
+F 0 "JP402" V 1700 1748 50  0000 L CNN
+F 1 "HR_GND" V 1745 1748 50  0001 L CNN
+F 2 "" H 1700 1700 50  0001 C CNN
+F 3 "~" H 1700 1700 50  0001 C CNN
+	1    1700 1700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1600 1550 1700 1550
+$Comp
+L power:GND #PWR?
+U 1 1 61A11978
+P 1700 1800
+F 0 "#PWR?" H 1700 1550 50  0001 C CNN
+F 1 "GND" H 1705 1627 50  0000 C CNN
+F 2 "" H 1700 1800 50  0001 C CNN
+F 3 "" H 1700 1800 50  0001 C CNN
+	1    1700 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 1600 1700 1550
+Connection ~ 1700 1550
+Wire Wire Line
+	1700 1550 3350 1550
+Wire Wire Line
+	1700 1500 1700 1550
+$Comp
+L power:+5V #PWR?
+U 1 1 61A20963
+P 1700 1300
+F 0 "#PWR?" H 1700 1150 50  0001 C CNN
+F 1 "+5V" H 1800 1400 50  0000 C CNN
+F 2 "" H 1700 1300 50  0001 C CNN
+F 3 "" H 1700 1300 50  0001 C CNN
+	1    1700 1300
+	1    0    0    -1  
+$EndComp
+Text Notes 2100 1750 0    50   ~ 0
+0 - 640x192\n1 - 320x192
+Text Notes 4200 1325 0    39   ~ 0
+(in Ju+Te-Anleitung als B bezeichnet)
+Wire Wire Line
+	4050 1650 4400 1650
+Wire Notes Line
+	3200 1150 3200 2050
+Wire Notes Line
+	3200 2050 3250 2050
+Text Label 2100 1550 0    50   ~ 0
+~HR
+Text Label 9000 4200 0    50   ~ 0
+Blau
+Text Label 9000 3800 0    50   ~ 0
+Grün
+Text Label 9000 3400 0    50   ~ 0
+Rot
+Text Label 10800 3300 0    50   ~ 0
+~AV~RGB
+Text Label 10600 2900 0    50   ~ 0
+Sync
+Text Notes 600  4800 0    50   ~ 0
+2. Ausbaustufe\n\n2 VRAM-Module (V und B)\n640x192, monochrom\nDL253 bestückt\nkeine Brücke V, keine Brücke B\nR24 und VD401 bestückt\nR26 mit 6,8k bestückt
+Text Notes 600  5650 0    50   ~ 0
+3. Ausbaustufe\n\n4 VRAM-Module (V, B, G und R)\n320x192, 16 Farben\nDL253 nicht bestückt\nBrücke V und Brücke B\nR24 und VD401 nicht bestückt\nR26 mit 2,2k bestückt
+Text Notes 600  6500 0    50   ~ 0
+4. Ausbaustufe\n\n4 VRAM-Module (V, B, G und R)\n640x192, 8 Farben\nDL253 bestückt\nkeine Brücke V und keine Brücke B\nR24 und VD401 nicht bestückt\nR26 mit 2,2k bestückt
+Wire Notes Line style dotted
+	2950 2700 450  2700
+Wire Notes Line style dotted
+	1000 2600 1000 3050
+Wire Notes Line style dotted
+	2250 2600 2250 3050
+Text Notes 600  3950 0    50   ~ 0
+Minimalausbau\n\n1 VRAM-Modul (V)\n320x192, monochrom\nDL253 nicht bestückt\nBrücke V bestückt\nR24 und VD401 bestückt\nR26 mit 6,8k bestückt
+Text Notes 2300 3050 0    50   ~ 0
+R24+VD401\n\nja\nja\nnein\nnein
 $EndSCHEMATC

@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 6
 Title "JU+TE Tiny\\nVideoprozessor"
-Date "23.11.21"
+Date "25.11.21"
 Rev "1"
 Comp "Jugend+Technik"
 Comment1 "Bert"
@@ -1378,7 +1378,7 @@ F 3 "~" H 550 5500 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Text GLabel 800  6900 2    50   Input ~ 0
-~HR
+P3.4
 Wire Wire Line
 	750  6900 800  6900
 Wire Wire Line
@@ -2467,7 +2467,7 @@ Text GLabel 8850 6800 0    50   Input ~ 0
 Text Label 3700 3700 0    50   ~ 0
 ~VRT
 Text Label 5200 3400 0    50   ~ 0
-VP37
+VP3.7
 Text GLabel 800  6600 2    50   Input ~ 0
 RT
 NoConn ~ 800  6700

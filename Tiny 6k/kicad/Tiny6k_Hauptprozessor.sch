@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 6
 Title "JU+TE Tiny\\nHauptprozessor"
-Date "23.11.21"
+Date "25.11.21"
 Rev "1"
 Comp "Jugend+Technik"
 Comment1 ""
@@ -775,27 +775,27 @@ Wire Wire Line
 Wire Wire Line
 	1500 4050 750  4050
 Wire Wire Line
-	1500 4150 900  4150
+	1500 4150 950  4150
 Wire Wire Line
-	900  4400 750  4400
+	950  4400 750  4400
 Wire Wire Line
-	1500 4250 950  4250
+	1500 4250 1000 4250
 Wire Wire Line
-	950  4250 950  4500
+	1000 4250 1000 4500
 Wire Wire Line
-	950  4500 750  4500
+	1000 4500 750  4500
 Wire Wire Line
 	1500 4350 1450 4350
 Wire Wire Line
-	1000 4350 1000 4600
+	1050 4350 1050 4600
 Wire Wire Line
-	1000 4600 750  4600
+	1050 4600 750  4600
 Wire Wire Line
-	1500 4450 1050 4450
+	1500 4450 1100 4450
 Wire Wire Line
-	1050 4450 1050 4700
+	1100 4450 1100 4700
 Wire Wire Line
-	1050 4700 750  4700
+	1100 4700 750  4700
 Wire Wire Line
 	2600 3950 2650 3950
 Wire Wire Line
@@ -1468,7 +1468,7 @@ Taktgenerator
 Text Notes 3750 6850 0    50   ~ 0
 Reseterzeugung
 Text Notes 6050 5150 0    50   ~ 0
-8k (16k)\nROM
+8k (16k)\nEPROM
 Text Notes 6200 1400 0    50   ~ 0
 32k RAM
 Wire Wire Line
@@ -1489,19 +1489,15 @@ Wire Wire Line
 	2650 4800 2850 4800
 Connection ~ 2650 4800
 Text Label 750  4800 0    50   ~ 0
-P34
+P3.4
 Text Notes 1100 6800 0    50   ~ 0
 Stützspannung\nfür RAM
 Wire Wire Line
 	1900 1700 2200 1700
 Wire Wire Line
-	1100 4650 1100 2050
-Wire Wire Line
 	1100 2050 2200 2050
 Wire Wire Line
 	2200 2050 2200 1700
-Wire Wire Line
-	1100 4650 1500 4650
 Wire Wire Line
 	2200 1200 2200 1700
 Connection ~ 2200 1700
@@ -2139,9 +2135,9 @@ Text GLabel 4100 7400 2    39   Output ~ 0
 Wire Wire Line
 	4100 7400 4000 7400
 Text GLabel 2850 4800 2    50   Output ~ 0
-P34
+P3.4
 Text GLabel 5200 6200 0    50   Input ~ 0
-P34
+P3.4
 Wire Wire Line
 	5200 6200 5400 6200
 Connection ~ 6450 4900
@@ -2151,7 +2147,7 @@ Connection ~ 6750 1250
 Wire Wire Line
 	2200 1200 8550 1200
 Text GLabel 7350 4800 0    50   Input ~ 0
-P34
+P3.4
 $Comp
 L power:+5V #PWR0143
 U 1 1 6518F6FD
@@ -2196,7 +2192,7 @@ F 3 "" H 7450 4400 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 Text GLabel 8450 4800 0    50   Input ~ 0
-P34
+P3.4
 $Comp
 L power:+5V #PWR0146
 U 1 1 64F649B5
@@ -2569,37 +2565,37 @@ F 3 "~" H 8750 1200 50  0001 C CNN
 $EndComp
 Connection ~ 1450 4350
 Wire Wire Line
-	1450 4350 1000 4350
+	1450 4350 1050 4350
 Text Label 750  4700 0    50   ~ 0
-P33
+P3.3
 Text Label 750  4600 0    50   ~ 0
-P32
+P3.2
 Text Label 750  4500 0    50   ~ 0
-P31
+P3.1
 Text Label 750  4400 0    50   ~ 0
-P30
+P3.0
 Text Label 750  4900 0    50   ~ 0
-P35
+P3.5
 Text Label 750  5000 0    50   ~ 0
-P36
+P3.6
 Text Label 750  5100 0    50   ~ 0
-P37
+P3.7
 Text Label 750  4050 0    50   ~ 0
-P27
+P2.7
 Text Label 750  3950 0    50   ~ 0
-P26
+P2.6
 Text Label 750  3850 0    50   ~ 0
-P25
+P2.5
 Text Label 750  3750 0    50   ~ 0
-P24
+P2.4
 Text Label 750  3650 0    50   ~ 0
-P23
+P2.3
 Text Label 750  3550 0    50   ~ 0
-P22
+P2.2
 Text Label 750  3450 0    50   ~ 0
-P21
+P2.1
 Text Label 750  3350 0    50   ~ 0
-P20
+P2.0
 $Comp
 L RFT_Analogschaltkreise:B861D D32
 U 1 1 657A03E4
@@ -2824,21 +2820,21 @@ F 3 "~" H 9000 4350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Text GLabel 850  4150 0    50   Input ~ 0
-P30
+P3.0
 Wire Wire Line
-	850  4150 900  4150
-Connection ~ 900  4150
+	850  4150 950  4150
+Connection ~ 950  4150
 Wire Wire Line
-	900  4150 900  4400
+	950  4150 950  4400
 Text GLabel 11250 4250 2    50   Output ~ 0
-P30
+P3.0
 Text GLabel 2850 5000 2    50   Output ~ 0
-P36
+P3.6
 Wire Wire Line
 	2850 5000 2750 5000
 Connection ~ 2750 5000
 Text GLabel 9150 2950 0    50   Input ~ 0
-P36
+P3.6
 $Comp
 L Device:R_Small R115
 U 1 1 65EF73A5
@@ -3636,6 +3632,14 @@ Wire Wire Line
 	9650 3350 9650 3300
 Wire Wire Line
 	10750 3350 10750 3300
+Wire Wire Line
+	1100 3300 1200 3300
+Wire Wire Line
+	1200 3300 1200 4650
+Wire Wire Line
+	1100 3300 1100 2050
+Wire Wire Line
+	1200 4650 1500 4650
 Wire Bus Line
 	3250 1600 3250 2450
 Wire Bus Line
@@ -3662,4 +3666,6 @@ Wire Bus Line
 	8150 1250 8150 4200
 Wire Bus Line
 	7050 1250 7050 4200
+Text Notes 5600 4500 0    50   ~ 0
+Schreibfreigabe
 $EndSCHEMATC

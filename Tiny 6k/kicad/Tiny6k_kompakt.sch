@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 6
 Title "JU+TE Tiny mit Videoerweiterung"
-Date "23.11.21"
+Date "25.11.21"
 Rev "1"
 Comp "Jugend+Technik"
 Comment1 "Bert"
