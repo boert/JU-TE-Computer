@@ -29,6 +29,4 @@ Speichermodule | Video-RAM | Auflösung | Farbtiefe
 
 Ob es Software gibt, welche die 640x192 Pixel-Modi nutzt, entzieht sich meiner Kenntniss.
 
-Momentan existiert im Unterverzeichnis nur der Schaltplan vom Videomodul.
-
 Quelle: https://hc-ddr.hucki.net/wiki/lib/exe/fetch.php/tiny/jutecomp3.pdf
