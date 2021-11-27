@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 6
 Title "JU+TE Tiny\\nVideoprozessor"
-Date "25.11.21"
+Date "27.11.21"
 Rev "1"
 Comp "Jugend+Technik"
 Comment1 "Bert"
@@ -21,7 +21,7 @@ U 1 1 60F5CD5E
 P 2150 2900
 F 0 "VT201" H 2340 2946 50  0000 L CNN
 F 1 "SC236" H 2340 2855 50  0000 L CNN
-F 2 "" H 2200 2900 50  0001 C CNN
+F 2 "Package_TO_SOT_THT:TO-92Flat" H 2200 2900 50  0001 C CNN
 F 3 "https://www.tu-chemnitz.de/etit/zentral/ddr/sc236.gif" H 2200 2900 50  0001 C CNN
 	1    2150 2900
 	1    0    0    -1  
@@ -32,7 +32,7 @@ U 1 1 60F66972
 P 2700 2900
 F 0 "VD201" V 2650 3100 50  0000 C CNN
 F 1 "SZX21/7.5" V 2750 3200 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal" H 2700 2725 50  0001 C CNN
+F 2 "Diode_THT:D_DO-34_SOD68_P2.54mm_Vertical_AnodeUp" H 2700 2725 50  0001 C CNN
 F 3 "http://diotec.com/tl_files/diotec/files/pdf/datasheets/zpd1" H 2700 2900 50  0001 C CNN
 	1    2700 2900
 	0    1    1    0   
@@ -43,7 +43,7 @@ U 1 1 616C0AFB
 P 1750 1850
 F 0 "VT200" H 1940 1804 50  0000 L CNN
 F 1 "SC308" H 1940 1895 50  0000 L CNN
-F 2 "" H 1950 1950 50  0001 C CNN
+F 2 "Package_TO_SOT_THT:TO-92Flat" H 1950 1950 50  0001 C CNN
 F 3 "https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/DDR-Halbleiter/sc307.gif" H 1750 1850 50  0001 C CNN
 	1    1750 1850
 	1    0    0    1   
@@ -54,7 +54,7 @@ U 1 1 616C171F
 P 1500 1650
 F 0 "R201" H 1400 1700 50  0000 R CNN
 F 1 "1k" H 1400 1600 50  0000 R CNN
-F 2 "" V 1430 1650 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1430 1650 50  0001 C CNN
 F 3 "~" H 1500 1650 50  0001 C CNN
 	1    1500 1650
 	-1   0    0    -1  
@@ -65,7 +65,7 @@ U 1 1 616C23C1
 P 1250 1850
 F 0 "R200" V 1350 1850 50  0000 C CNN
 F 1 "4,7k" V 1150 1850 50  0000 C CNN
-F 2 "" V 1180 1850 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1180 1850 50  0001 C CNN
 F 3 "~" H 1250 1850 50  0001 C CNN
 	1    1250 1850
 	0    1    -1   0   
@@ -76,7 +76,7 @@ U 1 1 616C269D
 P 1850 2300
 F 0 "R202" H 1750 2300 50  0000 R CNN
 F 1 "4,7k" H 1750 2200 50  0000 R CNN
-F 2 "" V 1780 2300 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1780 2300 50  0001 C CNN
 F 3 "~" H 1850 2300 50  0001 C CNN
 	1    1850 2300
 	-1   0    0    -1  
@@ -87,7 +87,7 @@ U 1 1 616C29FD
 P 2500 2100
 F 0 "R203" V 2600 2100 50  0000 C CNN
 F 1 "470" V 2400 2100 50  0000 C CNN
-F 2 "" V 2430 2100 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2430 2100 50  0001 C CNN
 F 3 "~" H 2500 2100 50  0001 C CNN
 	1    2500 2100
 	0    1    -1   0   
@@ -98,7 +98,7 @@ U 1 1 616F98B7
 P 2050 2100
 F 0 "C201" V 1950 2100 50  0000 C CNN
 F 1 "1µF" V 2150 2100 50  0000 C CNN
-F 2 "" H 2050 2100 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 2050 2100 50  0001 C CNN
 F 3 "~" H 2050 2100 50  0001 C CNN
 	1    2050 2100
 	0    1    1    0   
@@ -109,7 +109,7 @@ U 1 1 616FAEFF
 P 2300 1650
 F 0 "VD200" V 2346 1570 50  0000 R CNN
 F 1 "SAY32" V 2255 1570 50  0000 R CNN
-F 2 "" H 2300 1650 50  0001 C CNN
+F 2 "Diode_THT:D_DO-34_SOD68_P2.54mm_Vertical_AnodeUp" H 2300 1650 50  0001 C CNN
 F 3 "~" H 2300 1650 50  0001 C CNN
 	1    2300 1650
 	0    -1   -1   0   
@@ -185,8 +185,8 @@ L Device:C_Small C200
 U 1 1 6175A22A
 P 1300 2550
 F 0 "C200" V 1200 2550 50  0000 C CNN
-F 1 "33nF" V 1400 2550 50  0000 C CNN
-F 2 "" H 1300 2550 50  0001 C CNN
+F 1 "33pF" V 1400 2550 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 1300 2550 50  0001 C CNN
 F 3 "~" H 1300 2550 50  0001 C CNN
 	1    1300 2550
 	0    1    1    0   
@@ -197,7 +197,7 @@ U 1 1 6175BE2E
 P 1300 2900
 F 0 "R204" V 1400 2800 50  0000 L CNN
 F 1 "8,2k" V 1200 2800 50  0000 L CNN
-F 2 "" V 1230 2900 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1230 2900 50  0001 C CNN
 F 3 "~" H 1300 2900 50  0001 C CNN
 	1    1300 2900
 	0    1    -1   0   
@@ -245,7 +245,7 @@ U 3 1 617A9BCF
 P 800 1850
 F 0 "D19" H 800 2117 50  0000 C CNN
 F 1 "DL004D" H 800 2026 50  0000 C CNN
-F 2 "" H 800 1850 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 800 1850 50  0001 C CNN
 F 3 "https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/DDR-Halbleiter/dl003.gif" H 800 1850 50  0001 C CNN
 	3    800  1850
 	1    0    0    -1  
@@ -281,7 +281,7 @@ U 2 1 618BFBBA
 P 2000 6400
 F 0 "D19" H 2000 6667 50  0000 C CNN
 F 1 "DL004D" H 2000 6576 50  0000 C CNN
-F 2 "" H 2000 6400 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 2000 6400 50  0001 C CNN
 F 3 "https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/DDR-Halbleiter/dl003.gif" H 2000 6400 50  0001 C CNN
 	2    2000 6400
 	1    0    0    -1  
@@ -292,7 +292,7 @@ U 1 1 618C14CE
 P 2200 3800
 F 0 "D19" H 2200 4067 50  0000 C CNN
 F 1 "DL004D" H 2200 3976 50  0000 C CNN
-F 2 "" H 2200 3800 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 2200 3800 50  0001 C CNN
 F 3 "https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/DDR-Halbleiter/dl003.gif" H 2200 3800 50  0001 C CNN
 	1    2200 3800
 	1    0    0    -1  
@@ -303,7 +303,7 @@ U 4 1 618C2409
 P 2750 5700
 F 0 "D19" H 2750 5967 50  0000 C CNN
 F 1 "DL004D" H 2750 5876 50  0000 C CNN
-F 2 "" H 2750 5700 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 2750 5700 50  0001 C CNN
 F 3 "https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/DDR-Halbleiter/dl003.gif" H 2750 5700 50  0001 C CNN
 	4    2750 5700
 	1    0    0    -1  
@@ -314,7 +314,7 @@ U 5 1 618C3231
 P 2000 5700
 F 0 "D19" H 2000 5967 50  0000 C CNN
 F 1 "DL004D" H 2000 5876 50  0000 C CNN
-F 2 "" H 2000 5700 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 2000 5700 50  0001 C CNN
 F 3 "https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/DDR-Halbleiter/dl003.gif" H 2000 5700 50  0001 C CNN
 	5    2000 5700
 	1    0    0    -1  
@@ -325,7 +325,7 @@ U 6 1 618C4605
 P 2700 3800
 F 0 "D19" H 2700 4067 50  0000 C CNN
 F 1 "DL004D" H 2700 3976 50  0000 C CNN
-F 2 "" H 2700 3800 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 2700 3800 50  0001 C CNN
 F 3 "https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/DDR-Halbleiter/dl003.gif" H 2700 3800 50  0001 C CNN
 	6    2700 3800
 	1    0    0    -1  
@@ -336,7 +336,7 @@ U 7 1 618C51E7
 P 3350 7400
 F 0 "D19" H 3250 6900 50  0000 L CNN
 F 1 "DL004D" H 3350 6800 50  0000 C CNN
-F 2 "" H 3350 7400 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 3350 7400 50  0001 C CNN
 F 3 "https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/DDR-Halbleiter/dl003.gif" H 3350 7400 50  0001 C CNN
 	7    3350 7400
 	1    0    0    -1  
@@ -349,7 +349,7 @@ U 1 1 618F071E
 P 3000 3600
 F 0 "R205" H 2900 3650 50  0000 R CNN
 F 1 "1,2k" H 2900 3550 50  0000 R CNN
-F 2 "" V 2930 3600 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2930 3600 50  0001 C CNN
 F 3 "~" H 3000 3600 50  0001 C CNN
 	1    3000 3600
 	-1   0    0    -1  
@@ -380,7 +380,7 @@ U 2 1 61923FDE
 P 850 7400
 F 0 "D5" H 850 6900 50  0000 C CNN
 F 1 "DS8212D" H 850 6800 50  0000 C CNN
-F 2 "" H 950 7200 50  0001 C CNN
+F 2 "Package_DIP:DIP-24_W15.24mm_Socket_LongPads" H 950 7200 50  0001 C CNN
 F 3 "https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/DDR-Halbleiter/g.cgi?175" H 950 7200 50  0001 C CNN
 	2    850  7400
 	1    0    0    -1  
@@ -391,7 +391,7 @@ U 2 1 619270E3
 P 1800 7400
 F 0 "D13" H 1800 6900 50  0000 C CNN
 F 1 "UB8830" H 1800 6800 50  0000 C CNN
-F 2 "" H 1900 7600 50  0001 C CNN
+F 2 "Package_DIP:DIP-40_W15.24mm_Socket_LongPads" H 1900 7600 50  0001 C CNN
 F 3 "https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/DDR-Halbleiter/g.cgi?207.." H 1900 7600 50  0001 C CNN
 	2    1800 7400
 	1    0    0    -1  
@@ -402,7 +402,7 @@ U 1 1 6192BE2E
 P 7900 2250
 F 0 "D6" H 7900 3225 50  0000 C CNN
 F 1 "U2716" H 7900 3134 50  0000 C CNN
-F 2 "" H 7900 3400 50  0001 C CNN
+F 2 "Package_DIP:DIP-24_W15.24mm_Socket_LongPads" H 7900 3400 50  0001 C CNN
 F 3 "http://informatik.rostfrank.de/rt/lex10/rom/2716.html" H 7900 3400 50  0001 C CNN
 	1    7900 2250
 	1    0    0    -1  
@@ -455,7 +455,7 @@ U 1 1 61DDF637
 P 9700 6250
 F 0 "D15" H 9700 6817 50  0000 C CNN
 F 1 "DL540D" H 9700 6726 50  0000 C CNN
-F 2 "" H 9800 6050 50  0001 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_Socket_LongPads" H 9800 6050 50  0001 C CNN
 F 3 "https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/DDR-Halbleiter/g.cgi?175" H 9800 6050 50  0001 C CNN
 	1    9700 6250
 	1    0    0    -1  
@@ -466,7 +466,7 @@ U 2 1 61DE01AB
 P 2750 7400
 F 0 "D17" H 2650 6900 50  0000 L CNN
 F 1 "DL540D" H 2750 6800 50  0000 C CNN
-F 2 "" H 2850 7200 50  0001 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_Socket_LongPads" H 2850 7200 50  0001 C CNN
 F 3 "https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/DDR-Halbleiter/g.cgi?175" H 2850 7200 50  0001 C CNN
 	2    2750 7400
 	1    0    0    -1  
@@ -477,7 +477,7 @@ U 2 1 61DE0CBC
 P 2450 7400
 F 0 "D15" H 2350 6900 50  0000 L CNN
 F 1 "DL540D" H 2450 6800 50  0000 C CNN
-F 2 "" H 2550 7200 50  0001 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_Socket_LongPads" H 2550 7200 50  0001 C CNN
 F 3 "https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/DDR-Halbleiter/g.cgi?175" H 2550 7200 50  0001 C CNN
 	2    2450 7400
 	1    0    0    -1  
@@ -488,7 +488,7 @@ U 1 1 61DE4F2A
 P 9700 1800
 F 0 "D2" H 9700 2367 50  0000 C CNN
 F 1 "DL540D" H 9700 2276 50  0000 C CNN
-F 2 "" H 9800 1600 50  0001 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_Socket_LongPads" H 9800 1600 50  0001 C CNN
 F 3 "https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/DDR-Halbleiter/g.cgi?175" H 9800 1600 50  0001 C CNN
 	1    9700 1800
 	1    0    0    -1  
@@ -499,7 +499,7 @@ U 1 1 61DE5D16
 P 9700 3050
 F 0 "D8" H 9700 3617 50  0000 C CNN
 F 1 "DL540D" H 9700 3526 50  0000 C CNN
-F 2 "" H 9800 2850 50  0001 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_Socket_LongPads" H 9800 2850 50  0001 C CNN
 F 3 "https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/DDR-Halbleiter/g.cgi?175" H 9800 2850 50  0001 C CNN
 	1    9700 3050
 	1    0    0    -1  
@@ -510,7 +510,7 @@ U 2 1 61DFCE97
 P 1200 7400
 F 0 "D8" H 1200 6900 50  0000 C CNN
 F 1 "DL540D" H 1200 6800 50  0000 C CNN
-F 2 "" H 1300 7200 50  0001 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_Socket_LongPads" H 1300 7200 50  0001 C CNN
 F 3 "https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/DDR-Halbleiter/g.cgi?175" H 1300 7200 50  0001 C CNN
 	2    1200 7400
 	1    0    0    -1  
@@ -521,7 +521,7 @@ U 2 1 61DFDD1F
 P 500 7400
 F 0 "D2" H 400 6900 50  0000 L CNN
 F 1 "DL540D" H 500 6800 50  0000 C CNN
-F 2 "" H 600 7200 50  0001 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_Socket_LongPads" H 600 7200 50  0001 C CNN
 F 3 "https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/DDR-Halbleiter/g.cgi?175" H 600 7200 50  0001 C CNN
 	2    500  7400
 	1    0    0    -1  
@@ -605,7 +605,7 @@ U 1 1 61922028
 P 6300 2050
 F 0 "D5" H 6300 2617 50  0000 C CNN
 F 1 "DS8212D" H 6300 2526 50  0000 C CNN
-F 2 "" H 6400 1850 50  0001 C CNN
+F 2 "Package_DIP:DIP-24_W15.24mm_Socket_LongPads" H 6400 1850 50  0001 C CNN
 F 3 "https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/DDR-Halbleiter/g.cgi?175" H 6400 1850 50  0001 C CNN
 	1    6300 2050
 	1    0    0    -1  
@@ -618,7 +618,7 @@ U 1 1 60F2CCAE
 P 4500 2650
 F 0 "D13" H 4500 3917 50  0000 C CNN
 F 1 "UB8830" H 4500 3826 50  0000 C CNN
-F 2 "" H 4600 2850 50  0001 C CNN
+F 2 "Package_DIP:DIP-40_W15.24mm_Socket_LongPads" H 4600 2850 50  0001 C CNN
 F 3 "https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/DDR-Halbleiter/g.cgi?207.." H 4600 2850 50  0001 C CNN
 	1    4500 2650
 	1    0    0    -1  
@@ -1203,7 +1203,7 @@ U 1 1 634C7294
 P 9700 5000
 F 0 "D17" H 9700 5567 50  0000 C CNN
 F 1 "DL540D" H 9700 5476 50  0000 C CNN
-F 2 "" H 9800 4800 50  0001 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_Socket_LongPads" H 9800 4800 50  0001 C CNN
 F 3 "https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/DDR-Halbleiter/g.cgi?175" H 9800 4800 50  0001 C CNN
 	1    9700 5000
 	1    0    0    -1  
@@ -1235,7 +1235,7 @@ U 1 1 63A1496F
 P 7850 4000
 F 0 "D14" H 7850 4567 50  0000 C CNN
 F 1 "DL295D" H 7850 4476 50  0000 C CNN
-F 2 "" H 7950 3800 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 7950 3800 50  0001 C CNN
 F 3 "https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/DDR-Halbleiter/dl194.gif" H 7950 3800 50  0001 C CNN
 	1    7850 4000
 	1    0    0    -1  
@@ -1246,7 +1246,7 @@ U 2 1 63A15704
 P 2150 7400
 F 0 "D14" H 2050 6900 50  0000 L CNN
 F 1 "DL295D" H 2150 6800 50  0000 C CNN
-F 2 "" H 2250 7200 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 2250 7200 50  0001 C CNN
 F 3 "https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/DDR-Halbleiter/dl194.gif" H 2250 7200 50  0001 C CNN
 	2    2150 7400
 	1    0    0    -1  
@@ -1324,7 +1324,7 @@ U 1 1 63EF4399
 P 5700 4750
 F 0 "D21" H 5700 5417 50  0000 C CNN
 F 1 "DL257D" H 5700 5326 50  0000 C CNN
-F 2 "" H 5800 4650 50  0001 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_Socket_LongPads" H 5800 4650 50  0001 C CNN
 F 3 "https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/DDR-Halbleiter/dl251.gif" H 5800 4650 50  0001 C CNN
 	1    5700 4750
 	1    0    0    -1  
@@ -1335,7 +1335,7 @@ U 2 1 63EF4EEC
 P 1500 7400
 F 0 "D10" H 1400 6900 50  0000 L CNN
 F 1 "DL257D" H 1500 6800 50  0000 C CNN
-F 2 "" H 1600 7300 50  0001 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_Socket_LongPads" H 1600 7300 50  0001 C CNN
 F 3 "https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/DDR-Halbleiter/dl251.gif" H 1600 7300 50  0001 C CNN
 	2    1500 7400
 	1    0    0    -1  
@@ -1372,7 +1372,7 @@ U 1 1 63F730A3
 P 550 5500
 F 0 "X200" H 550 7150 50  0000 C CNN
 F 1 "Bus" H 550 7050 50  0000 C CNN
-F 2 "" H 550 5500 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x29_P2.54mm_Horizontal" H 550 5500 50  0001 C CNN
 F 3 "~" H 550 5500 50  0001 C CNN
 	1    550  5500
 	-1   0    0    -1  
@@ -1647,7 +1647,7 @@ U 1 1 64FED77D
 P 2350 4850
 F 0 "D20" H 2350 5417 50  0000 C CNN
 F 1 "DS8205D" H 2350 5326 50  0000 C CNN
-F 2 "" H 2450 4650 50  0001 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_Socket_LongPads" H 2450 4650 50  0001 C CNN
 F 3 "https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/DDR-Halbleiter/ds8205.gif" H 2450 4650 50  0001 C CNN
 	1    2350 4850
 	1    0    0    -1  
@@ -1658,7 +1658,7 @@ U 2 1 64FEE2E9
 P 3700 7400
 F 0 "D20" H 3700 6900 50  0000 C CNN
 F 1 "DS8205D" H 3700 6800 50  0000 C CNN
-F 2 "" H 3800 7200 50  0001 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_Socket_LongPads" H 3800 7200 50  0001 C CNN
 F 3 "https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/DDR-Halbleiter/ds8205.gif" H 3800 7200 50  0001 C CNN
 	2    3700 7400
 	1    0    0    -1  
@@ -1736,7 +1736,7 @@ U 1 1 659D53FA
 P 7300 6250
 F 0 "D10" H 7300 6917 50  0000 C CNN
 F 1 "DL257D" H 7300 6826 50  0000 C CNN
-F 2 "" H 7400 6150 50  0001 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_Socket_LongPads" H 7400 6150 50  0001 C CNN
 F 3 "https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/DDR-Halbleiter/dl251.gif" H 7400 6150 50  0001 C CNN
 	1    7300 6250
 	1    0    0    -1  
@@ -1747,7 +1747,7 @@ U 1 1 659D7AA9
 P 4400 6350
 F 0 "D18" H 4400 6917 50  0000 C CNN
 F 1 "DL295D" H 4400 6826 50  0000 C CNN
-F 2 "" H 4500 6150 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 4500 6150 50  0001 C CNN
 F 3 "https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/DDR-Halbleiter/dl194.gif" H 4500 6150 50  0001 C CNN
 	1    4400 6350
 	1    0    0    -1  
@@ -1758,7 +1758,7 @@ U 2 1 659D83E0
 P 3050 7400
 F 0 "D18" H 2950 6900 50  0000 L CNN
 F 1 "DL295D" H 2900 6800 50  0000 L CNN
-F 2 "" H 3150 7200 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 3150 7200 50  0001 C CNN
 F 3 "https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/DDR-Halbleiter/dl194.gif" H 3150 7200 50  0001 C CNN
 	2    3050 7400
 	1    0    0    -1  
@@ -1824,7 +1824,7 @@ U 1 1 65F02078
 P 2700 6550
 F 0 "C202" H 2500 6500 50  0000 C CNN
 F 1 "220p" H 2500 6600 50  0000 C CNN
-F 2 "" H 2700 6550 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 2700 6550 50  0001 C CNN
 F 3 "~" H 2700 6550 50  0001 C CNN
 	1    2700 6550
 	-1   0    0    1   
@@ -1848,7 +1848,7 @@ U 1 1 65F8B9D0
 P 2700 6200
 F 0 "R206" H 2650 6250 50  0000 R CNN
 F 1 "6,2k" H 2650 6150 50  0000 R CNN
-F 2 "" V 2630 6200 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2630 6200 50  0001 C CNN
 F 3 "~" H 2700 6200 50  0001 C CNN
 	1    2700 6200
 	-1   0    0    -1  
@@ -1864,7 +1864,7 @@ U 1 1 661259BF
 P 2400 6400
 F 0 "VD202" H 2400 6617 50  0000 C CNN
 F 1 "SAY32" H 2400 6526 50  0000 C CNN
-F 2 "" H 2400 6400 50  0001 C CNN
+F 2 "Diode_THT:D_DO-34_SOD68_P2.54mm_Vertical_AnodeUp" H 2400 6400 50  0001 C CNN
 F 3 "~" H 2400 6400 50  0001 C CNN
 	1    2400 6400
 	1    0    0    -1  
@@ -2122,7 +2122,7 @@ U 1 1 697C659E
 P 6350 4450
 F 0 "R211" H 6250 4500 50  0000 R CNN
 F 1 "470" H 6250 4400 50  0000 R CNN
-F 2 "" V 6280 4450 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6280 4450 50  0001 C CNN
 F 3 "~" H 6350 4450 50  0001 C CNN
 	1    6350 4450
 	-1   0    0    -1  
@@ -2349,7 +2349,7 @@ U 2 1 6B757363
 P 4050 7400
 F 0 "D21" H 4050 6900 50  0000 C CNN
 F 1 "DL257D" H 4050 6800 50  0000 C CNN
-F 2 "" H 4150 7300 50  0001 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_Socket_LongPads" H 4150 7300 50  0001 C CNN
 F 3 "https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/DDR-Halbleiter/dl251.gif" H 4150 7300 50  0001 C CNN
 	2    4050 7400
 	1    0    0    -1  
@@ -2587,7 +2587,7 @@ U 1 1 62F27F21
 P 3650 4800
 F 0 "X203" H 3730 4792 50  0000 L CNN
 F 1 "select" H 3730 4701 50  0000 L CNN
-F 2 "" H 3650 4800 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 3650 4800 50  0001 C CNN
 F 3 "~" H 3650 4800 50  0001 C CNN
 	1    3650 4800
 	1    0    0    -1  
@@ -2634,7 +2634,7 @@ U 1 1 63D59A48
 P 4800 5700
 F 0 "R207" H 4800 5850 50  0000 R CNN
 F 1 "470" H 4750 5650 50  0000 R CNN
-F 2 "" H 4800 5700 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 4800 5700 50  0001 C CNN
 F 3 "~" H 4800 5700 50  0001 C CNN
 	1    4800 5700
 	1    0    0    -1  
@@ -2645,7 +2645,7 @@ U 1 1 63D91156
 P 5000 5700
 F 0 "R208" H 4800 5850 50  0000 L CNN
 F 1 "470" H 4800 5700 50  0001 L CNN
-F 2 "" H 5000 5700 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 5000 5700 50  0001 C CNN
 F 3 "~" H 5000 5700 50  0001 C CNN
 	1    5000 5700
 	1    0    0    -1  
@@ -2656,7 +2656,7 @@ U 1 1 63DC7691
 P 5400 5700
 F 0 "R210" H 5200 5850 50  0000 L CNN
 F 1 "470" H 5200 5700 50  0001 L CNN
-F 2 "" H 5400 5700 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 5400 5700 50  0001 C CNN
 F 3 "~" H 5400 5700 50  0001 C CNN
 	1    5400 5700
 	1    0    0    -1  
@@ -2679,7 +2679,7 @@ U 1 1 63DC7292
 P 5200 5700
 F 0 "R209" H 5000 5850 50  0000 L CNN
 F 1 "470" H 5000 5700 50  0001 L CNN
-F 2 "" H 5200 5700 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 5200 5700 50  0001 C CNN
 F 3 "~" H 5200 5700 50  0001 C CNN
 	1    5200 5700
 	1    0    0    -1  
@@ -2692,7 +2692,7 @@ U 1 1 649FD45E
 P 550 3700
 F 0 "X201" H 550 3950 50  0000 C CNN
 F 1 "~CS2" H 550 3850 50  0000 C CNN
-F 2 "" H 550 3700 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Horizontal" H 550 3700 50  0001 C CNN
 F 3 "~" H 550 3700 50  0001 C CNN
 	1    550  3700
 	-1   0    0    -1  
@@ -2704,7 +2704,7 @@ U 1 1 64AA8D34
 P 550 3150
 F 0 "X202" H 550 3400 50  0000 C CNN
 F 1 "XTAL" H 550 3300 50  0000 C CNN
-F 2 "" H 550 3150 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 550 3150 50  0001 C CNN
 F 3 "~" H 550 3150 50  0001 C CNN
 	1    550  3150
 	-1   0    0    -1  
@@ -2730,7 +2730,7 @@ U 1 1 64B19A4C
 P 4400 5200
 F 0 "X204" H 4480 5248 50  0000 L CNN
 F 1 "~KEY" H 4480 5150 50  0000 L CNN
-F 2 "" H 4400 5200 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Horizontal" H 4400 5200 50  0001 C CNN
 F 3 "~" H 4400 5200 50  0001 C CNN
 	1    4400 5200
 	1    0    0    -1  
@@ -2749,7 +2749,7 @@ U 1 1 6527F92E
 P 5800 3300
 F 0 "X205" H 5880 3342 50  0000 L CNN
 F 1 "BUSY" H 5880 3251 50  0000 L CNN
-F 2 "" H 5800 3300 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Horizontal" H 5800 3300 50  0001 C CNN
 F 3 "~" H 5800 3300 50  0001 C CNN
 	1    5800 3300
 	1    0    0    -1  

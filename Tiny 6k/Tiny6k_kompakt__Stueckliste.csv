@@ -1,6 +1,6 @@
 Source,Tiny6k_kompakt.sch
 Kicad Rev,Eeschema 5.1.10
-Generated Date,Do 25 Nov 2021 16:28:10 CET
+Generated Date,Sa 27 Nov 2021 21:49:05 CET
 
 Title,JU+TE Tiny mit Videoerweiterung
 Company,Jugend+Technik
@@ -73,12 +73,8 @@ R114,220,Device,R_Small
 C105,1µF,Device,CP_Small
 X140,Speaker,Connector_Generic,Conn_01x02
 R116,22k,Device,R_Small
-C106,1nF,Device,C_Small
-C107,3.3nF,Device,C_Small
-R117,100k,Device,R_Small
-R118,22k,Device,R_Small
+R118,1k,Device,R_Small
 X141,Tape OUT,Connector_Generic,Conn_01x01
-X105,Reset,Connector_Generic,Conn_01x01
 C116,10µF,Device,CP_Small
 C117,10µF,Device,CP_Small
 C114,10µF,Device,CP_Small
@@ -92,6 +88,8 @@ C100,10µF,Device,CP_Small
 R102,10k,Device,R_Small
 X121,~CS2,Connector_Generic,Conn_01x01
 X102,BUSY,Connector_Generic,Conn_01x01
+X106,Bankumschaltung,Jumper,SolderJumper_2_Open
+X105,Reset,Connector_Generic,Conn_01x02
 VT201,SC236,RFT_Transistoren_und_Dioden,SC236
 VD201,SZX21/7.5,Diode,ZPDxx
 VT200,SC308,RFT_Transistoren_und_Dioden,SC308
@@ -101,7 +99,7 @@ R202,4.7k,Device,R
 R203,470,Device,R
 C201,1µF,Device,CP_Small
 VD200,SAY32,Device,D
-C200,33nF,Device,C_Small
+C200,33pF,Device,C_Small
 R204,8.2k,Device,R
 D19,DL004D,RFT_Digitalschaltkreise,DL004D
 R205,1.2k,Device,R

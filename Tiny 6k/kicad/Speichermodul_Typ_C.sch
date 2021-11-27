@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 6
 Title "JU+TE Tiny\\nSpeichermodul Typ C"
-Date "25.11.21"
+Date "27.11.21"
 Rev "1"
 Comp "Jugend+Technik"
 Comment1 "Bert"
@@ -19,7 +19,7 @@ U 1 1 6400CA3F
 P 5800 4100
 F 0 "D500" H 5800 5275 50  0000 C CNN
 F 1 "U6264D" H 5800 5184 50  0000 C CNN
-F 2 "" H 5800 5250 50  0001 C CNN
+F 2 "Package_DIP:DIP-28_W15.24mm_Socket_LongPads" H 5800 5250 50  0001 C CNN
 F 3 "https://cdn-reichelt.de/documents/datenblatt/A300/HM6264.pdf" H 5800 5250 50  0001 C CNN
 	1    5800 4100
 	1    0    0    -1  
@@ -30,7 +30,7 @@ U 1 1 6401A0EB
 P 3350 4200
 F 0 "X500" H 3268 5817 50  0000 C CNN
 F 1 "Bus" H 3268 5726 50  0000 C CNN
-F 2 "" H 3350 4200 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x29_P2.54mm_Horizontal" H 3350 4200 50  0001 C CNN
 F 3 "~" H 3350 4200 50  0001 C CNN
 	1    3350 4200
 	-1   0    0    -1  
@@ -337,7 +337,7 @@ U 1 1 64437F02
 P 7850 4100
 F 0 "D501" H 7850 5275 50  0000 C CNN
 F 1 "U2764" H 7850 5184 50  0000 C CNN
-F 2 "" H 7850 5250 50  0001 C CNN
+F 2 "Package_DIP:DIP-28_W15.24mm_Socket_LongPads" H 7850 5250 50  0001 C CNN
 F 3 "" H 7850 5250 50  0001 C CNN
 	1    7850 4100
 	1    0    0    -1  
@@ -516,7 +516,7 @@ U 1 1 6445D80C
 P 8250 5000
 F 0 "C501" H 8342 5046 50  0000 L CNN
 F 1 "33nF" H 8342 4955 50  0000 L CNN
-F 2 "" H 8250 5000 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 8250 5000 50  0001 C CNN
 F 3 "~" H 8250 5000 50  0001 C CNN
 	1    8250 5000
 	1    0    0    -1  
@@ -620,7 +620,7 @@ U 1 1 644AFBAB
 P 6200 5000
 F 0 "C500" H 6288 5046 50  0000 L CNN
 F 1 "220µF" H 6288 4955 50  0000 L CNN
-F 2 "" H 6200 5000 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Axial_L18.0mm_D10.0mm_P25.00mm_Horizontal" H 6200 5000 50  0001 C CNN
 F 3 "~" H 6200 5000 50  0001 C CNN
 	1    6200 5000
 	1    0    0    -1  

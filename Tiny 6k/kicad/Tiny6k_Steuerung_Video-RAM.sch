@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 6
 Title "JU+TE Tiny\\nSteuerung Video-RAM"
-Date "25.11.21"
+Date "27.11.21"
 Rev "1"
 Comp "Jugend+Technik"
 Comment1 "Bert"
@@ -63,7 +63,7 @@ U 1 1 618519DF
 P 1350 2850
 F 0 "D16" H 1350 3417 50  0000 C CNN
 F 1 "DS8286D" H 1350 3326 50  0000 C CNN
-F 2 "" H 1450 2650 50  0001 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_Socket_LongPads" H 1450 2650 50  0001 C CNN
 F 3 "https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/DDR-Halbleiter/ds8286.gif" H 1450 2650 50  0001 C CNN
 	1    1350 2850
 	-1   0    0    -1  
@@ -74,7 +74,7 @@ U 2 1 618528F7
 P 1050 1550
 F 0 "D16" H 1138 1596 50  0000 L CNN
 F 1 "DS8286D" H 1138 1505 50  0000 L CNN
-F 2 "" H 1150 1350 50  0001 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_Socket_LongPads" H 1150 1350 50  0001 C CNN
 F 3 "https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/DDR-Halbleiter/ds8286.gif" H 1150 1350 50  0001 C CNN
 	2    1050 1550
 	1    0    0    -1  
@@ -85,7 +85,7 @@ U 1 1 61855355
 P 3850 3250
 F 0 "D12" H 3850 4217 50  0000 C CNN
 F 1 "DL299D" H 3850 4126 50  0000 C CNN
-F 2 "" H 3950 3050 50  0001 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_Socket_LongPads" H 3950 3050 50  0001 C CNN
 F 3 "https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/DDR-Halbleiter/g.cgi?173" H 3950 3050 50  0001 C CNN
 	1    3850 3250
 	1    0    0    -1  
@@ -96,7 +96,7 @@ U 2 1 6185617D
 P 1600 1550
 F 0 "D12" H 1688 1596 50  0000 L CNN
 F 1 "DL299D" H 1688 1505 50  0000 L CNN
-F 2 "" H 1700 1350 50  0001 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_Socket_LongPads" H 1700 1350 50  0001 C CNN
 F 3 "https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/DDR-Halbleiter/g.cgi?173" H 1700 1350 50  0001 C CNN
 	2    1600 1550
 	1    0    0    -1  
@@ -308,7 +308,7 @@ U 1 1 625C7918
 P 5400 2600
 F 0 "X300" H 5500 4000 50  0000 L CNN
 F 1 "8k RAM-Modul" V 5500 3550 50  0000 C CNN
-F 2 "" H 5400 2600 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x29_P2.54mm_Vertical" H 5400 2600 50  0001 C CNN
 F 3 "~" H 5400 2600 50  0001 C CNN
 	1    5400 2600
 	1    0    0    -1  
@@ -563,7 +563,7 @@ U 1 1 63226872
 P 1350 5800
 F 0 "D11" H 1350 6367 50  0000 C CNN
 F 1 "DS8286D" H 1350 6276 50  0000 C CNN
-F 2 "" H 1450 5600 50  0001 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_Socket_LongPads" H 1450 5600 50  0001 C CNN
 F 3 "https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/DDR-Halbleiter/ds8286.gif" H 1450 5600 50  0001 C CNN
 	1    1350 5800
 	-1   0    0    -1  
@@ -574,7 +574,7 @@ U 2 1 6322687C
 P 1050 4500
 F 0 "D11" H 1138 4546 50  0000 L CNN
 F 1 "DS8286D" H 1138 4455 50  0000 L CNN
-F 2 "" H 1150 4300 50  0001 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_Socket_LongPads" H 1150 4300 50  0001 C CNN
 F 3 "https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/DDR-Halbleiter/ds8286.gif" H 1150 4300 50  0001 C CNN
 	2    1050 4500
 	1    0    0    -1  
@@ -585,7 +585,7 @@ U 1 1 63226886
 P 3850 6200
 F 0 "D9" H 3850 7167 50  0000 C CNN
 F 1 "DL299D" H 3850 7076 50  0000 C CNN
-F 2 "" H 3950 6000 50  0001 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_Socket_LongPads" H 3950 6000 50  0001 C CNN
 F 3 "https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/DDR-Halbleiter/g.cgi?173" H 3950 6000 50  0001 C CNN
 	1    3850 6200
 	1    0    0    -1  
@@ -596,7 +596,7 @@ U 2 1 63226890
 P 1600 4500
 F 0 "D9" H 1688 4546 50  0000 L CNN
 F 1 "DL299D" H 1688 4455 50  0000 L CNN
-F 2 "" H 1700 4300 50  0001 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_Socket_LongPads" H 1700 4300 50  0001 C CNN
 F 3 "https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/DDR-Halbleiter/g.cgi?173" H 1700 4300 50  0001 C CNN
 	2    1600 4500
 	1    0    0    -1  
@@ -808,7 +808,7 @@ U 1 1 63226918
 P 5400 5550
 F 0 "X302" H 5500 6950 50  0000 L CNN
 F 1 "8k RAM-Modul" V 5500 6500 50  0000 C CNN
-F 2 "" H 5400 5550 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x29_P2.54mm_Vertical" H 5400 5550 50  0001 C CNN
 F 3 "~" H 5400 5550 50  0001 C CNN
 	1    5400 5550
 	1    0    0    -1  
@@ -1063,7 +1063,7 @@ U 1 1 632474C2
 P 6800 2850
 F 0 "D3" H 6800 3417 50  0000 C CNN
 F 1 "DS8286D" H 6800 3326 50  0000 C CNN
-F 2 "" H 6900 2650 50  0001 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_Socket_LongPads" H 6900 2650 50  0001 C CNN
 F 3 "https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/DDR-Halbleiter/ds8286.gif" H 6900 2650 50  0001 C CNN
 	1    6800 2850
 	-1   0    0    -1  
@@ -1074,7 +1074,7 @@ U 2 1 632474CC
 P 6500 1550
 F 0 "D3" H 6588 1596 50  0000 L CNN
 F 1 "DS8286D" H 6588 1505 50  0000 L CNN
-F 2 "" H 6600 1350 50  0001 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_Socket_LongPads" H 6600 1350 50  0001 C CNN
 F 3 "https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/DDR-Halbleiter/ds8286.gif" H 6600 1350 50  0001 C CNN
 	2    6500 1550
 	1    0    0    -1  
@@ -1085,7 +1085,7 @@ U 1 1 632474D6
 P 9300 3250
 F 0 "D1" H 9300 4217 50  0000 C CNN
 F 1 "DL299D" H 9300 4126 50  0000 C CNN
-F 2 "" H 9400 3050 50  0001 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_Socket_LongPads" H 9400 3050 50  0001 C CNN
 F 3 "https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/DDR-Halbleiter/g.cgi?173" H 9400 3050 50  0001 C CNN
 	1    9300 3250
 	1    0    0    -1  
@@ -1096,7 +1096,7 @@ U 2 1 632474E0
 P 7050 1550
 F 0 "D1" H 7138 1596 50  0000 L CNN
 F 1 "DL299D" H 7138 1505 50  0000 L CNN
-F 2 "" H 7150 1350 50  0001 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_Socket_LongPads" H 7150 1350 50  0001 C CNN
 F 3 "https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/DDR-Halbleiter/g.cgi?173" H 7150 1350 50  0001 C CNN
 	2    7050 1550
 	1    0    0    -1  
@@ -1304,7 +1304,7 @@ U 1 1 63247568
 P 10850 2600
 F 0 "X301" H 10950 4000 50  0000 L CNN
 F 1 "8k RAM-Modul" V 10950 3550 50  0000 C CNN
-F 2 "" H 10850 2600 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x29_P2.54mm_Vertical" H 10850 2600 50  0001 C CNN
 F 3 "~" H 10850 2600 50  0001 C CNN
 	1    10850 2600
 	1    0    0    -1  
@@ -1557,7 +1557,7 @@ U 1 1 63247604
 P 6800 5800
 F 0 "D7" H 6800 6367 50  0000 C CNN
 F 1 "DS8286D" H 6800 6276 50  0000 C CNN
-F 2 "" H 6900 5600 50  0001 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_Socket_LongPads" H 6900 5600 50  0001 C CNN
 F 3 "https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/DDR-Halbleiter/ds8286.gif" H 6900 5600 50  0001 C CNN
 	1    6800 5800
 	-1   0    0    -1  
@@ -1568,7 +1568,7 @@ U 2 1 6324760E
 P 6500 4500
 F 0 "D7" H 6588 4546 50  0000 L CNN
 F 1 "DS8286D" H 6588 4455 50  0000 L CNN
-F 2 "" H 6600 4300 50  0001 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_Socket_LongPads" H 6600 4300 50  0001 C CNN
 F 3 "https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/DDR-Halbleiter/ds8286.gif" H 6600 4300 50  0001 C CNN
 	2    6500 4500
 	1    0    0    -1  
@@ -1579,7 +1579,7 @@ U 1 1 63247618
 P 9300 6200
 F 0 "D4" H 9300 7167 50  0000 C CNN
 F 1 "DL299D" H 9300 7076 50  0000 C CNN
-F 2 "" H 9400 6000 50  0001 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_Socket_LongPads" H 9400 6000 50  0001 C CNN
 F 3 "https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/DDR-Halbleiter/g.cgi?173" H 9400 6000 50  0001 C CNN
 	1    9300 6200
 	1    0    0    -1  
@@ -1590,7 +1590,7 @@ U 2 1 63247622
 P 7050 4500
 F 0 "D4" H 7138 4546 50  0000 L CNN
 F 1 "DL299D" H 7138 4455 50  0000 L CNN
-F 2 "" H 7150 4300 50  0001 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_Socket_LongPads" H 7150 4300 50  0001 C CNN
 F 3 "https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/DDR-Halbleiter/g.cgi?173" H 7150 4300 50  0001 C CNN
 	2    7050 4500
 	1    0    0    -1  
@@ -1802,7 +1802,7 @@ U 1 1 632476AA
 P 10850 5550
 F 0 "X303" H 10950 6950 50  0000 L CNN
 F 1 "8k RAM-Modul" V 10950 6500 50  0000 C CNN
-F 2 "" H 10850 5550 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x29_P2.54mm_Vertical" H 10850 5550 50  0001 C CNN
 F 3 "~" H 10850 5550 50  0001 C CNN
 	1    10850 5550
 	1    0    0    -1  
