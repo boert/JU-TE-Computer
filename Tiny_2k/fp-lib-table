@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Tiny2k_Bauteile)(type KiCad)(uri ${KIPRJMOD}/Tiny2k_Bauteile.pretty)(options "")(descr "Footprints für JU+TE Tiny"))
+)
