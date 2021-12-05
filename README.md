@@ -45,8 +45,14 @@ Korrigiert die Polarität des BAS-Signals.
 ### EPROM-Programmierzusatz
 Erweiterung des JU+TE zum EPROM-Programmiergerät für die Typen U2716, U2764 und U27128.
 
+### S3004-Interface
+Potentialgetrennte Schnittstelle für die elektronische Schreibmaschine Erika S3004.
+Nutzung der Schreibmaschine als Drucker.
 
-Quelle: https://hc-ddr.hucki.net/wiki/lib/exe/fetch.php/tiny/jutecomp1.pdf
+
+Quellen:
+https://hc-ddr.hucki.net/wiki/lib/exe/fetch.php/tiny/jutecomp1.pdf
+https://hc-ddr.hucki.net/wiki/lib/exe/fetch.php/tiny/jutecomp2.pdf
 
 
 ## JU+TE Tiny 6k
