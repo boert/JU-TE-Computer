@@ -25,6 +25,9 @@ Mit vier dieser Module läßt sich ein Vollausbau des Speichers realisieren (32 
 2 kByte EPROM
 Zusammen mit Modul A oder B kann damit auf ein 4k-System aufgerüstet werden.
 
+### RAM-Stütze
+Dient dem Erhalt des RAM-Inhaltes im ausgeschalteten Zustand für Module mit CMOS-Schaltkreisen (U224, U6516 oder HM6264LP).
+
 ### Magnetbandanschluss
 Damit lassen sich Programme auf Band sichern und wieder zurücklesen.
 Bekannte Schwachstelle: Die Magnetbandschnittstelle sollte nicht verwendet werden, da sie sehr störungsanfällig ist.
