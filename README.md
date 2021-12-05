@@ -33,6 +33,9 @@ Damit lassen sich Programme auf Band sichern und wieder zurücklesen.
 Bekannte Schwachstelle: Die Magnetbandschnittstelle sollte nicht verwendet werden, da sie sehr störungsanfällig ist.
 Im Sonderdruck ES4.0 gibt es eine überarbeitete Version.
 
+### Magnetbandinterface 4k-System
+Modifiziertes und verbessertes Magnetband-Interface für das 4k-System. 
+
 ### Tastatur
 Schaltungsvorschlag für eine 4x12 Matrixtastatur.
 
