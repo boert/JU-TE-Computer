@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text Notes 9950 7000 0    50   ~ 0
-Quelle: jutecomp1.pdf  S. 30
+Quelle: jutecomp2.pdf  S. 30
 Text Notes 9950 6900 0    50   ~ 0
 Quelle: JU+TE 3/1989, Seite 230-235
 $Comp
