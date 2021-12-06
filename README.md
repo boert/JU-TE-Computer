@@ -55,6 +55,9 @@ Pegelwandlerstufe zur Kopplung mit seriellen Perioheriegeräten (z.B. Drucker) o
 ### IFSS-Interface
 Schnittstelle nach dem Prinzip der gekoppelten Stromschleifen, IFSS (Interface seriell sternförmig).
 
+### AD-Wandler
+Zur Messung von Spannungen zwischen 0 und 999 mV.
+
 
 Quellen:
 https://hc-ddr.hucki.net/wiki/lib/exe/fetch.php/tiny/jutecomp1.pdf
