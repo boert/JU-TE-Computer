@@ -49,6 +49,9 @@ Erweiterung des JU+TE zum EPROM-Programmiergerät für die Typen U2716, U2764 un
 Potentialgetrennte Schnittstelle für die elektronische Schreibmaschine Erika S3004.
 Nutzung der Schreibmaschine als Drucker.
 
+### V.24-Interface
+Pegelwandlerstufe zur Kopplung mit seriellen Perioheriegeräten (z.B. Drucker) oder zur Rechnerkopplung.
+
 
 Quellen:
 https://hc-ddr.hucki.net/wiki/lib/exe/fetch.php/tiny/jutecomp1.pdf
