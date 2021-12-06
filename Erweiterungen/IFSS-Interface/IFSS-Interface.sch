@@ -155,17 +155,6 @@ Wire Wire Line
 Wire Wire Line
 	6150 5200 6300 5200
 $Comp
-L Connector_Generic:Conn_02x13_Row_Letter_First X4
-U 1 1 61B37DBE
-P 8450 4450
-F 0 "X4" H 8500 5267 50  0000 C CNN
-F 1 "EFS26" H 8500 5176 50  0000 C CNN
-F 2 "" H 8450 4450 50  0001 C CNN
-F 3 "~" H 8450 4450 50  0001 C CNN
-	1    8450 4450
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x01 X1
 U 1 1 61B60003
 P 4150 3000
@@ -210,17 +199,7 @@ Wire Wire Line
 	4450 5650 4450 5550
 Wire Wire Line
 	4450 5550 4350 5550
-NoConn ~ 8250 4750
-NoConn ~ 8250 4650
-NoConn ~ 8250 4550
-NoConn ~ 8250 4450
-NoConn ~ 8250 4350
-NoConn ~ 8750 4450
-NoConn ~ 8750 4550
-NoConn ~ 8750 4650
-NoConn ~ 8750 4750
 NoConn ~ 8250 4250
-NoConn ~ 8750 4350
 NoConn ~ 8750 4250
 NoConn ~ 8750 4050
 NoConn ~ 8750 3850
@@ -396,14 +375,19 @@ Wire Wire Line
 Connection ~ 6300 3300
 Text Label 8050 3850 0    50   ~ 0
 SD-
-NoConn ~ 8250 4850
-NoConn ~ 8250 4950
-NoConn ~ 8250 5050
-NoConn ~ 8750 5050
-NoConn ~ 8750 4950
-NoConn ~ 8750 4850
 Wire Wire Line
 	8250 3850 8000 3850
 Wire Wire Line
 	8250 4050 8000 4050
+$Comp
+L Connector_Generic:Conn_02x05_Row_Letter_First X4
+U 1 1 61ADA05E
+P 8450 4050
+F 0 "X4" H 8500 4467 50  0000 C CNN
+F 1 "EFS10" H 8500 4376 50  0000 C CNN
+F 2 "" H 8450 4050 50  0001 C CNN
+F 3 "~" H 8450 4050 50  0001 C CNN
+	1    8450 4050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
