@@ -4,9 +4,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "JU+TE TINY 2k"
-Date "12.7.21"
-Rev "1"
+Title "Magnetbandanschluss"
+Date "6.12.21"
+Rev "2"
 Comp "Jugend+Technik"
 Comment1 "Bert"
 Comment2 ""
@@ -18,100 +18,39 @@ Quelle: jutecomp1.pdf  S. 22
 Text Notes 9950 6900 0    50   ~ 0
 Quelle: JU+TE 12/1987, Seite 930-932
 $Comp
-L Connector_Generic:Conn_01x05 X12
-U 1 1 61251954
-P 2300 4150
-F 0 "X12" H 2218 4567 50  0000 C CNN
-F 1 "Anschluss" H 2218 4476 50  0000 C CNN
-F 2 "" H 2300 4150 50  0001 C CNN
-F 3 "~" H 2300 4150 50  0001 C CNN
-	1    2300 4150
-	-1   0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 61254FA1
-P 2700 4500
+P 2700 4750
 AR Path="/61281715/61254FA1" Ref="#PWR?"  Part="1" 
 AR Path="/60FD40F8/61254FA1" Ref="#PWR?"  Part="1" 
-AR Path="/61282124/61254FA1" Ref="#PWR?"  Part="1" 
-AR Path="/61254FA1" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2700 4250 50  0001 C CNN
-F 1 "GND" H 2705 4327 50  0000 C CNN
-F 2 "" H 2700 4500 50  0001 C CNN
-F 3 "" H 2700 4500 50  0001 C CNN
-	1    2700 4500
+AR Path="/61282124/61254FA1" Ref="#PWR0128"  Part="1" 
+AR Path="/61254FA1" Ref="#PWR0128"  Part="1" 
+F 0 "#PWR0128" H 2700 4500 50  0001 C CNN
+F 1 "GND" H 2705 4577 50  0000 C CNN
+F 2 "" H 2700 4750 50  0001 C CNN
+F 3 "" H 2700 4750 50  0001 C CNN
+	1    2700 4750
 	-1   0    0    -1  
 $EndComp
 $Comp
 L power:+5P #PWR?
 U 1 1 61254FA7
-P 2700 3850
+P 2700 3100
 AR Path="/61281715/61254FA7" Ref="#PWR?"  Part="1" 
 AR Path="/60FD40F8/61254FA7" Ref="#PWR?"  Part="1" 
-AR Path="/61282124/61254FA7" Ref="#PWR?"  Part="1" 
-AR Path="/61254FA7" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2700 3700 50  0001 C CNN
-F 1 "+5P" H 2700 4000 50  0000 C CNN
-F 2 "" H 2700 3850 50  0001 C CNN
-F 3 "" H 2700 3850 50  0001 C CNN
-	1    2700 3850
+AR Path="/61282124/61254FA7" Ref="#PWR0129"  Part="1" 
+AR Path="/61254FA7" Ref="#PWR0129"  Part="1" 
+F 0 "#PWR0129" H 2700 2950 50  0001 C CNN
+F 1 "+5P" H 2700 3250 50  0000 C CNN
+F 2 "" H 2700 3100 50  0001 C CNN
+F 3 "" H 2700 3100 50  0001 C CNN
+	1    2700 3100
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	2700 4500 2700 4350
+	2700 4750 2700 4600
 Wire Wire Line
-	2700 4350 2500 4350
-Wire Wire Line
-	2500 3950 2700 3950
-Wire Wire Line
-	2700 3950 2700 3850
-$Comp
-L RFT_Optoelektronik:VQA13 D4
-U 1 1 6125609F
-P 3350 5100
-F 0 "D4" H 3538 5146 50  0000 L CNN
-F 1 "VQA13" H 3538 5055 50  0000 L CNN
-F 2 "" H 3350 5100 50  0001 C CNN
-F 3 "https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/DDR-Halbleiter/vqa13.gif" H 3350 5100 50  0001 C CNN
-	1    3350 5100
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 61257954
-P 3350 5400
-AR Path="/61281715/61257954" Ref="#PWR?"  Part="1" 
-AR Path="/60FD40F8/61257954" Ref="#PWR?"  Part="1" 
-AR Path="/61282124/61257954" Ref="#PWR?"  Part="1" 
-AR Path="/61257954" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3350 5150 50  0001 C CNN
-F 1 "GND" H 3355 5227 50  0000 C CNN
-F 2 "" H 3350 5400 50  0001 C CNN
-F 3 "" H 3350 5400 50  0001 C CNN
-	1    3350 5400
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 61259FC8
-P 3350 4600
-AR Path="/61281715/61259FC8" Ref="R?"  Part="1" 
-AR Path="/61282124/61259FC8" Ref="R12"  Part="1" 
-AR Path="/61259FC8" Ref="R12"  Part="1" 
-F 0 "R12" H 3200 4550 50  0000 C CNN
-F 1 "220" H 3200 4650 50  0000 C CNN
-F 2 "" V 3280 4600 50  0001 C CNN
-F 3 "~" H 3350 4600 50  0001 C CNN
-	1    3350 4600
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	3350 4250 3350 4450
-Wire Wire Line
-	3350 5250 3350 5400
-Wire Wire Line
-	3350 4750 3350 4950
+	2700 3200 2700 3100
 Text Label 2550 4250 0    50   ~ 0
 P30
 $Comp
@@ -123,7 +62,7 @@ AR Path="/61282124/6125EBAC" Ref="U16"  Part="1"
 AR Path="/6125EBAC" Ref="U16"  Part="1" 
 F 0 "U16" H 5000 3050 50  0000 C CNN
 F 1 "DL000D" H 5000 2650 50  0000 C CNN
-F 2 "" H 5000 2850 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 5000 2850 50  0001 C CNN
 F 3 "https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/DDR-Halbleiter/dl000.gif" H 5000 2850 50  0001 C CNN
 	1    5000 2850
 	1    0    0    -1  
@@ -137,7 +76,7 @@ AR Path="/61282124/6125ECBD" Ref="U16"  Part="2"
 AR Path="/6125ECBD" Ref="U16"  Part="2" 
 F 0 "U16" H 4450 6600 50  0000 C CNN
 F 1 "DL000D" H 4450 6200 50  0000 C CNN
-F 2 "" H 4450 6400 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 4450 6400 50  0001 C CNN
 F 3 "https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/DDR-Halbleiter/dl000.gif" H 4450 6400 50  0001 C CNN
 	2    4450 6400
 	1    0    0    -1  
@@ -151,7 +90,7 @@ AR Path="/61282124/6126047C" Ref="U16"  Part="3"
 AR Path="/6126047C" Ref="U16"  Part="3" 
 F 0 "U16" H 5000 2450 50  0000 C CNN
 F 1 "DL000D" H 5000 2050 50  0000 C CNN
-F 2 "" H 5000 2250 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 5000 2250 50  0001 C CNN
 F 3 "https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/DDR-Halbleiter/dl000.gif" H 5000 2250 50  0001 C CNN
 	3    5000 2250
 	1    0    0    -1  
@@ -165,7 +104,7 @@ AR Path="/61282124/61261CA0" Ref="U16"  Part="4"
 AR Path="/61261CA0" Ref="U16"  Part="4" 
 F 0 "U16" H 4200 2550 50  0000 C CNN
 F 1 "DL000D" H 4200 2150 50  0000 C CNN
-F 2 "" H 4200 2350 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 4200 2350 50  0001 C CNN
 F 3 "https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/DDR-Halbleiter/dl000.gif" H 4200 2350 50  0001 C CNN
 	4    4200 2350
 	1    0    0    -1  
@@ -179,7 +118,7 @@ AR Path="/61282124/612625B7" Ref="U16"  Part="5"
 AR Path="/612625B7" Ref="U16"  Part="5" 
 F 0 "U16" H 3500 6500 50  0000 C CNN
 F 1 "DL000D" H 3550 6400 50  0000 C CNN
-F 2 "" H 3350 6450 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 3350 6450 50  0001 C CNN
 F 3 "https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/DDR-Halbleiter/dl000.gif" H 3350 6450 50  0001 C CNN
 	5    3350 6450
 	1    0    0    -1  
@@ -196,17 +135,13 @@ Connection ~ 3950 2450
 Wire Wire Line
 	3950 2450 3950 2750
 Wire Wire Line
-	2500 4050 2850 4050
-Wire Wire Line
-	2850 4050 2850 2450
+	2850 3550 2850 2450
 Wire Wire Line
 	2850 2450 3950 2450
-Text Label 2550 4050 0    50   ~ 0
+Text Label 2550 3550 0    50   ~ 0
 P37
 Wire Wire Line
-	2500 4150 2950 4150
-Wire Wire Line
-	2950 4150 2950 2950
+	2950 3900 2950 2950
 Wire Wire Line
 	2950 2950 4700 2950
 Wire Wire Line
@@ -216,19 +151,17 @@ Wire Wire Line
 Wire Wire Line
 	4800 2950 4700 2950
 Connection ~ 4700 2950
-Text Label 2550 4150 0    50   ~ 0
+Text Label 2550 3900 0    50   ~ 0
 P36
-Wire Wire Line
-	2500 4250 3350 4250
 $Comp
 L power:GND #PWR?
 U 1 1 61277AA2
 P 3350 6700
 AR Path="/61281715/61277AA2" Ref="#PWR?"  Part="1" 
 AR Path="/60FD40F8/61277AA2" Ref="#PWR?"  Part="1" 
-AR Path="/61282124/61277AA2" Ref="#PWR?"  Part="1" 
-AR Path="/61277AA2" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3350 6450 50  0001 C CNN
+AR Path="/61282124/61277AA2" Ref="#PWR0131"  Part="1" 
+AR Path="/61277AA2" Ref="#PWR0131"  Part="1" 
+F 0 "#PWR0131" H 3350 6450 50  0001 C CNN
 F 1 "GND" H 3355 6527 50  0000 C CNN
 F 2 "" H 3350 6700 50  0001 C CNN
 F 3 "" H 3350 6700 50  0001 C CNN
@@ -241,9 +174,9 @@ U 1 1 61277E8E
 P 3350 6200
 AR Path="/61281715/61277E8E" Ref="#PWR?"  Part="1" 
 AR Path="/60FD40F8/61277E8E" Ref="#PWR?"  Part="1" 
-AR Path="/61282124/61277E8E" Ref="#PWR?"  Part="1" 
-AR Path="/61277E8E" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3350 6050 50  0001 C CNN
+AR Path="/61282124/61277E8E" Ref="#PWR0132"  Part="1" 
+AR Path="/61277E8E" Ref="#PWR0132"  Part="1" 
+F 0 "#PWR0132" H 3350 6050 50  0001 C CNN
 F 1 "+5P" H 3350 6350 50  0000 C CNN
 F 2 "" H 3350 6200 50  0001 C CNN
 F 3 "" H 3350 6200 50  0001 C CNN
@@ -260,7 +193,7 @@ U 1 1 6127B373
 P 6150 2250
 F 0 "T1" H 6340 2204 50  0000 L CNN
 F 1 "SC307" H 6340 2295 50  0000 L CNN
-F 2 "" H 6350 2350 50  0001 C CNN
+F 2 "Package_TO_SOT_THT:TO-92L_Inline_Wide" H 6350 2350 50  0001 C CNN
 F 3 "https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/DDR-Halbleiter/sc307.gif" H 6150 2250 50  0001 C CNN
 	1    6150 2250
 	1    0    0    1   
@@ -274,7 +207,7 @@ AR Path="/61282124/6127BF69" Ref="R13"  Part="1"
 AR Path="/6127BF69" Ref="R13"  Part="1" 
 F 0 "R13" H 6100 1750 50  0000 C CNN
 F 1 "100" H 6100 1850 50  0000 C CNN
-F 2 "" V 6180 1800 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 6180 1800 50  0001 C CNN
 F 3 "~" H 6250 1800 50  0001 C CNN
 	1    6250 1800
 	-1   0    0    1   
@@ -287,9 +220,9 @@ U 1 1 6127DF6F
 P 6250 1550
 AR Path="/61281715/6127DF6F" Ref="#PWR?"  Part="1" 
 AR Path="/60FD40F8/6127DF6F" Ref="#PWR?"  Part="1" 
-AR Path="/61282124/6127DF6F" Ref="#PWR?"  Part="1" 
-AR Path="/6127DF6F" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 6250 1400 50  0001 C CNN
+AR Path="/61282124/6127DF6F" Ref="#PWR0133"  Part="1" 
+AR Path="/6127DF6F" Ref="#PWR0133"  Part="1" 
+F 0 "#PWR0133" H 6250 1400 50  0001 C CNN
 F 1 "+5P" H 6250 1700 50  0000 C CNN
 F 2 "" H 6250 1550 50  0001 C CNN
 F 3 "" H 6250 1550 50  0001 C CNN
@@ -307,7 +240,7 @@ AR Path="/61282124/61282486" Ref="R14"  Part="1"
 AR Path="/61282486" Ref="R14"  Part="1" 
 F 0 "R14" V 5600 2850 50  0000 C CNN
 F 1 "22k" V 5400 2850 50  0000 C CNN
-F 2 "" V 5430 2850 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 5430 2850 50  0001 C CNN
 F 3 "~" H 5500 2850 50  0001 C CNN
 	1    5500 2850
 	0    -1   -1   0   
@@ -321,7 +254,7 @@ AR Path="/61282124/61283E0A" Ref="C13"  Part="1"
 AR Path="/61283E0A" Ref="C13"  Part="1" 
 F 0 "C13" H 5892 3296 50  0000 L CNN
 F 1 "10nF" H 5892 3205 50  0000 L CNN
-F 2 "" H 5800 3250 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 5800 3250 50  0001 C CNN
 F 3 "~" H 5800 3250 50  0001 C CNN
 	1    5800 3250
 	1    0    0    -1  
@@ -335,7 +268,7 @@ AR Path="/61282124/6128713B" Ref="C14"  Part="1"
 AR Path="/6128713B" Ref="C14"  Part="1" 
 F 0 "C14" H 6350 3050 50  0000 L CNN
 F 1 "51pF" H 6450 2950 50  0000 C CNN
-F 2 "" H 6250 3000 50  0001 C CNN
+F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P12.50mm_Horizontal" H 6250 3000 50  0001 C CNN
 F 3 "~" H 6250 3000 50  0001 C CNN
 	1    6250 3000
 	1    0    0    -1  
@@ -352,9 +285,9 @@ U 1 1 6128C658
 P 2700 6700
 AR Path="/61281715/6128C658" Ref="#PWR?"  Part="1" 
 AR Path="/60FD40F8/6128C658" Ref="#PWR?"  Part="1" 
-AR Path="/61282124/6128C658" Ref="#PWR?"  Part="1" 
-AR Path="/6128C658" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2700 6450 50  0001 C CNN
+AR Path="/61282124/6128C658" Ref="#PWR0134"  Part="1" 
+AR Path="/6128C658" Ref="#PWR0134"  Part="1" 
+F 0 "#PWR0134" H 2700 6450 50  0001 C CNN
 F 1 "GND" H 2705 6527 50  0000 C CNN
 F 2 "" H 2700 6700 50  0001 C CNN
 F 3 "" H 2700 6700 50  0001 C CNN
@@ -367,9 +300,9 @@ U 1 1 6128C9C8
 P 2700 6200
 AR Path="/61281715/6128C9C8" Ref="#PWR?"  Part="1" 
 AR Path="/60FD40F8/6128C9C8" Ref="#PWR?"  Part="1" 
-AR Path="/61282124/6128C9C8" Ref="#PWR?"  Part="1" 
-AR Path="/6128C9C8" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2700 6050 50  0001 C CNN
+AR Path="/61282124/6128C9C8" Ref="#PWR0135"  Part="1" 
+AR Path="/6128C9C8" Ref="#PWR0135"  Part="1" 
+F 0 "#PWR0135" H 2700 6050 50  0001 C CNN
 F 1 "+5P" H 2700 6350 50  0000 C CNN
 F 2 "" H 2700 6200 50  0001 C CNN
 F 3 "" H 2700 6200 50  0001 C CNN
@@ -385,7 +318,7 @@ AR Path="/61282124/6128E5ED" Ref="C17"  Part="1"
 AR Path="/6128E5ED" Ref="C17"  Part="1" 
 F 0 "C17" H 2788 6496 50  0000 L CNN
 F 1 "4,7µF/16V" H 2788 6405 50  0000 L CNN
-F 2 "" H 2700 6450 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 2700 6450 50  0001 C CNN
 F 3 "~" H 2700 6450 50  0001 C CNN
 	1    2700 6450
 	1    0    0    -1  
@@ -400,7 +333,7 @@ U 1 1 61290848
 P 5000 4850
 F 0 "U17" H 5300 5200 50  0000 R CNN
 F 1 "B555D" H 4700 5200 50  0000 L CNN
-F 2 "Package_DIP:DIP-8_W7.62mm" H 5000 3950 50  0001 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 5000 3950 50  0001 C CNN
 F 3 "https://www.tu-chemnitz.de/etit/zentral/ddr/b555.gif" H 5000 4850 50  0001 C CNN
 	1    5000 4850
 	-1   0    0    -1  
@@ -411,9 +344,9 @@ U 1 1 612928A2
 P 5000 5400
 AR Path="/61281715/612928A2" Ref="#PWR?"  Part="1" 
 AR Path="/60FD40F8/612928A2" Ref="#PWR?"  Part="1" 
-AR Path="/61282124/612928A2" Ref="#PWR?"  Part="1" 
-AR Path="/612928A2" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5000 5150 50  0001 C CNN
+AR Path="/61282124/612928A2" Ref="#PWR0136"  Part="1" 
+AR Path="/612928A2" Ref="#PWR0136"  Part="1" 
+F 0 "#PWR0136" H 5000 5150 50  0001 C CNN
 F 1 "GND" H 5005 5227 50  0000 C CNN
 F 2 "" H 5000 5400 50  0001 C CNN
 F 3 "" H 5000 5400 50  0001 C CNN
@@ -428,9 +361,9 @@ U 1 1 61293538
 P 5000 4400
 AR Path="/61281715/61293538" Ref="#PWR?"  Part="1" 
 AR Path="/60FD40F8/61293538" Ref="#PWR?"  Part="1" 
-AR Path="/61282124/61293538" Ref="#PWR?"  Part="1" 
-AR Path="/61293538" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5000 4250 50  0001 C CNN
+AR Path="/61282124/61293538" Ref="#PWR0137"  Part="1" 
+AR Path="/61293538" Ref="#PWR0137"  Part="1" 
+F 0 "#PWR0137" H 5000 4250 50  0001 C CNN
 F 1 "+5P" H 5000 4550 50  0000 C CNN
 F 2 "" H 5000 4400 50  0001 C CNN
 F 3 "" H 5000 4400 50  0001 C CNN
@@ -445,9 +378,9 @@ U 1 1 61294D41
 P 5450 4400
 AR Path="/61281715/61294D41" Ref="#PWR?"  Part="1" 
 AR Path="/60FD40F8/61294D41" Ref="#PWR?"  Part="1" 
-AR Path="/61282124/61294D41" Ref="#PWR?"  Part="1" 
-AR Path="/61294D41" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5450 4250 50  0001 C CNN
+AR Path="/61282124/61294D41" Ref="#PWR0138"  Part="1" 
+AR Path="/61294D41" Ref="#PWR0138"  Part="1" 
+F 0 "#PWR0138" H 5450 4250 50  0001 C CNN
 F 1 "+5P" H 5450 4550 50  0000 C CNN
 F 2 "" H 5450 4400 50  0001 C CNN
 F 3 "" H 5450 4400 50  0001 C CNN
@@ -459,12 +392,9 @@ Wire Wire Line
 Wire Wire Line
 	5450 4650 5400 4650
 Wire Wire Line
-	4600 4850 4100 4850
+	4600 4850 2950 4850
 Wire Wire Line
-	4100 4850 4100 4250
-Wire Wire Line
-	4100 4250 3350 4250
-Connection ~ 3350 4250
+	2950 4850 2950 4250
 NoConn ~ 4600 5050
 NoConn ~ 5400 4950
 $Comp
@@ -473,9 +403,9 @@ U 1 1 6129CB4C
 P 5700 4400
 AR Path="/61281715/6129CB4C" Ref="#PWR?"  Part="1" 
 AR Path="/60FD40F8/6129CB4C" Ref="#PWR?"  Part="1" 
-AR Path="/61282124/6129CB4C" Ref="#PWR?"  Part="1" 
-AR Path="/6129CB4C" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5700 4250 50  0001 C CNN
+AR Path="/61282124/6129CB4C" Ref="#PWR0139"  Part="1" 
+AR Path="/6129CB4C" Ref="#PWR0139"  Part="1" 
+F 0 "#PWR0139" H 5700 4250 50  0001 C CNN
 F 1 "+5P" H 5700 4550 50  0000 C CNN
 F 2 "" H 5700 4400 50  0001 C CNN
 F 3 "" H 5700 4400 50  0001 C CNN
@@ -491,7 +421,7 @@ AR Path="/61282124/6129CE39" Ref="R15"  Part="1"
 AR Path="/6129CE39" Ref="R15"  Part="1" 
 F 0 "R15" H 5550 4600 50  0000 C CNN
 F 1 "22k" H 5550 4700 50  0000 C CNN
-F 2 "" V 5630 4650 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 5630 4650 50  0001 C CNN
 F 3 "~" H 5700 4650 50  0001 C CNN
 	1    5700 4650
 	-1   0    0    1   
@@ -511,7 +441,7 @@ AR Path="/61282124/6129F3E4" Ref="C15"  Part="1"
 AR Path="/6129F3E4" Ref="C15"  Part="1" 
 F 0 "C15" H 5792 5296 50  0000 L CNN
 F 1 "22nF" H 5792 5205 50  0000 L CNN
-F 2 "" H 5700 5250 50  0001 C CNN
+F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P12.50mm_Horizontal" H 5700 5250 50  0001 C CNN
 F 3 "~" H 5700 5250 50  0001 C CNN
 	1    5700 5250
 	1    0    0    -1  
@@ -522,9 +452,9 @@ U 1 1 612A0D6E
 P 5700 5400
 AR Path="/61281715/612A0D6E" Ref="#PWR?"  Part="1" 
 AR Path="/60FD40F8/612A0D6E" Ref="#PWR?"  Part="1" 
-AR Path="/61282124/612A0D6E" Ref="#PWR?"  Part="1" 
-AR Path="/612A0D6E" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5700 5150 50  0001 C CNN
+AR Path="/61282124/612A0D6E" Ref="#PWR0140"  Part="1" 
+AR Path="/612A0D6E" Ref="#PWR0140"  Part="1" 
+F 0 "#PWR0140" H 5700 5150 50  0001 C CNN
 F 1 "GND" H 5705 5227 50  0000 C CNN
 F 2 "" H 5700 5400 50  0001 C CNN
 F 3 "" H 5700 5400 50  0001 C CNN
@@ -547,7 +477,7 @@ U 1 1 612A3A12
 P 6350 4950
 F 0 "U18" H 6450 4750 50  0000 C CNN
 F 1 "B761D" H 6450 4650 50  0000 C CNN
-F 2 "Package_DIP:DIP-6_W7.62mm" H 6350 4150 50  0001 C CNN
+F 2 "Package_DIP:DIP-6_W7.62mm_Socket" H 6350 4150 50  0001 C CNN
 F 3 "https://www.tu-chemnitz.de/etit/zentral/ddr/b611.gif" H 6350 4950 50  0001 C CNN
 	1    6350 4950
 	-1   0    0    -1  
@@ -558,7 +488,7 @@ U 2 1 612A41D9
 P 6350 4950
 F 0 "U18" H 6162 4996 50  0001 R CNN
 F 1 "B761D" H 6162 4905 50  0001 R CNN
-F 2 "Package_DIP:DIP-6_W7.62mm" H 6350 4150 50  0001 C CNN
+F 2 "Package_DIP:DIP-6_W7.62mm_Socket" H 6350 4150 50  0001 C CNN
 F 3 "https://www.tu-chemnitz.de/etit/zentral/ddr/b611.gif" H 6350 4950 50  0001 C CNN
 	2    6350 4950
 	-1   0    0    -1  
@@ -574,9 +504,9 @@ U 1 1 612A65ED
 P 6450 4400
 AR Path="/61281715/612A65ED" Ref="#PWR?"  Part="1" 
 AR Path="/60FD40F8/612A65ED" Ref="#PWR?"  Part="1" 
-AR Path="/61282124/612A65ED" Ref="#PWR?"  Part="1" 
-AR Path="/612A65ED" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 6450 4250 50  0001 C CNN
+AR Path="/61282124/612A65ED" Ref="#PWR0141"  Part="1" 
+AR Path="/612A65ED" Ref="#PWR0141"  Part="1" 
+F 0 "#PWR0141" H 6450 4250 50  0001 C CNN
 F 1 "+5P" H 6450 4550 50  0000 C CNN
 F 2 "" H 6450 4400 50  0001 C CNN
 F 3 "" H 6450 4400 50  0001 C CNN
@@ -589,9 +519,9 @@ U 1 1 612A6A42
 P 6450 5400
 AR Path="/61281715/612A6A42" Ref="#PWR?"  Part="1" 
 AR Path="/60FD40F8/612A6A42" Ref="#PWR?"  Part="1" 
-AR Path="/61282124/612A6A42" Ref="#PWR?"  Part="1" 
-AR Path="/612A6A42" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 6450 5150 50  0001 C CNN
+AR Path="/61282124/612A6A42" Ref="#PWR0142"  Part="1" 
+AR Path="/612A6A42" Ref="#PWR0142"  Part="1" 
+F 0 "#PWR0142" H 6450 5150 50  0001 C CNN
 F 1 "GND" H 6455 5227 50  0000 C CNN
 F 2 "" H 6450 5400 50  0001 C CNN
 F 3 "" H 6450 5400 50  0001 C CNN
@@ -604,25 +534,14 @@ Wire Wire Line
 	6450 4650 6450 4400
 NoConn ~ 6250 4750
 $Comp
-L Device:RTRIM R16
-U 1 1 612AA507
-P 6900 5050
-F 0 "R16" H 7028 5096 50  0000 L CNN
-F 1 "47k" H 7028 5005 50  0000 L CNN
-F 2 "" V 6830 5050 50  0001 C CNN
-F 3 "~" H 6900 5050 50  0001 C CNN
-	1    6900 5050
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 612AAA98
 P 6900 5400
 AR Path="/61281715/612AAA98" Ref="#PWR?"  Part="1" 
 AR Path="/60FD40F8/612AAA98" Ref="#PWR?"  Part="1" 
-AR Path="/61282124/612AAA98" Ref="#PWR?"  Part="1" 
-AR Path="/612AAA98" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 6900 5150 50  0001 C CNN
+AR Path="/61282124/612AAA98" Ref="#PWR0143"  Part="1" 
+AR Path="/612AAA98" Ref="#PWR0143"  Part="1" 
+F 0 "#PWR0143" H 6900 5150 50  0001 C CNN
 F 1 "GND" H 6905 5227 50  0000 C CNN
 F 2 "" H 6900 5400 50  0001 C CNN
 F 3 "" H 6900 5400 50  0001 C CNN
@@ -635,9 +554,9 @@ U 1 1 612AAD35
 P 6900 4400
 AR Path="/61281715/612AAD35" Ref="#PWR?"  Part="1" 
 AR Path="/60FD40F8/612AAD35" Ref="#PWR?"  Part="1" 
-AR Path="/61282124/612AAD35" Ref="#PWR?"  Part="1" 
-AR Path="/612AAD35" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 6900 4250 50  0001 C CNN
+AR Path="/61282124/612AAD35" Ref="#PWR0144"  Part="1" 
+AR Path="/612AAD35" Ref="#PWR0144"  Part="1" 
+F 0 "#PWR0144" H 6900 4250 50  0001 C CNN
 F 1 "+5P" H 6900 4550 50  0000 C CNN
 F 2 "" H 6900 4400 50  0001 C CNN
 F 3 "" H 6900 4400 50  0001 C CNN
@@ -645,15 +564,7 @@ F 3 "" H 6900 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6900 4400 6900 4900
-Wire Wire Line
-	6900 5200 6900 5400
-Wire Wire Line
-	6825 5125 6750 5125
-Wire Wire Line
-	6750 5125 6750 5050
-Wire Wire Line
-	6750 5050 6650 5050
+	6900 5150 6900 5400
 $Comp
 L Device:R R?
 U 1 1 612B44FC
@@ -663,7 +574,7 @@ AR Path="/61282124/612B44FC" Ref="R17"  Part="1"
 AR Path="/612B44FC" Ref="R17"  Part="1" 
 F 0 "R17" H 7200 4600 50  0000 C CNN
 F 1 "100k" H 7200 4700 50  0000 C CNN
-F 2 "" V 7280 4650 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 7280 4650 50  0001 C CNN
 F 3 "~" H 7350 4650 50  0001 C CNN
 	1    7350 4650
 	-1   0    0    1   
@@ -677,7 +588,7 @@ AR Path="/61282124/612B4914" Ref="R18"  Part="1"
 AR Path="/612B4914" Ref="R18"  Part="1" 
 F 0 "R18" H 7200 5200 50  0000 C CNN
 F 1 "100k" H 7200 5300 50  0000 C CNN
-F 2 "" V 7280 5250 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 7280 5250 50  0001 C CNN
 F 3 "~" H 7350 5250 50  0001 C CNN
 	1    7350 5250
 	-1   0    0    1   
@@ -688,9 +599,9 @@ U 1 1 612B4BE2
 P 7350 5400
 AR Path="/61281715/612B4BE2" Ref="#PWR?"  Part="1" 
 AR Path="/60FD40F8/612B4BE2" Ref="#PWR?"  Part="1" 
-AR Path="/61282124/612B4BE2" Ref="#PWR?"  Part="1" 
-AR Path="/612B4BE2" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 7350 5150 50  0001 C CNN
+AR Path="/61282124/612B4BE2" Ref="#PWR0145"  Part="1" 
+AR Path="/612B4BE2" Ref="#PWR0145"  Part="1" 
+F 0 "#PWR0145" H 7350 5150 50  0001 C CNN
 F 1 "GND" H 7355 5227 50  0000 C CNN
 F 2 "" H 7350 5400 50  0001 C CNN
 F 3 "" H 7350 5400 50  0001 C CNN
@@ -703,9 +614,9 @@ U 1 1 612B4EE5
 P 7350 4400
 AR Path="/61281715/612B4EE5" Ref="#PWR?"  Part="1" 
 AR Path="/60FD40F8/612B4EE5" Ref="#PWR?"  Part="1" 
-AR Path="/61282124/612B4EE5" Ref="#PWR?"  Part="1" 
-AR Path="/612B4EE5" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 7350 4250 50  0001 C CNN
+AR Path="/61282124/612B4EE5" Ref="#PWR0146"  Part="1" 
+AR Path="/612B4EE5" Ref="#PWR0146"  Part="1" 
+F 0 "#PWR0146" H 7350 4250 50  0001 C CNN
 F 1 "+5P" H 7350 4550 50  0000 C CNN
 F 2 "" H 7350 4400 50  0001 C CNN
 F 3 "" H 7350 4400 50  0001 C CNN
@@ -734,7 +645,7 @@ AR Path="/61282124/612BE9A9" Ref="C16"  Part="1"
 AR Path="/612BE9A9" Ref="C16"  Part="1" 
 F 0 "C16" V 7650 4950 50  0000 C CNN
 F 1 "10nF" V 7950 4850 50  0000 L CNN
-F 2 "" H 7800 4950 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 7800 4950 50  0001 C CNN
 F 3 "~" H 7800 4950 50  0001 C CNN
 	1    7800 4950
 	0    1    1    0   
@@ -750,7 +661,7 @@ AR Path="/61282124/612C6825" Ref="R19"  Part="1"
 AR Path="/612C6825" Ref="R19"  Part="1" 
 F 0 "R19" H 6100 3350 50  0000 C CNN
 F 1 "22k" H 6100 3450 50  0000 C CNN
-F 2 "" V 6180 3400 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 6180 3400 50  0001 C CNN
 F 3 "~" H 6250 3400 50  0001 C CNN
 	1    6250 3400
 	-1   0    0    1   
@@ -761,9 +672,9 @@ U 1 1 612C6C13
 P 6250 3600
 AR Path="/61281715/612C6C13" Ref="#PWR?"  Part="1" 
 AR Path="/60FD40F8/612C6C13" Ref="#PWR?"  Part="1" 
-AR Path="/61282124/612C6C13" Ref="#PWR?"  Part="1" 
-AR Path="/612C6C13" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 6250 3350 50  0001 C CNN
+AR Path="/61282124/612C6C13" Ref="#PWR0147"  Part="1" 
+AR Path="/612C6C13" Ref="#PWR0147"  Part="1" 
+F 0 "#PWR0147" H 6250 3350 50  0001 C CNN
 F 1 "GND" H 6255 3427 50  0000 C CNN
 F 2 "" H 6250 3600 50  0001 C CNN
 F 3 "" H 6250 3600 50  0001 C CNN
@@ -790,9 +701,9 @@ U 1 1 612CA7B0
 P 4100 6700
 AR Path="/61281715/612CA7B0" Ref="#PWR?"  Part="1" 
 AR Path="/60FD40F8/612CA7B0" Ref="#PWR?"  Part="1" 
-AR Path="/61282124/612CA7B0" Ref="#PWR?"  Part="1" 
-AR Path="/612CA7B0" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4100 6450 50  0001 C CNN
+AR Path="/61282124/612CA7B0" Ref="#PWR0148"  Part="1" 
+AR Path="/612CA7B0" Ref="#PWR0148"  Part="1" 
+F 0 "#PWR0148" H 4100 6450 50  0001 C CNN
 F 1 "GND" H 4105 6527 50  0000 C CNN
 F 2 "" H 4100 6700 50  0001 C CNN
 F 3 "" H 4100 6700 50  0001 C CNN
@@ -816,9 +727,9 @@ U 1 1 612D6E89
 P 8950 3700
 AR Path="/61281715/612D6E89" Ref="#PWR?"  Part="1" 
 AR Path="/60FD40F8/612D6E89" Ref="#PWR?"  Part="1" 
-AR Path="/61282124/612D6E89" Ref="#PWR?"  Part="1" 
-AR Path="/612D6E89" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 8950 3450 50  0001 C CNN
+AR Path="/61282124/612D6E89" Ref="#PWR0149"  Part="1" 
+AR Path="/612D6E89" Ref="#PWR0149"  Part="1" 
+F 0 "#PWR0149" H 8950 3450 50  0001 C CNN
 F 1 "GND" H 8955 3527 50  0000 C CNN
 F 2 "" H 8950 3700 50  0001 C CNN
 F 3 "" H 8950 3700 50  0001 C CNN
@@ -826,7 +737,7 @@ F 3 "" H 8950 3700 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	9400 3950 6850 3950
+	9400 3950 9100 3950
 Connection ~ 6250 3150
 Wire Wire Line
 	6250 3150 6250 3100
@@ -843,7 +754,7 @@ AR Path="/61282124/612E0742" Ref="C18"  Part="1"
 AR Path="/612E0742" Ref="C18"  Part="1" 
 F 0 "C18" V 6950 2000 50  0000 C CNN
 F 1 "1µF/40V" V 6650 2000 50  0000 C CNN
-F 2 "" H 6800 2000 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 6800 2000 50  0001 C CNN
 F 3 "~" H 6800 2000 50  0001 C CNN
 	1    6800 2000
 	0    -1   -1   0   
@@ -860,11 +771,11 @@ F 3 "~" H 8890 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8700 2000 6900 2000
+	8700 2000 8400 2000
 Wire Wire Line
 	6250 1950 6250 2000
 Wire Wire Line
-	6700 2000 6250 2000
+	6700 2000 6500 2000
 Connection ~ 6250 2000
 Wire Wire Line
 	6250 2000 6250 2050
@@ -874,9 +785,9 @@ U 1 1 612E5402
 P 8650 2500
 AR Path="/61281715/612E5402" Ref="#PWR?"  Part="1" 
 AR Path="/60FD40F8/612E5402" Ref="#PWR?"  Part="1" 
-AR Path="/61282124/612E5402" Ref="#PWR?"  Part="1" 
-AR Path="/612E5402" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 8650 2250 50  0001 C CNN
+AR Path="/61282124/612E5402" Ref="#PWR0150"  Part="1" 
+AR Path="/612E5402" Ref="#PWR0150"  Part="1" 
+F 0 "#PWR0150" H 8650 2250 50  0001 C CNN
 F 1 "GND" H 8655 2327 50  0000 C CNN
 F 2 "" H 8650 2500 50  0001 C CNN
 F 3 "" H 8650 2500 50  0001 C CNN
@@ -887,11 +798,9 @@ Wire Wire Line
 	8650 2500 8650 2100
 Wire Wire Line
 	8650 2100 8700 2100
-Text Label 8550 2000 0    50   ~ 0
-L
-Text Label 9200 3350 0    50   ~ 0
+Text Label 8050 4950 0    50   ~ 0
 E
-Text Label 9200 3950 0    50   ~ 0
+Text Label 6650 3150 0    50   ~ 0
 A
 Wire Wire Line
 	4400 2350 4800 2350
@@ -901,9 +810,9 @@ U 1 1 612FDDBB
 P 6250 2500
 AR Path="/61281715/612FDDBB" Ref="#PWR?"  Part="1" 
 AR Path="/60FD40F8/612FDDBB" Ref="#PWR?"  Part="1" 
-AR Path="/61282124/612FDDBB" Ref="#PWR?"  Part="1" 
-AR Path="/612FDDBB" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 6250 2250 50  0001 C CNN
+AR Path="/61282124/612FDDBB" Ref="#PWR0151"  Part="1" 
+AR Path="/612FDDBB" Ref="#PWR0151"  Part="1" 
+F 0 "#PWR0151" H 6250 2250 50  0001 C CNN
 F 1 "GND" H 6255 2327 50  0000 C CNN
 F 2 "" H 6250 2500 50  0001 C CNN
 F 3 "" H 6250 2500 50  0001 C CNN
@@ -916,9 +825,9 @@ U 1 1 61306147
 P 5800 3600
 AR Path="/61281715/61306147" Ref="#PWR?"  Part="1" 
 AR Path="/60FD40F8/61306147" Ref="#PWR?"  Part="1" 
-AR Path="/61282124/61306147" Ref="#PWR?"  Part="1" 
-AR Path="/61306147" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5800 3350 50  0001 C CNN
+AR Path="/61282124/61306147" Ref="#PWR0152"  Part="1" 
+AR Path="/61306147" Ref="#PWR0152"  Part="1" 
+F 0 "#PWR0152" H 5800 3350 50  0001 C CNN
 F 1 "GND" H 5805 3427 50  0000 C CNN
 F 2 "" H 5800 3600 50  0001 C CNN
 F 3 "" H 5800 3600 50  0001 C CNN
@@ -942,10 +851,146 @@ Wire Wire Line
 	6250 3150 6850 3150
 Wire Wire Line
 	6850 3150 6850 3950
-Wire Wire Line
-	8650 3350 9400 3350
 Text Notes 3450 2900 0    50   ~ 0
 Signal
 Text Notes 3450 2400 0    50   ~ 0
 0=LSP\n1=MBG
+Wire Wire Line
+	2500 4250 2950 4250
+$Comp
+L Device:R_POT_Small R16
+U 1 1 61B10AD9
+P 6900 5050
+F 0 "R16" H 6840 5096 50  0000 R CNN
+F 1 "47k" H 6840 5005 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_Piher_PT-10-H01_Horizontal" H 6900 5050 50  0001 C CNN
+F 3 "~" H 6900 5050 50  0001 C CNN
+	1    6900 5050
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 4400 6900 4950
+Wire Wire Line
+	6650 5050 6800 5050
+$Comp
+L Connector_Generic:Conn_01x01 X12
+U 1 1 61B20065
+P 2300 4250
+F 0 "X12" H 2218 4025 50  0000 C CNN
+F 1 "P3.0" H 2218 4116 50  0000 C CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 2300 4250 50  0001 C CNN
+F 3 "~" H 2300 4250 50  0001 C CNN
+	1    2300 4250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 X3
+U 1 1 61B2148C
+P 2300 3900
+F 0 "X3" H 2218 3675 50  0000 C CNN
+F 1 "P3.6" H 2218 3766 50  0000 C CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 2300 3900 50  0001 C CNN
+F 3 "~" H 2300 3900 50  0001 C CNN
+	1    2300 3900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2500 3900 2950 3900
+$Comp
+L Connector_Generic:Conn_01x01 X2
+U 1 1 61B23443
+P 2300 3550
+F 0 "X2" H 2218 3325 50  0000 C CNN
+F 1 "P3.7" H 2218 3416 50  0000 C CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 2300 3550 50  0001 C CNN
+F 3 "~" H 2300 3550 50  0001 C CNN
+	1    2300 3550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2500 3550 2850 3550
+$Comp
+L Connector_Generic:Conn_01x01 X4
+U 1 1 61B2523D
+P 2300 4600
+F 0 "X4" H 2218 4375 50  0000 C CNN
+F 1 "00" H 2218 4466 50  0000 C CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 2300 4600 50  0001 C CNN
+F 3 "~" H 2300 4600 50  0001 C CNN
+	1    2300 4600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2500 4600 2700 4600
+$Comp
+L Connector_Generic:Conn_01x01 X1
+U 1 1 61B27094
+P 2300 3200
+F 0 "X1" H 2218 2975 50  0000 C CNN
+F 1 "+5V" H 2218 3066 50  0000 C CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 2300 3200 50  0001 C CNN
+F 3 "~" H 2300 3200 50  0001 C CNN
+	1    2300 3200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2500 3200 2700 3200
+$Comp
+L Connector:TestPoint_Small TP1
+U 1 1 61B40A35
+P 9100 3350
+F 0 "TP1" H 9148 3396 50  0001 L CNN
+F 1 "E" H 9150 3400 50  0000 L CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 9300 3350 50  0001 C CNN
+F 3 "~" H 9300 3350 50  0001 C CNN
+	1    9100 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_Small TP2
+U 1 1 61B411C6
+P 9100 3950
+F 0 "TP2" H 9148 3996 50  0001 L CNN
+F 1 "A" H 9150 4000 50  0000 L CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 9300 3950 50  0001 C CNN
+F 3 "~" H 9300 3950 50  0001 C CNN
+	1    9100 3950
+	1    0    0    -1  
+$EndComp
+Connection ~ 9100 3350
+Wire Wire Line
+	9100 3350 9400 3350
+Connection ~ 9100 3950
+Wire Wire Line
+	6850 3950 9100 3950
+Wire Wire Line
+	8650 3350 9100 3350
+$Comp
+L Connector:TestPoint_Small TP3
+U 1 1 61B47E31
+P 8400 2000
+F 0 "TP3" H 8448 2046 50  0001 L CNN
+F 1 "L" H 8450 2050 50  0000 L CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 8600 2000 50  0001 C CNN
+F 3 "~" H 8600 2000 50  0001 C CNN
+	1    8400 2000
+	1    0    0    -1  
+$EndComp
+Connection ~ 8400 2000
+Wire Wire Line
+	8400 2000 6900 2000
+$Comp
+L Connector:TestPoint_Small TP4
+U 1 1 61AEA574
+P 6500 2000
+F 0 "TP4" H 6548 2046 50  0001 L CNN
+F 1 "D" H 6550 2050 50  0000 L CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 6700 2000 50  0001 C CNN
+F 3 "~" H 6700 2000 50  0001 C CNN
+	1    6500 2000
+	1    0    0    -1  
+$EndComp
+Connection ~ 6500 2000
+Wire Wire Line
+	6500 2000 6250 2000
 $EndSCHEMATC
