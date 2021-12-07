@@ -59,7 +59,7 @@ Schnittstelle nach dem Prinzip der gekoppelten Stromschleifen, IFSS (Interface s
 Zur Messung von Spannungen zwischen 0 und 999 mV.
 
 
-Quellen:
+Quellen:  
 https://hc-ddr.hucki.net/wiki/lib/exe/fetch.php/tiny/jutecomp1.pdf  
 https://hc-ddr.hucki.net/wiki/lib/exe/fetch.php/tiny/jutecomp2.pdf  
 https://hc-ddr.hucki.net/wiki/lib/exe/fetch.php/tiny/jutecomp3.pdf  
@@ -88,4 +88,5 @@ Erweiterungen:
 8 kByte RAM
 Videospeichermodul für 6k-System
 
-Quelle: https://hc-ddr.hucki.net/wiki/lib/exe/fetch.php/tiny/jutecomp3.pdf
+Quelle:  
+https://hc-ddr.hucki.net/wiki/lib/exe/fetch.php/tiny/jutecomp3.pdf
