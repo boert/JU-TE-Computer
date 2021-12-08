@@ -58,6 +58,9 @@ Schnittstelle nach dem Prinzip der gekoppelten Stromschleifen, IFSS (Interface s
 ### AD-Wandler
 Zur Messung von Spannungen zwischen 0 und 999 mV.
 
+### Videoerweiterung
+Damit wird die Videosignalerzeugung von einem separaten Prozessor übernommen. Es werden (je nach Ausbaustufe) ein bis vier 8 kByte RAM-Module benötigt.
+
 
 Quellen:  
 https://hc-ddr.hucki.net/wiki/lib/exe/fetch.php/tiny/jutecomp1.pdf  
