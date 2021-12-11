@@ -1,13 +1,17 @@
 # JU+TE-Computer
-Schaltpläne für den JU+TE Computer
+Schaltpläne und Layouts (teilweise) für den JU+TE Computer
 
 
-## JU+TE Tiny 2k
-Da vom JU+TE Computer kein zusammenhängender Schaltplan existierte, wurde er in KiCAD erstellt.
-Dieser Schaltplan wurde mit dem existierenden Layout verknüpft, ist aber noch ungeprüft.
+## JU+TE Tiny (2k-System)
+Da vom JU+TE Computer kein zusammenhängender Schaltplan existierte, wurde er mit KiCAD erstellt.
+Dieser Schaltplan wurde mit dem existierenden Layout verknüpft.
+Schaltplan und Layout sind konsistent.
 
+[JU+TE 2k mit Speichermodul Typ B](Bilder/JUTE_aufgebaut_mit_Speichermodul_B.jpg)
 
-Erweiterungen:
+Für den Minimalbetrieb sind ein Speichermodul (Typ A, B oder C) und eine Tastatur erforderlich.
+
+## Erweiterungen zum JU+TE
 
 ### Speichermodul A
 2 kByte EPROM, 1 kByte RAM
@@ -34,13 +38,14 @@ Bekannte Schwachstelle: Die Magnetbandschnittstelle sollte nicht verwendet werde
 Im Sonderdruck ES4.0 gibt es eine überarbeitete Version.
 
 ### Magnetbandinterface 4k-System
-Modifiziertes und verbessertes Magnetband-Interface für das 4k-System. 
+Modifiziertes und verbessertes Magnetband-Interface für das 4k-System, mit integrierten Videosignalinverter.
 
 ### Tastatur
 Schaltungsvorschlag für eine 4x12 Matrixtastatur.
 
 ### Videoinverter
-Korrigiert die Polarität des BAS-Signals.
+Ändert die Polarität des Videosignals und erzeugt ein BAS-Signal.
+Die Originalschaltung ist sehr empfindlich. Robuster ist die Variante, die auf dem 4k-Magnetbandinterface realisiert ist. 
 
 ### EPROM-Programmierzusatz
 Erweiterung des JU+TE zum EPROM-Programmiergerät für die Typen U2716, U2764 und U27128.
@@ -59,22 +64,11 @@ Schnittstelle nach dem Prinzip der gekoppelten Stromschleifen, IFSS (Interface s
 Zur Messung von Spannungen zwischen 0 und 999 mV.
 
 ### Videoerweiterung
-Damit wird die Videosignalerzeugung von einem separaten Prozessor übernommen. Es werden (je nach Ausbaustufe) ein bis vier 8 kByte RAM-Module benötigt.
-
-
-Quellen:  
-https://hc-ddr.hucki.net/wiki/lib/exe/fetch.php/tiny/jutecomp1.pdf  
-https://hc-ddr.hucki.net/wiki/lib/exe/fetch.php/tiny/jutecomp2.pdf  
-https://hc-ddr.hucki.net/wiki/lib/exe/fetch.php/tiny/jutecomp3.pdf  
-
-
-## JU+TE Tiny 6k
-Wird der JU+TE mit 8 kByte EPROM, mindestens 8 kByte RAM und einem Videomodul ausgestattet, sind die Voraussetzungen für das 6-k-System erfüllt.
-Auf dem Videomodul arbeitet ein eigener U8810, nur für die Videoausgabe.
+Damit wird die Videosignalerzeugung von einem separaten Prozessor (UB8810) übernommen.
 Der Bildspicher wird im Bereich zwischen %4000 uns %5FFF im System eingeblendet.
 Über ein Steuerregister (Adresse %6000) wird festgelegt, auf welche Speicherebenen des Videospeicher zugegriffen wird.
 
-Die mögliche Bildschirmauflösung und nutzbare Farbtiefe hängt vom Speicherausbau ab:
+Die mögliche Bildschirmauflösung und die nutzbare Farbtiefe hängt vom Speicherausbau ab:
 
 Speichermodule | Video-RAM | Auflösung | Farbtiefe
 -------------- | --------: | :-------: | ---------
@@ -85,11 +79,18 @@ Speichermodule | Video-RAM | Auflösung | Farbtiefe
 
 Ob es Software gibt, welche die 640x192 Pixel-Modi nutzt, entzieht sich meiner Kenntniss.
 
-Erweiterungen:
-
 ### Speichermodul VRAM
 8 kByte RAM
-Videospeichermodul für 6k-System
+Speichermodul für die Videoerweiterung. Diese Erweiterung ist so nicht in den Originalunterlagen beschrieben. 
 
-Quelle:  
-https://hc-ddr.hucki.net/wiki/lib/exe/fetch.php/tiny/jutecomp3.pdf
+
+## JU+TE Kompakt (6k-System)
+Im JU+TE Kompakt sind die Videoerweiterung, das Magnetbandinterface (4k-Version), 32 kByte RAM, die RAM-Stütze und 8 kByte EPROM integriert.
+Wird der JU+TE mit 8 kByte EPROM, mindestens 8 kByte RAM und einem Videomodul ausgestattet, sind die Voraussetzungen für das 6k-System erfüllt.
+Auf dem Videomodul arbeitet ein eigener U8810, nur für die Videoausgabe.
+
+
+## Quellen  
+https://hc-ddr.hucki.net/wiki/lib/exe/fetch.php/tiny/jutecomp1.pdf  
+https://hc-ddr.hucki.net/wiki/lib/exe/fetch.php/tiny/jutecomp2.pdf  
+https://hc-ddr.hucki.net/wiki/lib/exe/fetch.php/tiny/jutecomp3.pdf  
