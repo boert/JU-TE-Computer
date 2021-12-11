@@ -7,7 +7,7 @@ Da vom JU+TE Computer kein zusammenhängender Schaltplan existierte, wurde er mi
 Dieser Schaltplan wurde mit dem existierenden Layout verknüpft.
 Schaltplan und Layout sind konsistent.
 
-[JU+TE 2k mit Speichermodul Typ B](Bilder/JUTE_aufgebaut_mit_Speichermodul_B.jpg)
+![JU+TE 2k mit Speichermodul Typ B](Bilder/JUTE_aufgebaut_mit_Speichermodul_B.jpg)
 
 Für den Minimalbetrieb sind ein Speichermodul (Typ A, B oder C) und eine Tastatur erforderlich.
 
@@ -78,16 +78,16 @@ Speichermodule | Video-RAM | Auflösung | Farbtiefe
 4              | 32 kByte  |  640x192  | 8 Farben
 
 Ob es Software gibt, welche die 640x192 Pixel-Modi nutzt, entzieht sich meiner Kenntniss.
+Die Installation der Videoerweiterung erfordert die Verdrahtung zusätzlicher Signale, die nicht am Modulsteckplatz anliegen: TAKT, /CS3, KEY und BUSY
 
 ### Speichermodul VRAM
 8 kByte RAM
-Speichermodul für die Videoerweiterung. Diese Erweiterung ist so nicht in den Originalunterlagen beschrieben. 
+Speichermodul für die Videoerweiterung. Modul ohne EPROM-Speicher.
 
 
 ## JU+TE Kompakt (6k-System)
 Im JU+TE Kompakt sind die Videoerweiterung, das Magnetbandinterface (4k-Version), 32 kByte RAM, die RAM-Stütze und 8 kByte EPROM integriert.
-Wird der JU+TE mit 8 kByte EPROM, mindestens 8 kByte RAM und einem Videomodul ausgestattet, sind die Voraussetzungen für das 6k-System erfüllt.
-Auf dem Videomodul arbeitet ein eigener U8810, nur für die Videoausgabe.
+Um die Videoerweiterung zu nutzen wird im EPROM das 6k-System eingespielt.
 
 
 ## Quellen  
