@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 6
 Title "JU+TE Tiny\\nHauptprozessor"
-Date "27.11.21"
-Rev "1"
+Date "13.12.21"
+Rev "2"
 Comp "Jugend+Technik"
 Comment1 ""
 Comment2 ""
@@ -280,13 +280,13 @@ $EndComp
 $Comp
 L power:+5V #PWR0110
 U 1 1 61984ADD
-P 5900 1450
-F 0 "#PWR0110" H 5900 1300 50  0001 C CNN
-F 1 "+5V" H 6000 1550 50  0000 C CNN
-F 2 "" H 5900 1450 50  0001 C CNN
-F 3 "" H 5900 1450 50  0001 C CNN
-	1    5900 1450
-	1    0    0    -1  
+P 5150 6300
+F 0 "#PWR0110" H 5150 6150 50  0001 C CNN
+F 1 "+5V" V 5150 6500 50  0000 C CNN
+F 2 "" H 5150 6300 50  0001 C CNN
+F 3 "" H 5150 6300 50  0001 C CNN
+	1    5150 6300
+	0    -1   -1   0   
 $EndComp
 $Comp
 L power:+5VP #PWR0111
@@ -624,20 +624,8 @@ Wire Wire Line
 	5400 6400 5350 6400
 Wire Wire Line
 	5350 6500 5400 6500
-Connection ~ 5350 6500
 Wire Wire Line
-	5350 6400 5350 6500
-$Comp
-L power:+5V #PWR0116
-U 1 1 61A8516A
-P 5150 6300
-F 0 "#PWR0116" H 5150 6150 50  0001 C CNN
-F 1 "+5V" V 5150 6500 50  0000 C CNN
-F 2 "" H 5150 6300 50  0001 C CNN
-F 3 "" H 5150 6300 50  0001 C CNN
-	1    5150 6300
-	0    -1   -1   0   
-$EndComp
+	5350 6400 5350 6450
 Wire Wire Line
 	5150 6300 5250 6300
 Connection ~ 5250 6300
@@ -831,9 +819,7 @@ Wire Wire Line
 Wire Wire Line
 	5250 6700 5250 6600
 Connection ~ 5250 6600
-Wire Wire Line
-	5200 6500 5350 6500
-Text GLabel 5200 6500 0    50   Input ~ 0
+Text GLabel 5150 6450 0    50   Input ~ 0
 ~CS0
 Text GLabel 4500 1500 2    39   Output ~ 0
 ~CS0
@@ -3613,6 +3599,22 @@ F 3 "" H 2650 7800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2650 7800 2650 7300
+$Comp
+L power:+5VP #PWR?
+U 1 1 61BBA231
+P 5900 1450
+F 0 "#PWR?" H 5900 1300 50  0001 C CNN
+F 1 "+5VP" H 5900 1600 50  0000 C CNN
+F 2 "" H 5900 1450 50  0001 C CNN
+F 3 "" H 5900 1450 50  0001 C CNN
+	1    5900 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 6450 5350 6450
+Connection ~ 5350 6450
+Wire Wire Line
+	5350 6450 5350 6500
 Wire Bus Line
 	3250 1600 3250 2450
 Wire Bus Line
