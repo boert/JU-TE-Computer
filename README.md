@@ -27,7 +27,7 @@ Mit vier dieser Module läßt sich ein Vollausbau des Speichers realisieren (32 
 
 ### Speichermodul D
 2 kByte EPROM
-Zusammen mit Modul A oder B kann damit auf ein 4k-System aufgerüstet werden.
+Zusammen mit Modul A oder Modul B wird damit die Voraussetzung für 4k-System geschaffen.
 
 ### RAM-Stütze
 Dient dem Erhalt des RAM-Inhaltes im ausgeschalteten Zustand für Module mit CMOS-Schaltkreisen (U224, U6516 oder HM6264LP).
@@ -46,6 +46,9 @@ Schaltungsvorschlag für eine 4x12 Matrixtastatur.
 ### Videoinverter
 Ändert die Polarität des Videosignals und erzeugt ein BAS-Signal.
 Die Originalschaltung ist sehr empfindlich. Robuster ist die Variante, die auf dem 4k-Magnetbandinterface realisiert ist. 
+
+### UHF-Modulator
+Mischt das BAS-Signal auf TV-Kanal 36. Die Erweiterung wird hier nicht weiter beschrieben.
 
 ### EPROM-Programmierzusatz
 Erweiterung des JU+TE zum EPROM-Programmiergerät für die Typen U2716, U2764 und U27128.
