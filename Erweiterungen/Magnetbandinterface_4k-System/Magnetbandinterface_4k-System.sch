@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Magnetbandinterface 4k-System"
-Date "5.12.21"
-Rev "1"
+Date "12.12.21"
+Rev "2"
 Comp "Jugend+Technik"
 Comment1 "Bert"
 Comment2 ""
@@ -18,66 +18,49 @@ Quelle: jutecomp2.pdf  S. 30
 Text Notes 9950 6900 0    50   ~ 0
 Quelle: JU+TE 3/1989, Seite 230-235
 $Comp
-L Connector_Generic:Conn_01x05 X12
-U 1 1 61251954
-P 2300 4650
-F 0 "X12" H 2218 5067 50  0000 C CNN
-F 1 "Anschluss" H 2218 4976 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 2300 4650 50  0001 C CNN
-F 3 "~" H 2300 4650 50  0001 C CNN
-	1    2300 4650
-	-1   0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 61254FA1
-P 2700 5000
+P 2700 5250
 AR Path="/61281715/61254FA1" Ref="#PWR?"  Part="1" 
 AR Path="/60FD40F8/61254FA1" Ref="#PWR?"  Part="1" 
 AR Path="/61282124/61254FA1" Ref="#PWR0128"  Part="1" 
 AR Path="/61254FA1" Ref="#PWR0128"  Part="1" 
-F 0 "#PWR0128" H 2700 4750 50  0001 C CNN
-F 1 "GND" H 2705 4827 50  0000 C CNN
-F 2 "" H 2700 5000 50  0001 C CNN
-F 3 "" H 2700 5000 50  0001 C CNN
-	1    2700 5000
+F 0 "#PWR0128" H 2700 5000 50  0001 C CNN
+F 1 "GND" H 2705 5077 50  0000 C CNN
+F 2 "" H 2700 5250 50  0001 C CNN
+F 3 "" H 2700 5250 50  0001 C CNN
+	1    2700 5250
 	-1   0    0    -1  
 $EndComp
 $Comp
 L power:+5P #PWR?
 U 1 1 61254FA7
-P 2700 4350
+P 2700 3950
 AR Path="/61281715/61254FA7" Ref="#PWR?"  Part="1" 
 AR Path="/60FD40F8/61254FA7" Ref="#PWR?"  Part="1" 
 AR Path="/61282124/61254FA7" Ref="#PWR0129"  Part="1" 
 AR Path="/61254FA7" Ref="#PWR0129"  Part="1" 
-F 0 "#PWR0129" H 2700 4200 50  0001 C CNN
-F 1 "+5P" H 2700 4500 50  0000 C CNN
-F 2 "" H 2700 4350 50  0001 C CNN
-F 3 "" H 2700 4350 50  0001 C CNN
-	1    2700 4350
+F 0 "#PWR0129" H 2700 3800 50  0001 C CNN
+F 1 "+5P" H 2700 4100 50  0000 C CNN
+F 2 "" H 2700 3950 50  0001 C CNN
+F 3 "" H 2700 3950 50  0001 C CNN
+	1    2700 3950
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	2700 5000 2700 4850
+	2700 5250 2700 5100
 Wire Wire Line
-	2700 4850 2500 4850
-Wire Wire Line
-	2500 4450 2700 4450
-Wire Wire Line
-	2700 4450 2700 4350
+	2700 4050 2700 3950
 Text Label 2550 4750 0    50   ~ 0
 P30
 Wire Wire Line
-	2500 4650 4100 4650
+	4100 4400 4100 3050
 Wire Wire Line
-	4100 4650 4100 3350
+	4100 3050 4850 3050
 Wire Wire Line
-	4100 3350 4850 3350
-Wire Wire Line
-	4850 3350 4850 2750
-Connection ~ 4850 3350
-Text Label 2550 4650 0    50   ~ 0
+	4850 3050 4850 2750
+Connection ~ 4850 3050
+Text Label 2550 4400 0    50   ~ 0
 P36
 Wire Wire Line
 	5950 2750 5350 2750
@@ -105,7 +88,7 @@ AR Path="/61282124/61283E0A" Ref="C13"  Part="1"
 AR Path="/61283E0A" Ref="C13"  Part="1" 
 F 0 "C13" H 5542 3796 50  0000 L CNN
 F 1 "2,7nF" H 5542 3705 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 5450 3750 50  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L9.0mm_W2.5mm_P7.50mm_MKT" H 5450 3750 50  0001 C CNN
 F 3 "~" H 5450 3750 50  0001 C CNN
 	1    5450 3750
 	1    0    0    -1  
@@ -168,7 +151,7 @@ U 1 1 61290848
 P 5000 5350
 F 0 "U17" H 5300 5700 50  0000 R CNN
 F 1 "B555D" H 4700 5700 50  0000 L CNN
-F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 5000 4450 50  0001 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 5000 4450 50  0001 C CNN
 F 3 "https://www.tu-chemnitz.de/etit/zentral/ddr/b555.gif" H 5000 5350 50  0001 C CNN
 	1    5000 5350
 	-1   0    0    -1  
@@ -247,72 +230,17 @@ F 3 "" H 5700 4900 50  0001 C CNN
 	1    5700 4900
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R R?
-U 1 1 6129CE39
-P 5700 5150
-AR Path="/61281715/6129CE39" Ref="R?"  Part="1" 
-AR Path="/61282124/6129CE39" Ref="R15"  Part="1" 
-AR Path="/6129CE39" Ref="R15"  Part="1" 
-F 0 "R15" H 5550 5100 50  0000 C CNN
-F 1 "3,3k" H 5550 5200 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5630 5150 50  0001 C CNN
-F 3 "~" H 5700 5150 50  0001 C CNN
-	1    5700 5150
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
-	5400 5550 5700 5550
+	5400 5550 5450 5550
 Wire Wire Line
-	5700 5550 5700 5450
-Wire Wire Line
-	5700 5000 5700 4900
-$Comp
-L Device:C_Small C?
-U 1 1 6129F3E4
-P 5700 5750
-AR Path="/61282C56/6129F3E4" Ref="C?"  Part="1" 
-AR Path="/61282124/6129F3E4" Ref="C15"  Part="1" 
-AR Path="/6129F3E4" Ref="C15"  Part="1" 
-F 0 "C15" H 5792 5796 50  0000 L CNN
-F 1 "22nF" H 5792 5705 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 5700 5750 50  0001 C CNN
-F 3 "~" H 5700 5750 50  0001 C CNN
-	1    5700 5750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 612A0D6E
-P 5700 5900
-AR Path="/61281715/612A0D6E" Ref="#PWR?"  Part="1" 
-AR Path="/60FD40F8/612A0D6E" Ref="#PWR?"  Part="1" 
-AR Path="/61282124/612A0D6E" Ref="#PWR0140"  Part="1" 
-AR Path="/612A0D6E" Ref="#PWR0140"  Part="1" 
-F 0 "#PWR0140" H 5700 5650 50  0001 C CNN
-F 1 "GND" H 5705 5727 50  0000 C CNN
-F 2 "" H 5700 5900 50  0001 C CNN
-F 3 "" H 5700 5900 50  0001 C CNN
-	1    5700 5900
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	5700 5900 5700 5850
-Wire Wire Line
-	5700 5650 5700 5550
-Connection ~ 5700 5550
-Wire Wire Line
-	5400 5350 5700 5350
-Connection ~ 5700 5350
-Wire Wire Line
-	5700 5350 5700 5300
+	5400 5350 5450 5350
 $Comp
 L RFT_Analogschaltkreise:B761D U18
 U 1 1 612A3A12
 P 6350 5450
 F 0 "U18" H 6450 5250 50  0000 C CNN
 F 1 "B761D" H 6450 5150 50  0000 C CNN
-F 2 "Package_DIP:DIP-6_W7.62mm_Socket" H 6350 4650 50  0001 C CNN
+F 2 "Package_DIP:DIP-6_W7.62mm" H 6350 4650 50  0001 C CNN
 F 3 "https://www.tu-chemnitz.de/etit/zentral/ddr/b611.gif" H 6350 5450 50  0001 C CNN
 	1    6350 5450
 	-1   0    0    -1  
@@ -323,7 +251,7 @@ U 2 1 612A41D9
 P 6350 5450
 F 0 "U18" H 6162 5496 50  0001 R CNN
 F 1 "B761D" H 6162 5405 50  0001 R CNN
-F 2 "Package_DIP:DIP-6_W7.62mm_Socket" H 6350 4650 50  0001 C CNN
+F 2 "Package_DIP:DIP-6_W7.62mm" H 6350 4650 50  0001 C CNN
 F 3 "https://www.tu-chemnitz.de/etit/zentral/ddr/b611.gif" H 6350 5450 50  0001 C CNN
 	2    6350 5450
 	-1   0    0    -1  
@@ -331,8 +259,6 @@ $EndComp
 Wire Wire Line
 	6050 5450 6000 5450
 Connection ~ 5700 5450
-Wire Wire Line
-	5700 5450 5700 5350
 $Comp
 L power:+5P #PWR?
 U 1 1 612A65ED
@@ -403,34 +329,6 @@ Wire Wire Line
 Wire Wire Line
 	6900 5850 6900 5900
 $Comp
-L Device:R R?
-U 1 1 612B44FC
-P 7350 5150
-AR Path="/61281715/612B44FC" Ref="R?"  Part="1" 
-AR Path="/61282124/612B44FC" Ref="R17"  Part="1" 
-AR Path="/612B44FC" Ref="R17"  Part="1" 
-F 0 "R17" H 7200 5100 50  0000 C CNN
-F 1 "100k" H 7200 5200 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7280 5150 50  0001 C CNN
-F 3 "~" H 7350 5150 50  0001 C CNN
-	1    7350 5150
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 612B4914
-P 7350 5750
-AR Path="/61281715/612B4914" Ref="R?"  Part="1" 
-AR Path="/61282124/612B4914" Ref="R18"  Part="1" 
-AR Path="/612B4914" Ref="R18"  Part="1" 
-F 0 "R18" H 7200 5700 50  0000 C CNN
-F 1 "100k" H 7200 5800 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7280 5750 50  0001 C CNN
-F 3 "~" H 7350 5750 50  0001 C CNN
-	1    7350 5750
-	-1   0    0    1   
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 612B4BE2
 P 7350 5900
@@ -460,17 +358,7 @@ F 3 "" H 7350 4900 50  0001 C CNN
 	1    7350 4900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7350 4900 7350 5000
-Wire Wire Line
-	7350 5300 7350 5450
-Wire Wire Line
-	6700 5450 7350 5450
-Connection ~ 7350 5450
-Wire Wire Line
-	7350 5450 7350 5600
-Wire Wire Line
-	7700 5450 7350 5450
+Connection ~ 7350 5550
 $Comp
 L power:GND #PWR?
 U 1 1 612C6C13
@@ -513,14 +401,14 @@ F 3 "" H 8950 4200 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	9400 4450 6850 4450
-Connection ~ 6250 3650
+	9400 4450 9050 4450
+Connection ~ 6250 3700
 Wire Wire Line
-	6250 3650 6250 3600
+	6250 3700 6250 3600
 Wire Wire Line
-	8650 3850 8650 5450
+	8650 3850 8650 5550
 Wire Wire Line
-	7900 5450 8650 5450
+	7950 5550 8650 5550
 $Comp
 L Device:CP_Small C?
 U 1 1 612E0742
@@ -547,7 +435,7 @@ F 3 "~" H 8890 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8700 2500 6900 2500
+	8700 2500 8300 2500
 Wire Wire Line
 	6250 2350 6250 2500
 Wire Wire Line
@@ -622,27 +510,27 @@ Wire Wire Line
 Wire Wire Line
 	8950 4150 8950 4200
 Wire Wire Line
-	8950 4150 9100 4150
+	8950 4150 9050 4150
 Wire Wire Line
-	6250 3650 6850 3650
+	6250 3700 6850 3700
 Wire Wire Line
-	6850 3650 6850 4450
+	6850 3700 6850 4450
 Wire Wire Line
-	8650 3850 9400 3850
-Text Notes 4350 3300 0    50   ~ 0
+	8650 3850 9050 3850
+Text Notes 4350 3000 0    50   ~ 0
 Signal
 $Comp
 L Device:CP_Small C?
 U 1 1 61AD3CD7
-P 7800 5450
+P 7850 5550
 AR Path="/61282C56/61AD3CD7" Ref="C?"  Part="1" 
 AR Path="/61282124/61AD3CD7" Ref="C?"  Part="1" 
 AR Path="/61AD3CD7" Ref="C16"  Part="1" 
-F 0 "C16" V 7950 5450 50  0000 C CNN
-F 1 "1µF/40V" V 7650 5450 50  0000 C CNN
-F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 7800 5450 50  0001 C CNN
-F 3 "~" H 7800 5450 50  0001 C CNN
-	1    7800 5450
+F 0 "C16" V 8000 5550 50  0000 C CNN
+F 1 "1µF/40V" V 7700 5550 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 7850 5550 50  0001 C CNN
+F 3 "~" H 7850 5550 50  0001 C CNN
+	1    7850 5550
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -651,7 +539,7 @@ U 1 1 61AD4D5F
 P 6900 5150
 F 0 "R7" H 6959 5196 50  0000 L CNN
 F 1 "100k" H 6959 5105 50  0000 L CNN
-F 2 "" H 6900 5150 50  0001 C CNN
+F 2 "Tiny2k_Bauteile:R_Axial_TGL8728_L5.9mm_D2.4mm_P12.50mm_Horizontal" H 6900 5150 50  0001 C CNN
 F 3 "~" H 6900 5150 50  0001 C CNN
 	1    6900 5150
 	1    0    0    -1  
@@ -664,27 +552,23 @@ U 1 1 61AD51E2
 P 6900 5750
 F 0 "R8" H 6959 5796 50  0000 L CNN
 F 1 "100k" H 6959 5705 50  0000 L CNN
-F 2 "" H 6900 5750 50  0001 C CNN
+F 2 "Tiny2k_Bauteile:R_Axial_TGL8728_L5.9mm_D2.4mm_P12.50mm_Horizontal" H 6900 5750 50  0001 C CNN
 F 3 "~" H 6900 5750 50  0001 C CNN
 	1    6900 5750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6700 5550 6700 5450
-Wire Wire Line
 	6650 5350 6700 5350
 Connection ~ 6900 5350
 Wire Wire Line
 	6900 5350 6900 5650
-Wire Wire Line
-	6650 5550 6700 5550
 $Comp
 L Device:C_Small C3
 U 1 1 61AE7238
 P 6250 5100
 F 0 "C3" V 6021 5100 50  0000 C CNN
 F 1 "100pF" V 6112 5100 50  0000 C CNN
-F 2 "" H 6250 5100 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 6250 5100 50  0001 C CNN
 F 3 "~" H 6250 5100 50  0001 C CNN
 	1    6250 5100
 	0    1    1    0   
@@ -703,15 +587,13 @@ Wire Wire Line
 Connection ~ 6700 5350
 Wire Wire Line
 	6700 5350 6900 5350
-Wire Wire Line
-	2500 4750 4100 4750
 $Comp
 L RFT_Transistoren_und_Dioden:SC238 T1
 U 1 1 61AEE4A7
 P 6150 2750
 F 0 "T1" H 6340 2796 50  0000 L CNN
-F 1 "SC238" H 6340 2705 50  0000 L CNN
-F 2 "" H 6200 2750 50  0001 C CNN
+F 1 "SC238d" H 6340 2705 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 6200 2750 50  0001 C CNN
 F 3 "https://www.tu-chemnitz.de/etit/zentral/ddr/sc236.gif" H 6200 2750 50  0001 C CNN
 	1    6150 2750
 	1    0    0    -1  
@@ -722,7 +604,7 @@ U 1 1 61AF12C9
 P 6250 2250
 F 0 "R13" H 6309 2296 50  0000 L CNN
 F 1 "330" H 6309 2205 50  0000 L CNN
-F 2 "" H 6250 2250 50  0001 C CNN
+F 2 "Tiny2k_Bauteile:R_Axial_TGL8728_L5.9mm_D2.4mm_P12.50mm_Horizontal" H 6250 2250 50  0001 C CNN
 F 3 "~" H 6250 2250 50  0001 C CNN
 	1    6250 2250
 	1    0    0    -1  
@@ -735,7 +617,7 @@ U 1 1 61AF9B4C
 P 5250 2750
 F 0 "R3" V 5054 2750 50  0000 C CNN
 F 1 "12k" V 5145 2750 50  0000 C CNN
-F 2 "" H 5250 2750 50  0001 C CNN
+F 2 "Tiny2k_Bauteile:R_Axial_TGL8728_L5.9mm_D2.4mm_P12.50mm_Horizontal" H 5250 2750 50  0001 C CNN
 F 3 "~" H 5250 2750 50  0001 C CNN
 	1    5250 2750
 	0    1    1    0   
@@ -746,7 +628,7 @@ U 1 1 61AFD1CE
 P 4850 2250
 F 0 "R2" H 4909 2296 50  0000 L CNN
 F 1 "3,3k" H 4909 2205 50  0000 L CNN
-F 2 "" H 4850 2250 50  0001 C CNN
+F 2 "Tiny2k_Bauteile:R_Axial_TGL8728_L5.9mm_D2.4mm_P12.50mm_Horizontal" H 4850 2250 50  0001 C CNN
 F 3 "~" H 4850 2250 50  0001 C CNN
 	1    4850 2250
 	1    0    0    -1  
@@ -773,15 +655,13 @@ Wire Wire Line
 Connection ~ 4850 2750
 Wire Wire Line
 	4850 2750 5150 2750
-Wire Wire Line
-	4850 3350 5150 3350
 $Comp
 L Device:R_Small R14
 U 1 1 61B0A9CB
 P 5250 3350
 F 0 "R14" V 5054 3350 50  0000 C CNN
 F 1 "22k" V 5145 3350 50  0000 C CNN
-F 2 "" H 5250 3350 50  0001 C CNN
+F 2 "Tiny2k_Bauteile:R_Axial_TGL8728_L5.9mm_D2.4mm_P12.50mm_Horizontal" H 5250 3350 50  0001 C CNN
 F 3 "~" H 5250 3350 50  0001 C CNN
 	1    5250 3350
 	0    1    1    0   
@@ -792,7 +672,7 @@ U 1 1 61B1B58B
 P 5850 3350
 F 0 "C14" V 5621 3350 50  0000 C CNN
 F 1 "2,7nF" V 5712 3350 50  0000 C CNN
-F 2 "" H 5850 3350 50  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L9.0mm_W2.5mm_P7.50mm_MKT" H 5850 3350 50  0001 C CNN
 F 3 "~" H 5850 3350 50  0001 C CNN
 	1    5850 3350
 	0    1    1    0   
@@ -805,7 +685,7 @@ U 1 1 61B1DBC3
 P 6250 3500
 F 0 "R6" H 6309 3546 50  0000 L CNN
 F 1 "100k" H 6309 3455 50  0000 L CNN
-F 2 "" H 6250 3500 50  0001 C CNN
+F 2 "Tiny2k_Bauteile:R_Axial_TGL8728_L5.9mm_D2.4mm_P12.50mm_Horizontal" H 6250 3500 50  0001 C CNN
 F 3 "~" H 6250 3500 50  0001 C CNN
 	1    6250 3500
 	1    0    0    -1  
@@ -816,200 +696,367 @@ U 1 1 61B1E092
 P 6250 3900
 F 0 "R19" H 6309 3946 50  0000 L CNN
 F 1 "22k" H 6309 3855 50  0000 L CNN
-F 2 "" H 6250 3900 50  0001 C CNN
+F 2 "Tiny2k_Bauteile:R_Axial_TGL8728_L5.9mm_D2.4mm_P12.50mm_Horizontal" H 6250 3900 50  0001 C CNN
 F 3 "~" H 6250 3900 50  0001 C CNN
 	1    6250 3900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6250 3650 6250 3800
+	6250 3700 6250 3800
 Wire Wire Line
 	6250 4000 6250 4100
-NoConn ~ 2500 4550
 $Comp
 L power:+5P #PWR?
 U 1 1 61B24BA1
-P 3100 2050
+P 2600 2050
 AR Path="/61281715/61B24BA1" Ref="#PWR?"  Part="1" 
 AR Path="/60FD40F8/61B24BA1" Ref="#PWR?"  Part="1" 
 AR Path="/61282124/61B24BA1" Ref="#PWR?"  Part="1" 
 AR Path="/61B24BA1" Ref="#PWR01"  Part="1" 
-F 0 "#PWR01" H 3100 1900 50  0001 C CNN
-F 1 "+5P" H 3100 2200 50  0000 C CNN
-F 2 "" H 3100 2050 50  0001 C CNN
-F 3 "" H 3100 2050 50  0001 C CNN
-	1    3100 2050
+F 0 "#PWR01" H 2600 1900 50  0001 C CNN
+F 1 "+5P" H 2600 2200 50  0000 C CNN
+F 2 "" H 2600 2050 50  0001 C CNN
+F 3 "" H 2600 2050 50  0001 C CNN
+	1    2600 2050
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:R_Small R1
 U 1 1 61B24F5F
-P 3100 2250
-F 0 "R1" H 3159 2296 50  0000 L CNN
-F 1 "680" H 3159 2205 50  0000 L CNN
-F 2 "" H 3100 2250 50  0001 C CNN
-F 3 "~" H 3100 2250 50  0001 C CNN
-	1    3100 2250
+P 2600 2250
+F 0 "R1" H 2659 2296 50  0000 L CNN
+F 1 "680" H 2659 2205 50  0000 L CNN
+F 2 "Tiny2k_Bauteile:R_Axial_TGL8728_L5.9mm_D2.4mm_P12.50mm_Horizontal" H 2600 2250 50  0001 C CNN
+F 3 "~" H 2600 2250 50  0001 C CNN
+	1    2600 2250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C1
 U 1 1 61B2540F
-P 3550 2500
-F 0 "C1" V 3321 2500 50  0000 C CNN
-F 1 "10µF/25V" V 3412 2500 50  0000 C CNN
-F 2 "" H 3550 2500 50  0001 C CNN
-F 3 "~" H 3550 2500 50  0001 C CNN
-	1    3550 2500
+P 3050 2500
+F 0 "C1" V 2821 2500 50  0000 C CNN
+F 1 "10µF/25V" V 2912 2500 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 3050 2500 50  0001 C CNN
+F 3 "~" H 3050 2500 50  0001 C CNN
+	1    3050 2500
 	0    1    1    0   
 $EndComp
 $Comp
 L RFT_Transistoren_und_Dioden:SC238 T2
 U 1 1 61B258ED
-P 3000 2750
-F 0 "T2" H 3190 2796 50  0000 L CNN
-F 1 "SC238" H 3190 2705 50  0000 L CNN
-F 2 "" H 3050 2750 50  0001 C CNN
-F 3 "https://www.tu-chemnitz.de/etit/zentral/ddr/sc236.gif" H 3050 2750 50  0001 C CNN
-	1    3000 2750
+P 2500 2750
+F 0 "T2" H 2690 2796 50  0000 L CNN
+F 1 "SC238" H 2690 2705 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 2550 2750 50  0001 C CNN
+F 3 "https://www.tu-chemnitz.de/etit/zentral/ddr/sc236.gif" H 2550 2750 50  0001 C CNN
+	1    2500 2750
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_Small R5
 U 1 1 61B261B0
-P 3100 3150
-F 0 "R5" H 3159 3196 50  0000 L CNN
-F 1 "330" H 3159 3105 50  0000 L CNN
-F 2 "" H 3100 3150 50  0001 C CNN
-F 3 "~" H 3100 3150 50  0001 C CNN
-	1    3100 3150
+P 2600 3200
+F 0 "R5" H 2659 3246 50  0000 L CNN
+F 1 "330" H 2659 3155 50  0000 L CNN
+F 2 "Tiny2k_Bauteile:R_Axial_TGL8728_L5.9mm_D2.4mm_P12.50mm_Horizontal" H 2600 3200 50  0001 C CNN
+F 3 "~" H 2600 3200 50  0001 C CNN
+	1    2600 3200
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C?
 U 1 1 61B265D5
-P 3400 3150
+P 2900 3200
 AR Path="/61282C56/61B265D5" Ref="C?"  Part="1" 
 AR Path="/61282124/61B265D5" Ref="C?"  Part="1" 
 AR Path="/61B265D5" Ref="C2"  Part="1" 
-F 0 "C2" H 3492 3196 50  0000 L CNN
-F 1 "100p" H 3492 3105 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 3400 3150 50  0001 C CNN
-F 3 "~" H 3400 3150 50  0001 C CNN
-	1    3400 3150
+F 0 "C2" H 2992 3246 50  0000 L CNN
+F 1 "100pF" H 2992 3155 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L9.0mm_W2.5mm_P7.50mm_MKT" H 2900 3200 50  0001 C CNN
+F 3 "~" H 2900 3200 50  0001 C CNN
+	1    2900 3200
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_Small R4
 U 1 1 61B26B8F
-P 2650 3150
-F 0 "R4" H 2709 3196 50  0000 L CNN
-F 1 "10k" H 2709 3105 50  0000 L CNN
-F 2 "" H 2650 3150 50  0001 C CNN
-F 3 "~" H 2650 3150 50  0001 C CNN
-	1    2650 3150
+P 2150 3200
+F 0 "R4" H 2209 3246 50  0000 L CNN
+F 1 "10k" H 2209 3155 50  0000 L CNN
+F 2 "Tiny2k_Bauteile:R_Axial_TGL8728_L5.9mm_D2.4mm_P12.50mm_Horizontal" H 2150 3200 50  0001 C CNN
+F 3 "~" H 2150 3200 50  0001 C CNN
+	1    2150 3200
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 61B27062
-P 3400 3400
+P 2900 3400
 AR Path="/61281715/61B27062" Ref="#PWR?"  Part="1" 
 AR Path="/60FD40F8/61B27062" Ref="#PWR?"  Part="1" 
 AR Path="/61282124/61B27062" Ref="#PWR?"  Part="1" 
 AR Path="/61B27062" Ref="#PWR05"  Part="1" 
-F 0 "#PWR05" H 3400 3150 50  0001 C CNN
-F 1 "GND" H 3405 3227 50  0000 C CNN
-F 2 "" H 3400 3400 50  0001 C CNN
-F 3 "" H 3400 3400 50  0001 C CNN
-	1    3400 3400
+F 0 "#PWR05" H 2900 3150 50  0001 C CNN
+F 1 "GND" H 2905 3227 50  0000 C CNN
+F 2 "" H 2900 3400 50  0001 C CNN
+F 3 "" H 2900 3400 50  0001 C CNN
+	1    2900 3400
 	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 61B27386
-P 3100 3400
+P 2600 3400
 AR Path="/61281715/61B27386" Ref="#PWR?"  Part="1" 
 AR Path="/60FD40F8/61B27386" Ref="#PWR?"  Part="1" 
 AR Path="/61282124/61B27386" Ref="#PWR?"  Part="1" 
 AR Path="/61B27386" Ref="#PWR04"  Part="1" 
-F 0 "#PWR04" H 3100 3150 50  0001 C CNN
-F 1 "GND" H 3105 3227 50  0000 C CNN
-F 2 "" H 3100 3400 50  0001 C CNN
-F 3 "" H 3100 3400 50  0001 C CNN
-	1    3100 3400
+F 0 "#PWR04" H 2600 3150 50  0001 C CNN
+F 1 "GND" H 2605 3227 50  0000 C CNN
+F 2 "" H 2600 3400 50  0001 C CNN
+F 3 "" H 2600 3400 50  0001 C CNN
+	1    2600 3400
 	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 61B276F2
-P 2650 3400
+P 2150 3400
 AR Path="/61281715/61B276F2" Ref="#PWR?"  Part="1" 
 AR Path="/60FD40F8/61B276F2" Ref="#PWR?"  Part="1" 
 AR Path="/61282124/61B276F2" Ref="#PWR?"  Part="1" 
 AR Path="/61B276F2" Ref="#PWR03"  Part="1" 
-F 0 "#PWR03" H 2650 3150 50  0001 C CNN
-F 1 "GND" H 2655 3227 50  0000 C CNN
-F 2 "" H 2650 3400 50  0001 C CNN
-F 3 "" H 2650 3400 50  0001 C CNN
-	1    2650 3400
+F 0 "#PWR03" H 2150 3150 50  0001 C CNN
+F 1 "GND" H 2155 3227 50  0000 C CNN
+F 2 "" H 2150 3400 50  0001 C CNN
+F 3 "" H 2150 3400 50  0001 C CNN
+	1    2150 3400
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	2650 3400 2650 3250
+	2150 3400 2150 3300
 Wire Wire Line
-	2650 2750 2800 2750
+	2150 2750 2300 2750
 Wire Wire Line
-	2650 3050 2650 2750
+	2150 3100 2150 2750
 Wire Wire Line
-	3100 3400 3100 3250
+	2600 3400 2600 3300
 Wire Wire Line
-	3100 3050 3100 3000
+	2600 3100 2600 3000
 Wire Wire Line
-	3100 3000 3400 3000
+	2600 3000 2900 3000
 Wire Wire Line
-	3400 3000 3400 3050
+	2900 3000 2900 3100
 Wire Wire Line
-	3400 3250 3400 3400
-Connection ~ 3100 3000
+	2900 3300 2900 3400
+Connection ~ 2600 3000
 Wire Wire Line
-	3100 3000 3100 2950
+	2600 3000 2600 2950
 Wire Wire Line
-	3100 2050 3100 2150
+	2600 2050 2600 2150
 Wire Wire Line
-	3100 2350 3100 2500
+	2600 2350 2600 2500
+Wire Wire Line
+	2950 2500 2600 2500
+Connection ~ 2600 2500
+Wire Wire Line
+	2600 2500 2600 2550
+Connection ~ 2150 2750
+Text Notes 2100 1800 0    50   ~ 0
+Videoinverter
+Wire Wire Line
+	6650 5550 7350 5550
+Wire Wire Line
+	7750 5550 7350 5550
+Wire Wire Line
+	4850 3050 4850 3350
+Wire Wire Line
+	4850 3350 5150 3350
 $Comp
-L Connector_Generic:Conn_01x01 X1
-U 1 1 61B307CF
-P 3950 2500
-F 0 "X1" H 4030 2542 50  0000 L CNN
-F 1 "BAS" H 4030 2451 50  0000 L CNN
-F 2 "" H 3950 2500 50  0001 C CNN
-F 3 "~" H 3950 2500 50  0001 C CNN
-	1    3950 2500
+L Device:R_Small R17
+U 1 1 61B825C8
+P 7350 5150
+F 0 "R17" H 7409 5196 50  0000 L CNN
+F 1 "100k" H 7409 5105 50  0000 L CNN
+F 2 "Tiny2k_Bauteile:R_Axial_TGL8728_L5.9mm_D2.4mm_P12.50mm_Horizontal" H 7350 5150 50  0001 C CNN
+F 3 "~" H 7350 5150 50  0001 C CNN
+	1    7350 5150
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	7350 4900 7350 5050
+Wire Wire Line
+	7350 5250 7350 5550
 $Comp
-L Connector_Generic:Conn_01x01 X2
-U 1 1 61B310EB
-P 2300 2750
-F 0 "X2" H 2300 2550 50  0000 C CNN
-F 1 "Video" H 2300 2600 50  0000 C CNN
-F 2 "" H 2300 2750 50  0001 C CNN
-F 3 "~" H 2300 2750 50  0001 C CNN
-	1    2300 2750
+L Device:R_Small R18
+U 1 1 61B8500D
+P 7350 5750
+F 0 "R18" H 7409 5796 50  0000 L CNN
+F 1 "100k" H 7409 5705 50  0000 L CNN
+F 2 "Tiny2k_Bauteile:R_Axial_TGL8728_L5.9mm_D2.4mm_P12.50mm_Horizontal" H 7350 5750 50  0001 C CNN
+F 3 "~" H 7350 5750 50  0001 C CNN
+	1    7350 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7350 5550 7350 5650
+Wire Wire Line
+	7350 5850 7350 5900
+$Comp
+L Device:R_Small R15
+U 1 1 61B87AE1
+P 5700 5150
+F 0 "R15" H 5759 5196 50  0000 L CNN
+F 1 "3,3k" H 5759 5105 50  0000 L CNN
+F 2 "Tiny2k_Bauteile:R_Axial_TGL8728_L5.9mm_D2.4mm_P12.50mm_Horizontal" H 5700 5150 50  0001 C CNN
+F 3 "~" H 5700 5150 50  0001 C CNN
+	1    5700 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 4900 5700 5050
+$Comp
+L Connector:TestPoint_Small TP1
+U 1 1 61BC1F21
+P 9050 3850
+F 0 "TP1" H 9098 3896 50  0001 L CNN
+F 1 "E" H 9100 3900 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded" H 9250 3850 50  0001 C CNN
+F 3 "~" H 9250 3850 50  0001 C CNN
+	1    9050 3850
+	1    0    0    -1  
+$EndComp
+Connection ~ 9050 3850
+Wire Wire Line
+	9050 3850 9400 3850
+$Comp
+L Connector:TestPoint_Small TP2
+U 1 1 61BC239E
+P 9050 4150
+F 0 "TP2" H 9098 4196 50  0001 L CNN
+F 1 "00" H 9100 4200 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded" H 9250 4150 50  0001 C CNN
+F 3 "~" H 9250 4150 50  0001 C CNN
+	1    9050 4150
+	1    0    0    -1  
+$EndComp
+Connection ~ 9050 4150
+Wire Wire Line
+	9050 4150 9100 4150
+$Comp
+L Connector:TestPoint_Small TP3
+U 1 1 61BC271D
+P 9050 4450
+F 0 "TP3" H 9098 4496 50  0001 L CNN
+F 1 "A" H 9100 4500 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded" H 9250 4450 50  0001 C CNN
+F 3 "~" H 9250 4450 50  0001 C CNN
+	1    9050 4450
+	1    0    0    -1  
+$EndComp
+Connection ~ 9050 4450
+Wire Wire Line
+	9050 4450 6850 4450
+Wire Wire Line
+	3150 2500 3450 2500
+Wire Wire Line
+	1750 2750 2150 2750
+$Comp
+L Connector:TestPoint_Small TP10
+U 1 1 61BE6A53
+P 8300 2500
+F 0 "TP10" H 8348 2546 50  0001 L CNN
+F 1 "L" H 8350 2550 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded" H 8500 2500 50  0001 C CNN
+F 3 "~" H 8500 2500 50  0001 C CNN
+	1    8300 2500
+	1    0    0    -1  
+$EndComp
+Connection ~ 8300 2500
+Wire Wire Line
+	8300 2500 6900 2500
+Wire Wire Line
+	5450 5350 5450 5450
+Wire Wire Line
+	5450 5450 5700 5450
+Connection ~ 5450 5450
+Wire Wire Line
+	5450 5450 5450 5550
+Wire Wire Line
+	5700 5250 5700 5450
+$Comp
+L Connector_Generic:Conn_01x01 X8
+U 1 1 61B853BC
+P 1550 2750
+F 0 "X8" H 1468 2525 50  0000 C CNN
+F 1 "Video" H 1468 2616 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded" H 1550 2750 50  0001 C CNN
+F 3 "~" H 1550 2750 50  0001 C CNN
+	1    1550 2750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 X9
+U 1 1 61B8B709
+P 2200 4050
+F 0 "X9" H 2118 3825 50  0000 C CNN
+F 1 "5V" H 2118 3916 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded" H 2200 4050 50  0001 C CNN
+F 3 "~" H 2200 4050 50  0001 C CNN
+	1    2200 4050
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	3750 2500 3650 2500
+	2400 4050 2700 4050
+$Comp
+L Connector_Generic:Conn_01x01 X6
+U 1 1 61B8F57C
+P 2200 5100
+F 0 "X6" H 2118 4875 50  0000 C CNN
+F 1 "00" H 2118 4966 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded" H 2200 5100 50  0001 C CNN
+F 3 "~" H 2200 5100 50  0001 C CNN
+	1    2200 5100
+	-1   0    0    1   
+$EndComp
 Wire Wire Line
-	3450 2500 3100 2500
-Connection ~ 3100 2500
+	2400 5100 2700 5100
+$Comp
+L Connector_Generic:Conn_01x01 X5
+U 1 1 61B9C2B2
+P 2200 4750
+F 0 "X5" H 2118 4525 50  0000 C CNN
+F 1 "P3.0" H 2118 4616 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded" H 2200 4750 50  0001 C CNN
+F 3 "~" H 2200 4750 50  0001 C CNN
+	1    2200 4750
+	-1   0    0    1   
+$EndComp
 Wire Wire Line
-	3100 2500 3100 2550
+	2400 4750 4100 4750
+$Comp
+L Connector_Generic:Conn_01x01 X4
+U 1 1 61BA433C
+P 2200 4400
+F 0 "X4" H 2118 4175 50  0000 C CNN
+F 1 "P3.6" H 2118 4266 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded" H 2200 4400 50  0001 C CNN
+F 3 "~" H 2200 4400 50  0001 C CNN
+	1    2200 4400
+	-1   0    0    1   
+$EndComp
 Wire Wire Line
-	2500 2750 2650 2750
-Connection ~ 2650 2750
-Text Notes 2600 1800 0    50   ~ 0
-Videoinverter
+	2400 4400 4100 4400
+$Comp
+L Connector_Generic:Conn_01x01 X7
+U 1 1 61BB300E
+P 3650 2500
+F 0 "X7" H 3730 2542 50  0000 L CNN
+F 1 "BAS" H 3730 2451 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded" H 3650 2500 50  0001 C CNN
+F 3 "~" H 3650 2500 50  0001 C CNN
+	1    3650 2500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
