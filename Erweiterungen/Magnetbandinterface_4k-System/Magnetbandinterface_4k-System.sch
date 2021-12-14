@@ -1059,4 +1059,6 @@ F 3 "~" H 3650 2500 50  0001 C CNN
 	1    3650 2500
 	1    0    0    -1  
 $EndComp
+Text Notes 5650 6500 0    50   ~ 0
+bei Schwingneigung 22pF\nzwischen Pin 5 und 6 ergänzen,\ndamit wird U17 im 4k-System entbehrlich,\nstattdessen Brücke zwische Pin 2 und Pin 3
 $EndSCHEMATC
