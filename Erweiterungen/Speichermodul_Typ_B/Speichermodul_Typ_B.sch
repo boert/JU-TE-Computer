@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Speichermodul Typ B"
-Date "4.12.21"
-Rev "1"
+Date "14.12.21"
+Rev "2"
 Comp "Jugend+Technik"
 Comment1 "Bert"
 Comment2 ""
@@ -809,8 +809,8 @@ Text GLabel 4750 4550 0    50   UnSpc ~ 0
 U1
 Text Notes 6550 3700 0    50   ~ 0
 Auswahl\n2 kByte
-Text Notes 3700 5750 0    50   ~ 0
-Batteriestützung\nmöglich
+Text Notes 3700 5800 0    50   ~ 0
+U2 durch Batteriestützung bereitstellen\noder auf Hauptplatine mit 5V verbinden
 Text Notes 7450 3100 0    50   ~ 0
 2 kByte RAM-Speicher\n(max. 8 kByte)
 Text Notes 9550 3100 0    50   ~ 0
@@ -866,6 +866,8 @@ Wire Wire Line
 Connection ~ 9400 4650
 Text Label 3750 2900 0    50   ~ 0
 ~CSB
+Text Notes 7850 7600 0    50   ~ 0
+Grundmodul 2k EPROM, 2k-8k RAM
 Wire Bus Line
 	4550 4050 4550 5200
 Wire Wire Line
@@ -880,6 +882,4 @@ Wire Bus Line
 	9150 3550 9150 5200
 Wire Bus Line
 	4050 3200 4050 5200
-Text Notes 7850 7600 0    50   ~ 0
-Grundmodul 2k EPROM, 2k-8k RAM
 $EndSCHEMATC

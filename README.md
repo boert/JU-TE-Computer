@@ -31,6 +31,7 @@ Zusammen mit Modul A oder Modul B wird damit die Voraussetzung für 4k-System ge
 
 ### RAM-Stütze
 Dient dem Erhalt des RAM-Inhaltes im ausgeschalteten Zustand für Module mit CMOS-Schaltkreisen (U224, U6516 oder HM6264LP).
+Mit verbesserter Reset-Schaltung.
 
 ### Magnetbandanschluss
 Damit lassen sich Programme auf Band sichern und wieder zurücklesen.
