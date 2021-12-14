@@ -31,7 +31,7 @@ Zusammen mit Modul A oder Modul B wird damit die Voraussetzung für 4k-System ge
 
 ### RAM-Stütze
 Dient dem Erhalt des RAM-Inhaltes im ausgeschalteten Zustand für Module mit CMOS-Schaltkreisen (U224, U6516 oder HM6264LP).
-Mit verbesserter Reset-Schaltung.
+Mit verbesserter Reset-Schaltung. Die Reset-Schaltung nutzt die ~9V vom Ladekondesator.
 
 ### Magnetbandanschluss
 Damit lassen sich Programme auf Band sichern und wieder zurücklesen.
@@ -57,9 +57,11 @@ Erweiterung des JU+TE zum EPROM-Programmiergerät für die Typen U2716, U2764 un
 ### S3004-Interface
 Potentialgetrennte Schnittstelle für die elektronische Schreibmaschine Erika S3004.
 Nutzung der Schreibmaschine als Drucker.
+Da der Rückkanal nicht verwendet wird, kann die Schreimaschine nicht als Tastatur genutzt werden.
 
 ### V.24-Interface
 Pegelwandlerstufe zur Kopplung mit seriellen Perioheriegeräten (z.B. Drucker) oder zur Rechnerkopplung.
+Die Interfaceschaltung nutzt die ~9V vom Ladekondesator.
 
 ### IFSS-Interface
 Schnittstelle nach dem Prinzip der gekoppelten Stromschleifen, IFSS (Interface seriell sternförmig).
