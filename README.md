@@ -100,6 +100,7 @@ Um die Videoerweiterung zu nutzen wird im EPROM das 6k-System eingespielt.
 ## Nutzung der frei verfügbaren Ports
 
 | Ports                               | P2.0 | P2.1 | P2.2 | P2.3 | P2.4 | P2.5 | P2.6 | P2.7 | P3.0 | P3.1 | P3.2 | P3.3 | P3.4 | P3.5 | P3.6 | P3.7     |
+| ----------------------------------- |:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:--------:|
 | Richtung                            | I/O  | I/O  | I/O  | I/O  | I/O  | I/O  | I/O  | I/O  | I    | I    | I    | I    | O    | O    | O    | O        |
 | ----------------------------------- |:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:--------:|
 | JU+TE-Grundplatine (7/1987)         |      |      |      |      |      |      |      |      |      |      |      |      | (BS) |      |      | SYN      |
@@ -119,21 +120,21 @@ Um die Videoerweiterung zu nutzen wird im EPROM das 6k-System eingespielt.
 | ROM-Bank (ES1988)                   |      |      |      |      |      |      |      |      |      |      |      |      |      | STEP |      |          |
 |                                     |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |          |
 
-Legende:
-A+D = Adresse und Daten
-BR = bank reset, Bank zurücksetzen
-BS = bank switch, Bankumschaltung, bisher keine Nutzung bekannt
-BUSY = Zugriff ohne Bildstörung
-CTRL = Steuerleitung
-DSR = Dataset Read, Empfangsbereitschaft
-E = Empfang
-HR = high resolution, Umschaltung Grafikmodus
-RxD = Emüfangsdaten
-S = Senden
-STEP = Bank weiterschalten
-SYN = Synchronsignal für Video
-TxD = Sendedaten
-VSYN = Zeilensynchronisierung
+Legende:  
+A+D = Adresse und Daten  
+BR = bank reset, Bank zurücksetzen  
+BS = bank switch, Bankumschaltung, bisher keine Nutzung bekannt  
+BUSY = Zugriff ohne Bildstörung  
+CTRL = Steuerleitung  
+DSR = Dataset Read, Empfangsbereitschaft  
+E = Empfang  
+HR = high resolution, Umschaltung Grafikmodus  
+RxD = Empfangsdaten  
+S = Senden  
+STEP = Bank weiterschalten  
+SYN = Synchronsignal für Video  
+TxD = Sendedaten  
+VSYN = Zeilensynchronisierung  
 
 
 ## Quellen  
