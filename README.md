@@ -61,10 +61,11 @@ Da der Rückkanal nicht verwendet wird, kann die Schreimaschine nicht als Tastat
 
 ### V.24-Interface
 Pegelwandlerstufe zur Kopplung mit seriellen Perioheriegeräten (z.B. Drucker) oder zur Rechnerkopplung.
-Die Interfaceschaltung nutzt die ~9V vom Ladekondesator.
+Die Interfaceschaltung nutzt die 9V-Spannung vom Ladekondensator.
 
 ### IFSS-Interface
 Schnittstelle nach dem Prinzip der gekoppelten Stromschleifen, IFSS (Interface seriell sternförmig).
+Das IFSS-Interface benötigt die 9V-Spannung vom Ladekondensator.
 
 ### AD-Wandler
 Zur Messung von Spannungen zwischen 0 und 999 mV.
@@ -94,6 +95,45 @@ Speichermodul für die Videoerweiterung. Modul ohne EPROM-Speicher.
 ## JU+TE Kompakt (6k-System)
 Im JU+TE Kompakt sind die Videoerweiterung, das Magnetbandinterface (4k-Version), 32 kByte RAM, die RAM-Stütze und 8 kByte EPROM integriert.
 Um die Videoerweiterung zu nutzen wird im EPROM das 6k-System eingespielt.
+
+
+## Nutzung der frei verfügbaren Ports
+
+| Ports                               | P2.0 | P2.1 | P2.2 | P2.3 | P2.4 | P2.5 | P2.6 | P2.7 | P3.0 | P3.1 | P3.2 | P3.3 | P3.4 | P3.5 | P3.6 | P3.7     |
+| Richtung                            | I/O  | I/O  | I/O  | I/O  | I/O  | I/O  | I/O  | I/O  | I    | I    | I    | I    | O    | O    | O    | O        |
+| ----------------------------------- |:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:--------:|
+| JU+TE-Grundplatine (7/1987)         |      |      |      |      |      |      |      |      |      |      |      |      | (BS) |      |      | SYN      |
+| Streifenkorrektur (11/1989)         |      |      |      |      |      |      |      |      |      |      |      |      |      | VSYN |      |          |
+| Magnetbandinterface (2k, 12/1987)   |      |      |      |      |      |      |      |      | LOAD |      |      |      |      |      | SAVE | Umschalt |
+| Magnetbankinterface (4k, ES4.0)     |      |      |      |      |      |      |      |      | LOAD |      |      |      |      |      | SAVE |          |
+| Videoerweiterung (6/1990)           |      |      |      |      |      |      |      |      |      |      | BUSY |      | /HR  |      |      |          |
+| IFSS-Inferface (10/1989)            |      |      |      |      |      |      |      |      | E    |      |      |      |      |      |      | S        |
+| V.24-Interface (HW-SIO, 10/1989)    |      |      |      |      |      |      |      |      | RxD  |      |      |      |      |      |      | TxD      |
+| S3004-Interface (HW-SIO, 5/1989)    |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      | TxD      |
+| V.24-Interface (SW, K6340, 10/1989) |      |      |      |      |      |      |      |      |      | DSR  |      |      |      | TxD  |      |          |
+| S3004-Interface (SW, 5/1989)        |      |      |      |      |      |      |      |      |      | DSR  |      |      |      | TxD  |      |          |
+| EPROM-Programmierzusatz (10/1988)   | A+D  | A+D  | A+D  | A+D  | A+D  | A+D  | A+D  | A+D  |      |      |      |      | CTRL | CTRL | CTRL |          |
+| AD-Wandler (12/1989)                | QA   | QB   | QC   | QD   | NSD  | MSD  | ISD  |      |      |      |      |      |      |      |      |          |
+| Lauflicht (4(1988)                  | LED  | LED  | LED  | LED  | LED  | LED  | LED  | LED  |      |      |      |      |      |      |      |          |
+| ROM-Bank (ES4.0 und 6k)             |      |      |      |      |      |      |      |      |      |      |      |      |      | /BR  |      | STEP     |
+| ROM-Bank (ES1988)                   |      |      |      |      |      |      |      |      |      |      |      |      |      | STEP |      |          |
+|                                     |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |          |
+
+Legende:
+A+D = Adresse und Daten
+BR = bank reset, Bank zurücksetzen
+BS = bank switch, Bankumschaltung, bisher keine Nutzung bekannt
+BUSY = Zugriff ohne Bildstörung
+CTRL = Steuerleitung
+DSR = Dataset Read, Empfangsbereitschaft
+E = Empfang
+HR = high resolution, Umschaltung Grafikmodus
+RxD = Emüfangsdaten
+S = Senden
+STEP = Bank weiterschalten
+SYN = Synchronsignal für Video
+TxD = Sendedaten
+VSYN = Zeilensynchronisierung
 
 
 ## Quellen  
