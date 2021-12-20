@@ -14,6 +14,7 @@ Für den Minimalbetrieb sind ein Speichermodul (Typ A, B oder C) und eine Tastat
 ## Erweiterungen zum JU+TE
 
 ### Speichermodul A
+![Speichermodul Typ A](Bilder/Speichermodul_Typ_A.jpg)
 2 kByte EPROM, 1 kByte RAM
 Erweiterbar bis auf 8 kByte RAM durch zusätzliche U214 (Huckepack).
 
@@ -71,6 +72,7 @@ Das IFSS-Interface benötigt die 9V-Spannung vom Ladekondensator.
 Zur Messung von Spannungen zwischen 0 und 999 mV.
 
 ### Videoerweiterung
+![Videoerweiterung (Visualisierung)](Bilder/Platine_Videoerweiterung_gerendert.png)
 Damit wird die Videosignalerzeugung von einem separaten Prozessor (UB8810) übernommen.
 Der Bildspicher wird im Bereich zwischen %4000 uns %5FFF im System eingeblendet.
 Über ein Steuerregister (Adresse %6000) wird festgelegt, auf welche Speicherebenen des Videospeicher zugegriffen wird.
