@@ -11,65 +11,106 @@ Schaltplan und Layout sind konsistent.
 
 Für den Minimalbetrieb sind ein Speichermodul (Typ A, B oder C) und eine Tastatur erforderlich.
 
+
 ## Erweiterungen zum JU+TE
 
-### Speichermodul A
-![Speichermodul Typ A](Bilder/Speichermodul_Typ_A.jpg)
-2 kByte EPROM, 1 kByte RAM
+### Speichermodul Typ A
+<p align="center">
+  <img alt="Speichermodul Typ A, Bestückungsseite" src="Bilder/Speichermodul_Typ_A__Bestueckungsseite.jpg" width="45%">
+&nbsp;
+  <img alt="Speichermodul Typ A, Lötseite" src="Bilder/Speichermodul_Typ_A__Loetseite.jpg" width="45%">
+</p>
+2 kByte EPROM, 1 kByte RAM (hier auf 2 kByte aufgestockt)
 Erweiterbar bis auf 8 kByte RAM durch zusätzliche U214 (Huckepack).
+Für das 2k-System oder als unterer ROM für das 4k-System geeignet.
 
-### Speichermodul B
+
+### Speichermodul Typ B
+<p align="center">
+  <img alt="Speichermodul Typ B, Bestückungsseite" src="Bilder/Speichermodul_Typ_B__Bestueckungsseite.jpg" width="45%">
+&nbsp;
+  <img alt="Speichermodul Typ B, Lötseite" src="Bilder/Speichermodul_Typ_B__Loetseite.jpg" width="45%">
+</p>
 2 kByte EPROM, 2 kByte RAM
 Erweiterbar bis auf 8 kByte RAM durch zusätzliche U6516 (Huckepack).
+Für das 2k-System oder als unterer ROM für das 4k-System geeignet.
 
-### Speichermodul C
+
+### Speichermodul Typ C
+<p align="center">
+  <img alt="Speichermodul Typ C, Bestückungsseite" src="Bilder/Speichermodul_Typ_C__Bestueckungsseite.jpg" width="45%">
+&nbsp;
+  <img alt="Speichermodul Typ C, Lötseite" src="Bilder/Speichermodul_Typ_C__Loetseite.jpg" width="45%">
+</p>
 8 kByte EPROM, 8 kByte RAM
+Für alle Ausbaustufen geeignet. Wenn das 2k-System oder das 4k-System in einen U2764 (8 kByte EPROM) gebrannt werden, muss das System ab Offset 0800h stehen.
 Mit vier dieser Module läßt sich ein Vollausbau des Speichers realisieren (32 kByte RAM, 30 kByte EPROM).
+Auch als Videospeicher für die Videoerweiterung nutzbar. In diesem Fall wird der EPROM nicht benötigt.
 
-### Speichermodul D
+### Speichermodul Typ D
+<p align="center">
+  <img alt="Speichermodul Typ D, Bestückungsseite" src="Bilder/Speichermodul_Typ_D__Bestueckungsseite.jpg" width="45%">
+&nbsp;
+  <img alt="Speichermodul Typ D, Lötseite" src="Bilder/Speichermodul_Typ_D__Loetseite.jpg" width="45%">
+</p>
 2 kByte EPROM
-Zusammen mit Modul A oder Modul B wird damit die Voraussetzung für 4k-System geschaffen.
+Das Modul wird nur als Ergänzungsspeicher für das 4k-System benötigt, falls Modul A oder Modul B schon vorhanden sind.
+
 
 ### RAM-Stütze
 Dient dem Erhalt des RAM-Inhaltes im ausgeschalteten Zustand für Module mit CMOS-Schaltkreisen (U224, U6516 oder HM6264LP).
 Mit verbesserter Reset-Schaltung. Die Reset-Schaltung nutzt die ~9V vom Ladekondesator.
 
+
 ### Magnetbandanschluss
 Damit lassen sich Programme auf Band sichern und wieder zurücklesen.
-Bekannte Schwachstelle: Die Magnetbandschnittstelle sollte nicht verwendet werden, da sie sehr störungsanfällig ist.
-Im Sonderdruck ES4.0 gibt es eine überarbeitete Version.
+Das Verfahren ist relativ einfach: Die Binärdaten werden über die SIO (Port P3.7) ausgegeben und mit 4,8 kHz vom Port P3.6 moduliert.
+Es wird direkt der Speicherinhalt ausgegeben. Es gibt keine Fehlererkennung bzw. -korrektur, kein Dateiname und keine Adressinformation.
+Die Schaltung läßt sich optimieren, indem der Pull-Up-Widerstand zwischen OPV (B761) und Inverter (B555) auf z.B. 8 kOhm reduziert wird.
+Damit wird das Puls-/Pausverhältnis korrigiert.
+Mit anderen Varianten des Magnektbankinterfaces (4k-System, 6k-System) läßt sich am 2k-System nichts mehr abspeichern, da dort der Modulator (DL000) fehlt.
+
 
 ### Magnetbandinterface 4k-System
 Modifiziertes und verbessertes Magnetband-Interface für das 4k-System, mit integrierten Videosignalinverter.
 
+
 ### Tastatur
 Schaltungsvorschlag für eine 4x12 Matrixtastatur.
+
 
 ### Videoinverter
 Ändert die Polarität des Videosignals und erzeugt ein BAS-Signal.
 Die Originalschaltung ist sehr empfindlich. Robuster ist die Variante, die auf dem 4k-Magnetbandinterface realisiert ist. 
 
+
 ### UHF-Modulator
 Mischt das BAS-Signal auf TV-Kanal 36. Die Erweiterung wird hier nicht weiter beschrieben.
 
+
 ### EPROM-Programmierzusatz
 Erweiterung des JU+TE zum EPROM-Programmiergerät für die Typen U2716, U2764 und U27128.
+
 
 ### S3004-Interface
 Potentialgetrennte Schnittstelle für die elektronische Schreibmaschine Erika S3004.
 Nutzung der Schreibmaschine als Drucker.
 Da der Rückkanal nicht verwendet wird, kann die Schreimaschine nicht als Tastatur genutzt werden.
 
+
 ### V.24-Interface
 Pegelwandlerstufe zur Kopplung mit seriellen Perioheriegeräten (z.B. Drucker) oder zur Rechnerkopplung.
 Die Interfaceschaltung nutzt die 9V-Spannung vom Ladekondensator.
+
 
 ### IFSS-Interface
 Schnittstelle nach dem Prinzip der gekoppelten Stromschleifen, IFSS (Interface seriell sternförmig).
 Das IFSS-Interface benötigt die 9V-Spannung vom Ladekondensator.
 
+
 ### AD-Wandler
 Zur Messung von Spannungen zwischen 0 und 999 mV.
+
 
 ### Videoerweiterung
 ![Videoerweiterung (Visualisierung)](Bilder/Platine_Videoerweiterung_gerendert.png)
@@ -88,6 +129,7 @@ Speichermodule | Video-RAM | Auflösung | Farbtiefe
 
 Ob es Software gibt, welche die 640x192 Pixel-Modi nutzt, entzieht sich meiner Kenntniss.
 Die Installation der Videoerweiterung erfordert die Verdrahtung zusätzlicher Signale, die nicht am Modulsteckplatz anliegen: TAKT, /CS3, KEY und BUSY
+
 
 ### Speichermodul VRAM
 8 kByte RAM
