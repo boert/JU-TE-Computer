@@ -20,7 +20,7 @@ Für den Minimalbetrieb sind ein Speichermodul (Typ A, B oder C) und eine Tastat
 &nbsp;
   <img alt="Speichermodul Typ A, Lötseite" src="Bilder/Speichermodul_Typ_A__Loetseite.jpg" width="45%">
 </p>
-2 kByte EPROM, 1 kByte RAM (hier auf 2 kByte aufgestockt)  
+2 kByte EPROM, 1 kByte RAM (hier auf 2 kByte aufgestockt)\
 Erweiterbar bis auf 8 kByte RAM durch zusätzliche U214 (Huckepack).
 Für das 2k-System oder als unterer ROM für das 4k-System geeignet.
 
@@ -31,7 +31,7 @@ Für das 2k-System oder als unterer ROM für das 4k-System geeignet.
 &nbsp;
   <img alt="Speichermodul Typ B, Lötseite" src="Bilder/Speichermodul_Typ_B__Loetseite.jpg" width="45%">
 </p>
-2 kByte EPROM, 2 kByte RAM  
+2 kByte EPROM, 2 kByte RAM\
 Erweiterbar bis auf 8 kByte RAM durch zusätzliche U6516 (Huckepack).
 Für das 2k-System oder als unterer ROM für das 4k-System geeignet.
 
@@ -42,7 +42,7 @@ Für das 2k-System oder als unterer ROM für das 4k-System geeignet.
 &nbsp;
   <img alt="Speichermodul Typ C, Lötseite" src="Bilder/Speichermodul_Typ_C__Loetseite.jpg" width="45%">
 </p>
-8 kByte EPROM, 8 kByte RAM  
+8 kByte EPROM, 8 kByte RAM\
 Für alle Ausbaustufen geeignet. Wenn das 2k-System oder das 4k-System in einen U2764 (8 kByte EPROM) gebrannt werden, muss das System ab Offset 0800h stehen.
 Mit vier dieser Module läßt sich ein Vollausbau des Speichers realisieren (32 kByte RAM, 30 kByte EPROM).
 Auch als Videospeicher für die Videoerweiterung nutzbar. In diesem Fall wird der EPROM nicht benötigt.
@@ -53,7 +53,7 @@ Auch als Videospeicher für die Videoerweiterung nutzbar. In diesem Fall wird de
 &nbsp;
   <img alt="Speichermodul Typ D, Lötseite" src="Bilder/Speichermodul_Typ_D__Loetseite.jpg" width="45%">
 </p>
-2 kByte EPROM  
+2 kByte EPROM\
 Das Modul wird nur als Ergänzungsspeicher für das 4k-System benötigt, falls Modul A oder Modul B schon vorhanden sind.
 
 
