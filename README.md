@@ -1,5 +1,5 @@
 # JU+TE-Computer
-Schaltpläne und Layouts (teilweise) für den JU+TE Computer
+Schaltpläne und z.T. Layouts für den JU+TE Computer
 
 
 ## JU+TE Tiny (2k-System)
@@ -114,9 +114,9 @@ Zur Messung von Spannungen zwischen 0 und 999 mV.
 
 ### Videoerweiterung
 ![Videoerweiterung (Visualisierung)](Bilder/Platine_Videoerweiterung_gerendert.png)
-Damit wird die Videosignalerzeugung von einem separaten Prozessor (UB8810) übernommen.
-Der Bildspicher wird im Bereich zwischen %4000 uns %5FFF im System eingeblendet.
-Über ein Steuerregister (Adresse %6000) wird festgelegt, auf welche Speicherebenen des Videospeicher zugegriffen wird.
+Damit wird die Videosignalerzeugung von einem separaten Prozessor (UB8810, UB8830 oder UB8860) übernommen.
+Der Bildspicher wird im Bereich zwischen %4000 und %5FFF im System eingeblendet.
+Über Steuerregister (Adressen %6000-%63FF) wird festgelegt, auf welche Speicherebenen des Videospeicher zugegriffen wird.
 
 Die mögliche Bildschirmauflösung und die nutzbare Farbtiefe hängt vom Speicherausbau ab:
 
@@ -127,13 +127,9 @@ Speichermodule | Video-RAM | Auflösung | Farbtiefe
 4              | 32 kByte  |  320x192  | 16 Farben   
 4              | 32 kByte  |  640x192  | 8 Farben
 
-Ob es Software gibt, welche die 640x192 Pixel-Modi nutzt, entzieht sich meiner Kenntniss.
+Ob es Software gibt, welche die hochauflösenden 640x192 Pixel-Modi nutzt, entzieht sich meiner Kenntniss.
 Die Installation der Videoerweiterung erfordert die Verdrahtung zusätzlicher Signale, die nicht am Modulsteckplatz anliegen: TAKT, /CS3, KEY und BUSY
 
-
-### Speichermodul VRAM
-8 kByte RAM
-Speichermodul für die Videoerweiterung. Modul ohne EPROM-Speicher.
 
 
 ## JU+TE Kompakt (6k-System)
