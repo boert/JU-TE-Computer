@@ -63,6 +63,11 @@ Mit verbesserter Reset-Schaltung. Die Reset-Schaltung nutzt die ~9V vom Ladekond
 
 
 ### Magnetbandanschluss
+<p align="center">
+  <img alt="Magnetbandanschluss, Bestückungsseite" src="Bilder/Magnetbandanschluss__Bestueckungsseite.jpg" width="45%">
+&nbsp;
+  <img alt="Magnetbandanschluss, Lötseite" src="Bilder/Magnetbandanschluss__Loetseite.jpg" width="45%">
+</p>
 Damit lassen sich Programme auf Band sichern und wieder zurücklesen.
 Das Verfahren ist relativ einfach: Die Binärdaten werden über die SIO (Port P3.7) ausgegeben und mit 4,8 kHz vom Port P3.6 moduliert.
 Es wird direkt der Speicherinhalt ausgegeben. Es gibt keine Fehlererkennung bzw. -korrektur, kein Dateiname und keine Adressinformation.
@@ -72,7 +77,13 @@ Mit anderen Varianten des Magnektbankinterfaces (4k-System, 6k-System) läßt si
 
 
 ### Magnetbandinterface 4k-System
-Modifiziertes und verbessertes Magnetband-Interface für das 4k-System, mit integrierten Videosignalinverter.
+<p align="center">
+  <img alt="Magnetbandinterface 4k-System, Bestückungsseite" src="Bilder/Magnetbandinterface-4k__Bestueckungsseite.jpg" width="45%">
+&nbsp;
+  <img alt="Magnetbandinterface 4k-System, Lötseite" src="Bilder/Magnetbandinterface-4k__Loetseite.jpg" width="45%">
+</p>
+Angepasstes Magnetband-Interface für das 4k-System, mit integrierten Videosignalinverter.
+Im 4k-System wird ein anderes Aufzeichnungsformat verwendet: Es gibt Trennzeichen (600 Hz), 0-Bits (1200 Hz) und 1-Bits (2400 Hz). Das Format entsprich dem des KC85 und enthält Dateinamen, Ladeadresse und Prüfsummen.
 
 
 ### Tastatur
