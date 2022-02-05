@@ -2,6 +2,8 @@
 
 Mit der Videoerweiterung läßt sich das Grundsystem zum 6k-System erweitern.
 
+![Videoerweiterung 2021](Bilder/Videoerweiterung_2021.jpg)
+
 ## Voraussetzungen
 Folgende Voraussetzungen sind dafür zu erfüllen:
 - im Steckplatz 1 (/CS0, /CS7) muß der EPROM mit dem 6k-System stecken
@@ -58,6 +60,7 @@ Das BUSY-Signal kann über einen 100 kOhm-Widerstand mit Port P3.2 der Haupt-CPU
 
 Wenn man alle zusätzlich Signale auf eine separate Buchsenleiste führt, ist der Einbau und auch der Rückbau der Videoerweiterung schnell und unkompliziert.
 
+![Videoerweiterung 2021](Bilder/Grundplatine_Modifikationen.jpg)
 
 ## Änderungen an der Grundplatine (Kurzform)
 - Schutzdiode für B3170V einbauen
@@ -66,3 +69,12 @@ Wenn man alle zusätzlich Signale auf eine separate Buchsenleiste führt, ist de
 - Systemtakt anschließen
 - optional BUSY über 100 kOhm mit P3.2 verbinden
 
+## Einbausituation
+![Videoerweiterung 2021](Bilder/Einbausituation.jpg)
+
+Die senkrechte Montage hat den Nachteil, das hohe Speichermodule - wie der Typ C - die Modulsteckplätze 2 und 3 blockieren. Mit niedrigeren Speichermodulen oder einer waagerechten Montage (andere Steckverbinder) umgeht man das Problem.
+
+
+## Quellen
+https://hc-ddr.hucki.net/wiki/lib/exe/fetch.php/tiny/jutecomp3.pdf  
+https://hc-ddr.hucki.net/wiki/doku.php/tiny/nachbauten
