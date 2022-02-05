@@ -321,12 +321,12 @@ $Comp
 L Device:R_Small R20
 U 1 1 61A80416
 P 6900 3400
-F 0 "R20" H 6841 3354 50  0000 R CNN
-F 1 "220" H 6841 3445 50  0000 R CNN
+F 0 "R20" H 7100 3450 50  0000 R CNN
+F 1 "220" H 7100 3350 50  0000 R CNN
 F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical" H 6900 3400 50  0001 C CNN
 F 3 "~" H 6900 3400 50  0001 C CNN
 	1    6900 3400
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C16
