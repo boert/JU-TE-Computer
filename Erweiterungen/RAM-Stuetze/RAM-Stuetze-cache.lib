@@ -1,0 +1,229 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Connector_Generic_Conn_01x01
+#
+DEF Connector_Generic_Conn_01x01 J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Connector_Generic_Conn_01x01" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 5 0 -5 1 1 6 N
+S -50 50 50 -50 1 1 10 f
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_Battery_Cell
+#
+DEF Device_Battery_Cell BT 0 0 N N 1 F N
+F0 "BT" 100 100 50 H V L CNN
+F1 "Device_Battery_Cell" 100 0 50 H V L CNN
+F2 "" 0 60 50 V I C CNN
+F3 "" 0 60 50 V I C CNN
+DRAW
+S -90 70 90 60 0 1 0 F
+S -62 47 58 27 0 1 0 F
+P 2 0 1 0 0 30 0 0 N
+P 2 0 1 0 0 70 0 100 N
+P 2 0 1 10 20 135 60 135 N
+P 2 0 1 10 40 155 40 115 N
+X + 1 0 200 100 D 50 50 1 1 P
+X - 2 0 -100 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_CP_Small
+#
+DEF Device_CP_Small C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "Device_CP_Small" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ CP_*
+$ENDFPLIST
+DRAW
+S -60 -12 60 -27 0 1 0 F
+S -60 27 60 12 0 1 0 N
+P 2 0 1 0 -50 60 -30 60 N
+P 2 0 1 0 -40 50 -40 70 N
+X ~ 1 0 100 73 D 50 50 1 1 P
+X ~ 2 0 -100 73 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_D_Small
+#
+DEF Device_D_Small D 0 10 N N 1 F N
+F0 "D" -50 80 50 H V L CNN
+F1 "Device_D_Small" -150 -80 50 H V L CNN
+F2 "" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
+$FPLIST
+ TO-???*
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 10 -30 -40 -30 40 N
+P 2 0 1 0 -30 0 30 0 N
+P 4 0 1 10 30 -40 -30 0 30 40 30 -40 N
+X K 1 -100 0 70 R 50 50 1 1 P
+X A 2 100 0 70 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_D_Zener_Small
+#
+DEF Device_D_Zener_Small D 0 10 N N 1 F N
+F0 "D" 0 90 50 H V C CNN
+F1 "Device_D_Zener_Small" 0 -90 50 H V C CNN
+F2 "" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
+$FPLIST
+ TO-???*
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 30 0 -30 0 N
+P 3 0 1 10 -10 40 -30 40 -30 -40 N
+P 4 0 1 10 30 40 -30 0 30 -40 30 40 N
+X K 1 -100 0 70 R 50 50 1 1 P
+X A 2 100 0 70 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_R_Small
+#
+DEF Device_R_Small R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "Device_R_Small" 30 -40 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RFT_Analogschaltkreise_B555D
+#
+DEF RFT_Analogschaltkreise_B555D U 0 20 Y Y 1 F N
+F0 "U" 0 800 50 H V C CNN
+F1 "RFT_Analogschaltkreise_B555D" 0 -800 50 H V C CNN
+F2 "Package_DIP:DIP-8_W7.62mm" 0 -900 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ DIP*W7.62mm*
+$ENDFPLIST
+DRAW
+S -300 300 300 -300 0 1 10 f
+X GND 1 0 -400 100 U 50 50 1 1 W
+X TRIG 2 -400 -200 100 R 50 50 1 1 I
+X OUT 3 400 0 100 L 50 50 1 1 O
+X RES 4 -400 200 100 R 50 50 1 1 I
+X Ref 5 -400 -100 100 R 50 50 1 1 P
+X COMP 6 -400 0 100 R 50 50 1 1 I
+X DIS 7 400 -200 100 L 50 50 1 1 C
+X Vcc 8 0 400 100 D 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# RFT_Transistoren_und_Dioden_SC237
+#
+DEF RFT_Transistoren_und_Dioden_SC237 T 0 40 Y N 1 F N
+F0 "T" 200 50 50 H V C CNN
+F1 "RFT_Transistoren_und_Dioden_SC237" 400 -50 50 H V C CNN
+F2 "" 50 0 50 H I C CNN
+F3 "" 50 0 50 H I C CNN
+ALIAS SC236 SC237 SC238 SC239 SF126 SF127 SF128 SF129 SSY20
+DRAW
+C 50 0 111 1 1 10 N
+P 2 1 1 0 25 25 100 100 N
+P 3 1 1 0 25 -25 100 -100 100 -100 N
+P 3 1 1 20 25 75 25 -75 25 -75 N
+P 5 1 1 0 50 -70 70 -50 90 -90 50 -70 50 -70 F
+X E 1 100 -200 100 U 50 50 1 1 P
+X B 2 -200 0 225 R 50 50 1 1 P
+X C 3 100 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RFT_Transistoren_und_Dioden_SC307
+#
+DEF RFT_Transistoren_und_Dioden_SC307 Q 0 0 Y N 1 F N
+F0 "Q" 200 50 50 H V L CNN
+F1 "RFT_Transistoren_und_Dioden_SC307" 200 -50 50 H V L CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+ALIAS SC307 SC308 SC309
+DRAW
+C 50 0 111 0 1 10 N
+P 2 0 1 0 25 25 100 100 N
+P 3 0 1 0 25 -25 100 -100 100 -100 N
+P 3 0 1 20 25 75 25 -75 25 -75 N
+P 5 0 1 0 90 -70 70 -90 50 -50 90 -70 90 -70 F
+X C 1 100 200 100 D 50 50 1 1 P
+X B 2 -200 0 225 R 50 50 1 1 I
+X E 3 100 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Switch_SW_Push
+#
+DEF Switch_SW_Push SW 0 40 N N 1 F N
+F0 "SW" 50 100 50 H V L CNN
+F1 "Switch_SW_Push" 0 -60 50 H V C CNN
+F2 "" 0 200 50 H I C CNN
+F3 "" 0 200 50 H I C CNN
+DRAW
+C -80 0 20 0 1 0 N
+C 80 0 20 0 1 0 N
+P 2 0 1 0 0 50 0 120 N
+P 2 0 1 0 100 50 -100 50 N
+X 1 1 -200 0 100 R 50 50 0 1 P
+X 2 2 200 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# power_+5P
+#
+DEF power_+5P #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+5P" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5P 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+#End Library
