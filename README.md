@@ -153,20 +153,21 @@ Um die Videoerweiterung zu nutzen wird im EPROM das 6k-System eingespielt.
 | Ports                               | P2.0 | P2.1 | P2.2 | P2.3 | P2.4 | P2.5 | P2.6 | P2.7 | P3.0 | P3.1 | P3.2 | P3.3 | P3.4 | P3.5 | P3.6 | P3.7     |
 | ----------------------------------- |:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:--------:|
 | JU+TE-Grundplatine (7/1987)         |      |      |      |      |      |      |      |      |      |      |      |      | (BS) |      |      | SYN      |
-| Streifenkorrektur (11/1989)         |      |      |      |      |      |      |      |      |      |      |      |      |      | VSYN |      |          |
 | Magnetbandinterface (2k, 12/1987)   |      |      |      |      |      |      |      |      | LOAD |      |      |      |      |      | SAVE | Umschalt |
-| Magnetbankinterface (4k, ES4.0)     |      |      |      |      |      |      |      |      | LOAD |      |      |      |      |      | SAVE |          |
-| Videoerweiterung (6/1990)           |      |      |      |      |      |      |      |      |      |      | BUSY |      | /HR  |      |      |          |
+| Lauflicht (4/1988)                  | LED  | LED  | LED  | LED  | LED  | LED  | LED  | LED  |      |      |      |      |      |      |      |          |
+| EPROM-Programmierzusatz (10/1988)   | A+D  | A+D  | A+D  | A+D  | A+D  | A+D  | A+D  | A+D  |      |      |      |      | CTRL | CTRL | CTRL |          |
+| Magnetbankinterface (4k, 3/1989)    |      |      |      |      |      |      |      |      | LOAD |      |      |      |      |      | SAVE |          |
+| S3004-Interface (HW-SIO, 5/1989)    |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      | TxD      |
+| S3004-Interface (SW, 5/1989)        |      |      |      |      |      |      |      |      |      | DSR  |      |      |      | TxD  |      |          |
 | IFSS-Inferface (10/1989)            |      |      |      |      |      |      |      |      | E    |      |      |      |      |      |      | S        |
 | V.24-Interface (HW-SIO, 10/1989)    |      |      |      |      |      |      |      |      | RxD  |      |      |      |      |      |      | TxD      |
-| S3004-Interface (HW-SIO, 5/1989)    |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      | TxD      |
 | V.24-Interface (SW, K6340, 10/1989) |      |      |      |      |      |      |      |      |      | DSR  |      |      |      | TxD  |      |          |
-| S3004-Interface (SW, 5/1989)        |      |      |      |      |      |      |      |      |      | DSR  |      |      |      | TxD  |      |          |
-| EPROM-Programmierzusatz (10/1988)   | A+D  | A+D  | A+D  | A+D  | A+D  | A+D  | A+D  | A+D  |      |      |      |      | CTRL | CTRL | CTRL |          |
+| Streifenkorrektur (11/1989)         |      |      |      |      |      |      |      |      |      |      |      |      |      | VSYN |      |          |
 | AD-Wandler (12/1989)                | QA   | QB   | QC   | QD   | NSD  | MSD  | ISD  |      |      |      |      |      |      |      |      |          |
-| Lauflicht (4(1988)                  | LED  | LED  | LED  | LED  | LED  | LED  | LED  | LED  |      |      |      |      |      |      |      |          |
-| ROM-Bank (ES4.0 und 6k)             |      |      |      |      |      |      |      |      |      |      |      |      |      | /BR  |      | STEP     |
-| ROM-Bank (ES1988)                   |      |      |      |      |      |      |      |      |      |      |      |      |      | STEP |      |          |
+| Magnetbankinterface (ES4.0, 1990)   |      |      |      |      |      |      |      |      | LOAD |      |      |      |      |      | SAVE |          |
+| Videoerweiterung (6/1990)           |      |      |      |      |      |      |      |      |      |      | BUSY |      | /HR  |      |      |          |
+| ROM-Bank (ES4.0, 2019)              |      |      |      |      |      |      |      |      |      |      |      |      |      | /BR  |      | STEP     |
+| ROM-Bank (ES1988, 10/2021)          |      |      |      |      |      |      |      |      |      |      |      |      |      | STEP |      |          |
 |                                     |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |          |
 
 Legende:  
