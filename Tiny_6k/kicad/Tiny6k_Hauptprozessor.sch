@@ -2905,7 +2905,6 @@ Wire Wire Line
 	10800 2500 10500 2500
 Wire Wire Line
 	10300 2500 9900 2500
-Connection ~ 9900 2500
 $Comp
 L Device:R_Small R116
 U 1 1 66052688

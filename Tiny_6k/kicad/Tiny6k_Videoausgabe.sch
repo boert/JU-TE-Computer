@@ -374,7 +374,6 @@ Wire Wire Line
 Connection ~ 5150 1650
 Wire Wire Line
 	5150 1650 5300 1650
-Connection ~ 5150 1950
 Wire Wire Line
 	5450 2150 5650 2150
 Connection ~ 5650 2150
@@ -819,7 +818,6 @@ F 3 "https://www.tu-chemnitz.de/etit/zentral/ddr/sc236.gif" H 5400 3050 50  0001
 	1    5350 3050
 	1    0    0    -1  
 $EndComp
-Connection ~ 5150 3050
 $Comp
 L RFT_Transistoren_und_Dioden:SC236 VT402
 U 1 1 61D71492
@@ -831,7 +829,6 @@ F 3 "https://www.tu-chemnitz.de/etit/zentral/ddr/sc236.gif" H 5400 4150 50  0001
 	1    5350 4150
 	1    0    0    -1  
 $EndComp
-Connection ~ 5150 4150
 Wire Wire Line
 	5150 4950 5150 5250
 $Comp
@@ -845,7 +842,6 @@ F 3 "https://www.tu-chemnitz.de/etit/zentral/ddr/sc236.gif" H 5400 6350 50  0001
 	1    5350 6350
 	1    0    0    -1  
 $EndComp
-Connection ~ 5150 6350
 $Comp
 L RFT_Transistoren_und_Dioden:SC236 VT403
 U 1 1 61D73E3D
@@ -857,7 +853,6 @@ F 3 "https://www.tu-chemnitz.de/etit/zentral/ddr/sc236.gif" H 5400 5250 50  0001
 	1    5350 5250
 	1    0    0    -1  
 $EndComp
-Connection ~ 5150 5250
 Wire Wire Line
 	5150 6050 5150 6350
 Wire Wire Line
