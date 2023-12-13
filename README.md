@@ -14,46 +14,45 @@ Für den Minimalbetrieb sind ein Speichermodul (Typ A, B oder C) und eine Tastat
 
 ## Erweiterungen zum JU+TE
 
-### Speichermodul Typ A
+### Speichermodul Typ A (2 kByte EPROM, 1 bis 8 kByte RAM) 
 <p align="center">
   <img alt="Speichermodul Typ A, Bestückungsseite" src="Bilder/Speichermodul_Typ_A__Bestueckungsseite.jpg" width="45%">
 &nbsp;
   <img alt="Speichermodul Typ A, Lötseite" src="Bilder/Speichermodul_Typ_A__Loetseite.jpg" width="45%">
 </p>
-2 kByte EPROM, 1 kByte RAM (hier auf 2 kByte aufgestockt)<br>
-Erweiterbar bis auf 8 kByte RAM durch zusätzliche U214 (Huckepack).
-Für das 2k-System oder als unterer ROM für das 4k-System geeignet.
+RAM erweiterbar bis auf 8 kByte durch zusätzliche U214 (Huckepack).
+Für das 2k-System oder als unterer ROM für das 4k-System geeignet.<br>
+Beim abgebildeten Modul wurde der RAM auf 2 kByte aufgestockt.
+Bei mehr als 1 kByte RAM wird ein Adressdekoder DS8205D benötigt.
 
 
-### Speichermodul Typ B
+### Speichermodul Typ B (2 kByte EPROM, 2 bis 8 kByte RAM)
 <p align="center">
   <img alt="Speichermodul Typ B, Bestückungsseite" src="Bilder/Speichermodul_Typ_B__Bestueckungsseite.jpg" width="45%">
 &nbsp;
   <img alt="Speichermodul Typ B, Lötseite" src="Bilder/Speichermodul_Typ_B__Loetseite.jpg" width="45%">
 </p>
-2 kByte EPROM, 2 kByte RAM<br>
-Erweiterbar bis auf 8 kByte RAM durch zusätzliche U6516 (Huckepack).
+RAM erweiterbar bis auf 8 kByte durch zusätzliche U6516 (Huckepack).
 Für das 2k-System oder als unterer ROM für das 4k-System geeignet.
+Bei mehr als 2 kByte RAM wird ein Adressdekoder DS8205D benötigt.
 
 
-### Speichermodul Typ C
+### Speichermodul Typ C (8 kByte EPROM, 8 kByte RAM)
 <p align="center">
   <img alt="Speichermodul Typ C, Bestückungsseite" src="Bilder/Speichermodul_Typ_C__Bestueckungsseite.jpg" width="45%">
 &nbsp;
   <img alt="Speichermodul Typ C, Lötseite" src="Bilder/Speichermodul_Typ_C__Loetseite.jpg" width="45%">
 </p>
-8 kByte EPROM, 8 kByte RAM<br>
 Für alle Ausbaustufen geeignet. Wenn das 2k-System oder das 4k-System in einen U2764 (8 kByte EPROM) gebrannt werden, muss das System ab Offset 0800h stehen.
 Mit vier dieser Module läßt sich ein Vollausbau des Speichers realisieren (32 kByte RAM, 30 kByte EPROM).
 Auch als Videospeicher für die Videoerweiterung nutzbar. In diesem Fall wird der EPROM nicht benötigt.
 
-### Speichermodul Typ D
+### Speichermodul Typ D (2 kByte EPROM)
 <p align="center">
   <img alt="Speichermodul Typ D, Bestückungsseite" src="Bilder/Speichermodul_Typ_D__Bestueckungsseite.jpg" width="45%">
 &nbsp;
   <img alt="Speichermodul Typ D, Lötseite" src="Bilder/Speichermodul_Typ_D__Loetseite.jpg" width="45%">
 </p>
-2 kByte EPROM<br>
 Das Modul wird nur als Ergänzungsspeicher für das 4k-System benötigt, falls Modul A oder Modul B schon vorhanden sind.
 
 
@@ -68,7 +67,7 @@ Mit verbesserter Reset-Schaltung. Die Reset-Schaltung nutzt die ~9V vom Ladekond
 &nbsp;
   <img alt="Magnetbandanschluss, Lötseite" src="Bilder/Magnetbandanschluss__Loetseite.jpg" width="45%">
 </p>
-Damit lassen sich Programme auf Band sichern und wieder zurücklesen.
+Damit lassen sich BASIC-Programme auf Band sichern und wieder zurücklesen.
 Das Verfahren ist relativ einfach: Die Binärdaten werden über die SIO (Port P3.7) ausgegeben und mit 4,8 kHz vom Port P3.6 moduliert.
 Es wird direkt der Speicherinhalt ausgegeben. Es gibt keine Fehlererkennung bzw. -korrektur, kein Dateiname und keine Adressinformation.
 Die Schaltung läßt sich optimieren, indem der Pull-Up-Widerstand zwischen OPV (B761) und Inverter (B555) auf z.B. 8 kOhm reduziert wird.
@@ -82,7 +81,7 @@ Mit anderen Varianten des Magnektbankinterfaces (4k-System, 6k-System) läßt si
 &nbsp;
   <img alt="Magnetbandinterface 4k-System, Lötseite" src="Bilder/Magnetbandinterface-4k__Loetseite.jpg" width="45%">
 </p>
-Angepasstes Magnetband-Interface für das 4k-System, mit integrierten Videosignalinverter.
+Weiterentwickeltes Magnetband-Interface für das 4k-System, zusätzlich mit integriertem Videosignalinverter.
 Im 4k-System wird ein anderes Aufzeichnungsformat verwendet: Es gibt Trennzeichen (600 Hz), 0-Bits (1200 Hz) und 1-Bits (2400 Hz). Das Format entsprich dem des KC85 und enthält Dateinamen, Ladeadresse und Prüfsummen.
 
 
