@@ -1,11 +1,11 @@
 Source,Tiny6k_kompakt.sch
-Kicad Rev,Eeschema 5.1.10
-Generated Date,Sa 27 Nov 2021 21:49:05 CET
+Kicad Rev,Eeschema 5.1.5+dfsg1-2build2
+Generated Date,Sun Jan 21 20:19:16 2024
 
 Title,JU+TE Tiny mit Videoerweiterung
 Company,Jugend+Technik
-Revision,1
-Date Issue,25.11.21
+Revision,3
+Date Issue,21.01.24
 Comment,Bert
 
 Reference,Value,Library,Library Ref
@@ -90,6 +90,22 @@ X121,~CS2,Connector_Generic,Conn_01x01
 X102,BUSY,Connector_Generic,Conn_01x01
 X106,Bankumschaltung,Jumper,SolderJumper_2_Open
 X105,Reset,Connector_Generic,Conn_01x02
+VD120,SAY,Device,D
+VD121,SAY,Device,D
+VD122,SAY,Device,D
+VD123,SAY,Device,D
+VD124,SAY,Device,D
+VD125,SAY,Device,D
+VD126,SAY,Device,D
+VD127,SAY,Device,D
+VD131,SAY,Device,D
+VD130,SAY,Device,D
+VD132,SAY,Device,D
+VD134,SAY,Device,D
+VD136,SAY,Device,D
+VD133,SAY,Device,D
+VD135,SAY,Device,D
+VD137,SAY,Device,D
 VT201,SC236,RFT_Transistoren_und_Dioden,SC236
 VD201,SZX21/7.5,Diode,ZPDxx
 VT200,SC308,RFT_Transistoren_und_Dioden,SC308
