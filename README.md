@@ -189,4 +189,7 @@ VSYN = Zeilensynchronisierung
 ## Quellen  
 https://hc-ddr.hucki.net/wiki/lib/exe/fetch.php/tiny/jutecomp1.pdf  
 https://hc-ddr.hucki.net/wiki/lib/exe/fetch.php/tiny/jutecomp2.pdf  
-https://hc-ddr.hucki.net/wiki/lib/exe/fetch.php/tiny/jutecomp3.pdf  
+https://hc-ddr.hucki.net/wiki/lib/exe/fetch.php/tiny/jutecomp3.pdf 
+
+## Wikipedia
+https://de.wikipedia.org/wiki/Ju-Te-Computer
